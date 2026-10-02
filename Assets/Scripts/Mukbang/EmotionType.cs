@@ -1,0 +1,20 @@
+public enum EmotionType
+{
+    None = 0,
+    Blow = 1,
+    Burp = 2,
+    Cool = 3,
+    Cute = 4,
+    Demon = 5,
+    Drink = 6,
+    Drooling = 7,
+    Freeze = 8,
+    Fresh = 9,
+    Happy = 10,
+    Licklips = 11,
+    Rainbow = 12,
+    Relax = 13,
+    Shock = 14,
+    Sour = 15,
+    Spicy = 16,
+}
