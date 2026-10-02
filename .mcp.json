@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "code-review-graph": {
+      "command": "py",
+      "args": [
+        "-3.13",
+        "-m",
+        "code_review_graph",
+        "serve"
+      ],
+      "cwd": "D:/Wavez/SourcePlayable/q07-mukbang-asmr-ply",
+      "type": "stdio"
+    },
+    "unityMCP": {
+      "type": "http",
+      "url": "http://127.0.0.1:8080/mcp"
+    }
+  }
+}
