@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: kimpab-salmon
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 2
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: acccd369b32b694449760c70cf305782, type: 3}
+  - {fileID: 21300000, guid: 1a8c84f64ca0e5246882b3d636ceca75, type: 3}
+  - {fileID: 21300000, guid: fc05ff3bde7b45e42acace48b690d5d1, type: 3}
+  - {fileID: 21300000, guid: f55e6f0e2e4b53a44907372a43bf43b4, type: 3}
+  - {fileID: 21300000, guid: cda39bea99315a64098d2f7a5d5a4201, type: 3}
+  - {fileID: 21300000, guid: a8af0218c7080db47acaeb534ae2e988, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 8b11d6985958ff04a8a4165c545b2dad, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

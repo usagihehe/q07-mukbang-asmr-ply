@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: gummy
+  m_EditorClassIdentifier: 
+  Emotion: 12
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: eb1d629f9334cfe4fb730dd64f1085dc, type: 3}
+  - {fileID: 21300000, guid: 5ed7ec40e8d38634bacf15ff9e785ea6, type: 3}
+  - {fileID: 21300000, guid: e2e865e96ed5d1744a6b9d95fcc6235d, type: 3}
+  - {fileID: 21300000, guid: 1ac9c305793c2f44995f89ca0ee6d8b8, type: 3}
+  - {fileID: 21300000, guid: 96c22ca1d5c73ff4b818b6a33b4ae7c7, type: 3}
+  - {fileID: 21300000, guid: 7488ccf512100fe429391ef421db1259, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: f1d5512cf5f02b749aff25af99519f58, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: f1d5512cf5f02b749aff25af99519f58, type: 3}
+  Price: 200
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: chilli-noodle
+  m_EditorClassIdentifier: 
+  Emotion: 16
+  EatSound: 3
+  Steps:
+  - {fileID: 21300000, guid: e36bf49e944186e4f9c1c02b59f3b4e5, type: 3}
+  - {fileID: 21300000, guid: db52c630c03ad0948b82f430d7af166d, type: 3}
+  - {fileID: 21300000, guid: 57bbe70a29395d346b459117c8dfa772, type: 3}
+  - {fileID: 21300000, guid: d4dbccbec2a2ccd44bbe110f0621cb4a, type: 3}
+  - {fileID: 21300000, guid: 8683711f01bfef1428274da82049fe30, type: 3}
+  - {fileID: 21300000, guid: 81a516bf07eb3694d99987aded57c660, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: 8898b7fff0f712446969489a6975874c, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 8898b7fff0f712446969489a6975874c, type: 3}
+  Price: 200
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

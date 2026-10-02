@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: cat-chip
+  m_EditorClassIdentifier: 
+  Emotion: 4
+  EatSound: 5
+  Steps:
+  - {fileID: 21300000, guid: 9d7d1907a533290489698eedff902912, type: 3}
+  - {fileID: 21300000, guid: 6f49e9f7af65fc840b1ba7e08a5f10cc, type: 3}
+  - {fileID: 21300000, guid: 8e4bd89138bf6074296af73cec3f20b8, type: 3}
+  - {fileID: 21300000, guid: 84915b0d8dff2e64bb6b77cd47e2757d, type: 3}
+  - {fileID: 21300000, guid: dbee3fd008d7d5948ab98728cf3845d5, type: 3}
+  - {fileID: 21300000, guid: f7aaafe7061e1634bbd526d5d87d19aa, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: c3342dbf0ebcc824aa5cb3a10bf7ee36, type: 3}
+  Price: 200
+  BonusPercent: 10
+  OffsetScaleOnTable: 0.9

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: panberry
+  m_EditorClassIdentifier: 
+  Emotion: 11
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: e8d5643319f42114a85f5c3b28b120a9, type: 3}
+  - {fileID: 21300000, guid: 741cb5f135d1f9b4eab3731375662ee2, type: 3}
+  - {fileID: 21300000, guid: 598b96b74170f654787e4caa86ebdbbd, type: 3}
+  - {fileID: 21300000, guid: f9e4af9567669514da7ab690e7b30d6b, type: 3}
+  - {fileID: 21300000, guid: db69972b9627dd3428ee1f4329add377, type: 3}
+  - {fileID: 21300000, guid: a994123b08c0d1d42be89caa18a0bdb8, type: 3}
+  - {fileID: 21300000, guid: 2cfe840978a21f04c8519d9a1c25dc66, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: 5e86f33a1bb2b4e49a0b9903f6508446, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 5e86f33a1bb2b4e49a0b9903f6508446, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

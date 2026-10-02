@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: salad
+  m_EditorClassIdentifier: 
+  Emotion: 9
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: 3bea714558a8b0447b0d3d6d52700214, type: 3}
+  - {fileID: 21300000, guid: 98461a720af35324c9066e079aba96ac, type: 3}
+  - {fileID: 21300000, guid: 8a02446d4493bdd4f87754b3ae46d9d6, type: 3}
+  - {fileID: 21300000, guid: 1eda3739169688847861f40deffeb51f, type: 3}
+  - {fileID: 21300000, guid: ffd865bcd496ead4fb0f51cc87015a77, type: 3}
+  - {fileID: 21300000, guid: f9c42cd132798ab40877c9e69bef6606, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: 8b3c25c8e843da540887e9ee9ff7fa76, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 8b3c25c8e843da540887e9ee9ff7fa76, type: 3}
+  Price: 200
+  BonusPercent: 10
+  OffsetScaleOnTable: 1.2

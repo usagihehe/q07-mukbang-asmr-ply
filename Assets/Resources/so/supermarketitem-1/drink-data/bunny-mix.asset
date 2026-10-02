@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: bunny-mix
+  m_EditorClassIdentifier: 
+  Emotion: 8
+  EatSound: 1
+  Steps:
+  - {fileID: 21300000, guid: 0aae11b2ce08e8542802bae759062bc0, type: 3}
+  - {fileID: 21300000, guid: 9d4560c9ac76f534ab329d854dcfa0ad, type: 3}
+  - {fileID: 21300000, guid: 7dfea234d4e769742b15e1e6b9c4ad63, type: 3}
+  - {fileID: 21300000, guid: cced4aef29832ec49a5671eb6e518ec6, type: 3}
+  - {fileID: 21300000, guid: 1967315962f08e142b91bb4512c1f09f, type: 3}
+  SpoonfulOfFood: {fileID: 0}
+  ShelfName: 
+  Tool: {fileID: 0}
+  Price: 150
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

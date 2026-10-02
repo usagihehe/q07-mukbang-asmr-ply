@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: matcha_crayon
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 10
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: 1f1791836660fcd41b8bf9c63aaea226, type: 3}
+  - {fileID: 21300000, guid: a739001e388462a40ad89b5e4d40bd96, type: 3}
+  - {fileID: 21300000, guid: 1d71543ca3345304ab9e6aef5ad6145e, type: 3}
+  - {fileID: 21300000, guid: 4b1144f63b869d944ab2364910cf5808, type: 3}
+  - {fileID: 21300000, guid: d6fb59f51a8ff414ca7ed3d7f2ca4472, type: 3}
+  - {fileID: 21300000, guid: 1238f1155b52c5c4a9fa420e38e7e766, type: 3}
+  - {fileID: 21300000, guid: eceeb0d89fcd23549a1b65d23f19498c, type: 3}
+  - {fileID: 21300000, guid: 667d651ff74d126488546b31433b2886, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 21234311f2fa4b047a72b8a789dd9f62, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 0.9

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: fruit-bao
+  m_EditorClassIdentifier: 
+  Emotion: 9
+  EatSound: 5
+  Steps:
+  - {fileID: 21300000, guid: a646dd0f4f5bde04eae66d0774075f78, type: 3}
+  - {fileID: 21300000, guid: 876bcb91bf826f44fb025de6ad28eca2, type: 3}
+  - {fileID: 21300000, guid: df615d66cde73b548a767069dbd9e246, type: 3}
+  - {fileID: 21300000, guid: 1b3895641bcb052469b2587073c6c748, type: 3}
+  - {fileID: 21300000, guid: 337291c1062a3c14abfa7d12763fba1f, type: 3}
+  - {fileID: 21300000, guid: 294dc3e902c8c2346a70896a3389a97b, type: 3}
+  - {fileID: 21300000, guid: 49d55df301c3acb43ace0da2205b17be, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 7a470f5707c23804f9a6c22d354126ef, type: 3}
+  Price: 0
+  BonusPercent: 200
+  OffsetScaleOnTable: 0.95

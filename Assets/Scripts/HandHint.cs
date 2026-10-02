@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
@@ -10,8 +11,13 @@ namespace Usaki
         [SerializeField] private float _duration = 0.5f;
         [SerializeField] private float _moveDuration = 0.6f;
         [SerializeField] private Ease _ease = Ease.InOutSine;
+        [SerializeField] private float _pointStayDuration = 1.5f;
+        [SerializeField] private float _pointedScaleMultiplier = 1.1f;
 
         private Tween _tween;
+        private Tween _pulseTween;
+        private Transform _pointedTarget;
+        private Vector3 _pointedBaseScale;
 
         private void Awake()
         {
@@ -20,7 +26,11 @@ namespace Usaki
 
         public void SetHintOn(bool isActive)
         {
-            if (!isActive) _tween?.Kill();
+            if (!isActive)
+            {
+                _tween?.Kill();
+                StopPulse();
+            }
             _hand.gameObject.SetActive(isActive);
         }
 
@@ -56,15 +66,57 @@ namespace Usaki
                 RectTransformExtension.CanvasLocalPoint(to, canvas));
         }
 
+        public void PointSequentially(IReadOnlyList<Transform> targets, Canvas canvas)
+        {
+            _tween?.Kill();
+            _hand.DOKill();
+            _hand.gameObject.SetActive(true);
+            Sequence sequence = DOTween.Sequence();
+            foreach (Transform target in targets)
+            {
+                Vector3 baseScale = target.localScale;
+                sequence.AppendCallback(() => PointAt(target, baseScale, canvas));
+                sequence.AppendInterval(_pointStayDuration);
+            }
+            _tween = sequence.SetLoops(-1);
+        }
+
+        private void PointAt(Transform target, Vector3 baseScale, Canvas canvas)
+        {
+            StopPulse();
+            _hand.DOAnchorPos(RectTransformExtension.CanvasLocalPoint(target, canvas), _moveDuration)
+                .SetEase(_ease)
+                .OnComplete(() => StartPulse(target, baseScale));
+        }
+
+        private void StartPulse(Transform target, Vector3 baseScale)
+        {
+            _pointedTarget = target;
+            _pointedBaseScale = baseScale;
+            _pulseTween = target.DOScale(baseScale * _pointedScaleMultiplier, _duration)
+                .SetEase(_ease)
+                .SetLoops(-1, LoopType.Yoyo);
+        }
+
+        private void StopPulse()
+        {
+            _hand.DOKill();
+            _pulseTween?.Kill();
+            if (_pointedTarget != null) _pointedTarget.DOScale(_pointedBaseScale, _duration).SetEase(_ease);
+            _pointedTarget = null;
+        }
+
         public void StopHint()
         {
             _tween?.Kill();
+            StopPulse();
             _hand.gameObject.SetActive(false);
         }
 
         private void OnDisable()
         {
             _tween?.Kill();
+            _pulseTween?.Kill();
         }
     }
 }

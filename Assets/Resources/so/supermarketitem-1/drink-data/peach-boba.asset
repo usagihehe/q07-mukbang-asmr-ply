@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: peach-boba
+  m_EditorClassIdentifier: 
+  Emotion: 11
+  EatSound: 1
+  Steps:
+  - {fileID: 21300000, guid: 2148762d915b1c243835529b98ac5d2d, type: 3}
+  - {fileID: 21300000, guid: b70dab6686584e64cb09c7adb425ddf3, type: 3}
+  - {fileID: 21300000, guid: 86d687d98a433a040aa70801a4498f60, type: 3}
+  - {fileID: 21300000, guid: 6c361c8560c9b2343b133bb97ca466d9, type: 3}
+  - {fileID: 21300000, guid: 9a199bc6fa3f3ef4a944c06f14104b01, type: 3}
+  SpoonfulOfFood: {fileID: 0}
+  ShelfName: 
+  Tool: {fileID: 0}
+  Price: 150
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

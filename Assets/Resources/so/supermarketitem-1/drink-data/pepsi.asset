@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: pepsi
+  m_EditorClassIdentifier: 
+  Emotion: 2
+  EatSound: 1
+  Steps:
+  - {fileID: 21300000, guid: e07accec9f28eaf48b3892eac7de1d91, type: 3}
+  - {fileID: 21300000, guid: 9f681cbe995c0384a94433ebbbbfaef8, type: 3}
+  - {fileID: 21300000, guid: 9f681cbe995c0384a94433ebbbbfaef8, type: 3}
+  - {fileID: 21300000, guid: 9f681cbe995c0384a94433ebbbbfaef8, type: 3}
+  - {fileID: 21300000, guid: b249d519679c8c14688898e56a93cf2e, type: 3}
+  ShelfName: 
+  Tool: {fileID: 0}
+  Price: 150
+  BonusPercent: 15
+  OffsetScaleOnTable: 1

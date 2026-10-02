@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: fruit-cream-fresh
+  m_EditorClassIdentifier: 
+  Emotion: 13
+  EatSound: 1
+  Steps:
+  - {fileID: 21300000, guid: f8e6e4a0c3c169a4798ec9ed4b0a64fa, type: 3}
+  - {fileID: 21300000, guid: ddb9d7b7b1904794ca28bd7fd014f2ac, type: 3}
+  - {fileID: 21300000, guid: 255ecfb46a78470498bdfceb7ab602b8, type: 3}
+  - {fileID: 21300000, guid: 90a1fc409a30e5c42be24c6be61ffeec, type: 3}
+  - {fileID: 21300000, guid: d24f283df89b3344898d1d604ea29375, type: 3}
+  SpoonfulOfFood: {fileID: 0}
+  ShelfName: 
+  Tool: {fileID: 0}
+  Price: 150
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

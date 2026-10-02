@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: crossaint-chocolate
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 4
+  EatSound: 7
+  Steps:
+  - {fileID: 21300000, guid: bc091096e6e667e45b8787af4755a797, type: 3}
+  - {fileID: 21300000, guid: 9af985daaef9cef4c87e29c288b0e29a, type: 3}
+  - {fileID: 21300000, guid: 7c240a6578917194cb21df5e50332e5a, type: 3}
+  - {fileID: 21300000, guid: 60243c42a83c09547893040b9f85d6a0, type: 3}
+  - {fileID: 21300000, guid: 1f17294004f70844e8292f5abae801ba, type: 3}
+  - {fileID: 21300000, guid: a167d32076712194a8697091114e35c8, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: cc66e68f093dff24fb0a59fb72e8dc75, type: 3}
+  Price: 250
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

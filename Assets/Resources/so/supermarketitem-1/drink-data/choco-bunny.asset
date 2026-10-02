@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: choco-bunny
+  m_EditorClassIdentifier: 
+  Emotion: 2
+  EatSound: 1
+  Steps:
+  - {fileID: 21300000, guid: 5cff3adc4a305b943a3a77e9d1681316, type: 3}
+  - {fileID: 21300000, guid: b38356b512e42014197a0d01ecd2f412, type: 3}
+  - {fileID: 21300000, guid: 5d025c6554087074788f6b4b48f61c38, type: 3}
+  - {fileID: 21300000, guid: e54158ee2630b194f86bb04c06d5dfe2, type: 3}
+  - {fileID: 21300000, guid: b2967a96c6948434d8896530904829c9, type: 3}
+  SpoonfulOfFood: {fileID: 0}
+  ShelfName: 
+  Tool: {fileID: 0}
+  Price: 150
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

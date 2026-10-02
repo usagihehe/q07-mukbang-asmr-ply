@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: nyum-nyum
+  m_EditorClassIdentifier: 
+  Emotion: 12
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: 17cafffaef689be4eb73f8cc3347ff11, type: 3}
+  - {fileID: 21300000, guid: 5c2e16a5dde3c044b9b461ef2f07fde9, type: 3}
+  - {fileID: 21300000, guid: ac0dc98f8d667cb4699fc62e1baeffa3, type: 3}
+  - {fileID: 21300000, guid: db1cae7ae600dde4799057490643b9d4, type: 3}
+  - {fileID: 21300000, guid: 379618f373f837a41be623665755d792, type: 3}
+  - {fileID: 21300000, guid: fb032f973aadb894b9e9e1dda52c8e4f, type: 3}
+  - {fileID: 21300000, guid: 6fa0bc741aa5def46a078cb3f7906c4d, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: d6c73e68be9f1fb44acd4209a9ce1d37, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: d6c73e68be9f1fb44acd4209a9ce1d37, type: 3}
+  Price: 0
+  BonusPercent: 200
+  OffsetScaleOnTable: 1

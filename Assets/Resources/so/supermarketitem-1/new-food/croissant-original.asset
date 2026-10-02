@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: croissant-original
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 10
+  EatSound: 9
+  Steps:
+  - {fileID: 21300000, guid: 15f5684cdc1b5524287aeb9e796ad77a, type: 3}
+  - {fileID: 21300000, guid: 68b9e01a5d0f0b048a7482ffc5895d8b, type: 3}
+  - {fileID: 21300000, guid: 537eac599c0a8a242bb576f431d98222, type: 3}
+  - {fileID: 21300000, guid: 982fc014825a08d4eb00bc068d848839, type: 3}
+  - {fileID: 21300000, guid: 45a9c28164c970c44a399a322d59ccf2, type: 3}
+  - {fileID: 21300000, guid: 0390841114c677f40821854759df0547, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 6ab533d94207eb74898702511182dfc0, type: 3}
+  Price: 250
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

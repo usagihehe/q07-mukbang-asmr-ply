@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: capy-fruit-cake
+  m_EditorClassIdentifier: 
+  Emotion: 9
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: c6476f396a1a16046aa9e09fd129d095, type: 3}
+  - {fileID: 21300000, guid: 3c4991c64eb38764582f417a1d328eb2, type: 3}
+  - {fileID: 21300000, guid: 5770296ac7177784f9e2bc3623f50d1a, type: 3}
+  - {fileID: 21300000, guid: 167f038cd20016d41ba5c72a7f5106c5, type: 3}
+  - {fileID: 21300000, guid: 0f7338271407f1c41bb653f5dd9909f0, type: 3}
+  - {fileID: 21300000, guid: 894632833472a5f47a762459e0690a15, type: 3}
+  - {fileID: 21300000, guid: 188fca677f0ded84a8331ede285e4fc8, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: 436612f163267a8498f2b0427789fde6, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 436612f163267a8498f2b0427789fde6, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

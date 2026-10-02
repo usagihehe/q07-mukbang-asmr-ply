@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: pan-cake-rainbow
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 12
+  EatSound: 8
+  Steps:
+  - {fileID: 21300000, guid: 8f2553bb33e7c0543a3cb6167c8134ce, type: 3}
+  - {fileID: 21300000, guid: 84aa12d38bd641d48870f763c0887837, type: 3}
+  - {fileID: 21300000, guid: a54b348746c23eb4086985040c1d59eb, type: 3}
+  - {fileID: 21300000, guid: 33430bb885a21f848b2c71f7bedc71cb, type: 3}
+  - {fileID: 21300000, guid: 027286c375590674690f1cb86356895f, type: 3}
+  - {fileID: 21300000, guid: 03e1a3ca1ca3b3846bc72879081b707e, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 6676777e193e34640ad6e82793aef183, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

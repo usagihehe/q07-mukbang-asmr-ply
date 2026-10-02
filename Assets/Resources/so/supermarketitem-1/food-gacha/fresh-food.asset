@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: fresh-food
+  m_EditorClassIdentifier: 
+  Emotion: 9
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: 2ace885ee9c12f741ad1f40e62eb6c1b, type: 3}
+  - {fileID: 21300000, guid: 0e53aa1779e862e4d9ae7e748558327c, type: 3}
+  - {fileID: 21300000, guid: c0837ddc7dbfadc4e9b67d3bd418295e, type: 3}
+  - {fileID: 21300000, guid: 55763233dc225594b8ea234727a2ecfa, type: 3}
+  - {fileID: 21300000, guid: 3725bd9ad2c96a84b82a76157d33c1ca, type: 3}
+  - {fileID: 21300000, guid: eaf0219b21325bd4ebd0cb7af90e3e39, type: 3}
+  - {fileID: 21300000, guid: 4eea2381ce567fa4193605b7a51ff315, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: b8fc7f3b7132a2b44b75dbaa26a81800, type: 3}
+  Price: 0
+  BonusPercent: 200
+  OffsetScaleOnTable: 0.95

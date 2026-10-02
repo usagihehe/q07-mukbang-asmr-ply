@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: matcha_leaves
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 13
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: bbe0a92e8f7f5a6498ea7199c833c0bf, type: 3}
+  - {fileID: 21300000, guid: 9b7b864c8b4af7f4b869907ee8475740, type: 3}
+  - {fileID: 21300000, guid: d133bcc50918d7d46b09c84c962441ff, type: 3}
+  - {fileID: 21300000, guid: 5e04900ffbd1a34489d1196abcb45c1c, type: 3}
+  - {fileID: 21300000, guid: d6d1fba616bee5e4cad800f73b482cc1, type: 3}
+  - {fileID: 21300000, guid: 7122d88fde445d64a836665866119ab4, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: caaf075407890784caf0ca49f062eb39, type: 3}
+  Price: 200
+  BonusPercent: 10
+  OffsetScaleOnTable: 0.95

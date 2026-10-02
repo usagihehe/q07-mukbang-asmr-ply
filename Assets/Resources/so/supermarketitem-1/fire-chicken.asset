@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: fire-chicken
+  m_EditorClassIdentifier: 
+  Emotion: 9
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: bbfce96103ab3724bab18b53fb0d031c, type: 3}
+  - {fileID: 21300000, guid: ac76795261f68a8408b97a689b90627f, type: 3}
+  - {fileID: 21300000, guid: 1fa199527ea4e1a44972fbcc5652ce8d, type: 3}
+  - {fileID: 21300000, guid: 8df53d424f1c21748925f84c308cb877, type: 3}
+  - {fileID: 21300000, guid: 03abbc9bbd246a0419069c3745eff412, type: 3}
+  - {fileID: 21300000, guid: a9d8027fc78c67246a9ca3dd16136f93, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: 9e98f3fcf78a7c74fbf5b964d1da465f, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 9e98f3fcf78a7c74fbf5b964d1da465f, type: 3}
+  Price: 250
+  BonusPercent: 10
+  OffsetScaleOnTable: 1.2

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: cupcake
+  m_EditorClassIdentifier: 
+  Emotion: 4
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: f8b54c3d4ae52e2468bb5e2e71e4384c, type: 3}
+  - {fileID: 21300000, guid: db6698624d8a4104f9c6773b8b7e26e3, type: 3}
+  - {fileID: 21300000, guid: e4ac7cbda32bf5246bd7ca0c21ea50b4, type: 3}
+  - {fileID: 21300000, guid: 91f1bd01ac2126643a6bb571e626d459, type: 3}
+  - {fileID: 21300000, guid: c89fae000257f524ea1f916947b5d7cc, type: 3}
+  - {fileID: 21300000, guid: 5f1503b2cbaf04445a15d589850d486b, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: 2f012709b64db684884311efb5ee1a1e, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 2f012709b64db684884311efb5ee1a1e, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

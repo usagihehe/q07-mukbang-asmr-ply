@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: hotdog_xien
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 10
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: 10084a33ffa294843b6cbcf5fbbbd24f, type: 3}
+  - {fileID: 21300000, guid: d90c8fe4441a6e544baac84838f1690f, type: 3}
+  - {fileID: 21300000, guid: 8b031346d639ec144a8681a227096427, type: 3}
+  - {fileID: 21300000, guid: 30b6d00e30d722946b5423085b417c4b, type: 3}
+  ShelfName: 
+  Tool: {fileID: 0}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

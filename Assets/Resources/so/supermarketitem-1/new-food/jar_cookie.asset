@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: jar_cookie
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 4
+  EatSound: 8
+  Steps:
+  - {fileID: 21300000, guid: 8a0fbddf857b4f44ea9a1147d155bb0d, type: 3}
+  - {fileID: 21300000, guid: d193bc9b7114c7a4ba0a2d3034b4477c, type: 3}
+  - {fileID: 21300000, guid: edc2a7fd19cddb840a8cf2d43944b734, type: 3}
+  - {fileID: 21300000, guid: 353e16484d48ccd42a77c4ddbca6426c, type: 3}
+  - {fileID: 21300000, guid: d4f1682990ed85d4fb371afe403071a5, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 644535a1639765e4a8f07222ab371e3d, type: 3}
+  Price: 100
+  BonusPercent: 10
+  OffsetScaleOnTable: 0.9

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: mochi-rainbow
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 13
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: bce5d0a0e9b035546a85435ea6792ec3, type: 3}
+  - {fileID: 21300000, guid: b61fd4eeee4729e4cb00bdc745b0104c, type: 3}
+  - {fileID: 21300000, guid: ef4b01dc09e0d6c48ae3d6f1e00cb48a, type: 3}
+  - {fileID: 21300000, guid: 3484d133f2656f7419a1fce43d2bd453, type: 3}
+  - {fileID: 21300000, guid: a6bd504074d8fc7449ec85b8ea782417, type: 3}
+  - {fileID: 21300000, guid: dbb242c9b953974489ddf7af2253dffa, type: 3}
+  - {fileID: 21300000, guid: 8b06cee6094397640872c9b558850edc, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: bae1bd2dc0d0bc14cbec322854d5f599, type: 3}
+  Price: 350
+  BonusPercent: 10
+  OffsetScaleOnTable: 0.8

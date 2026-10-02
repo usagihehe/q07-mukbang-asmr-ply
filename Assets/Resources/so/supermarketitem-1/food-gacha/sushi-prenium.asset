@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: sushi-prenium
+  m_EditorClassIdentifier: 
+  Emotion: 11
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: 414d0153bf66e0845995a530c73433dd, type: 3}
+  - {fileID: 21300000, guid: 74cc7978fe1668c4d9f168662ecbde6c, type: 3}
+  - {fileID: 21300000, guid: e67e3b1f80cfcba43bdbd3ed77179141, type: 3}
+  - {fileID: 21300000, guid: e2a71bf2f4f7d8e4880ffe603e9dfe1b, type: 3}
+  - {fileID: 21300000, guid: d094ed9cb4ab1164e81fa67449007c63, type: 3}
+  - {fileID: 21300000, guid: 81b9ab3902f6588458b290a91a16fae5, type: 3}
+  - {fileID: 21300000, guid: 31c67f9dbcc0c6c40b73fe333f0c64e3, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: e4496bd659fe9534d9b61a0b9b7344e7, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: e4496bd659fe9534d9b61a0b9b7344e7, type: 3}
+  Price: 0
+  BonusPercent: 200
+  OffsetScaleOnTable: 1

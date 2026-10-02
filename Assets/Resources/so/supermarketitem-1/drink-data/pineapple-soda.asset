@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: pineapple-soda
+  m_EditorClassIdentifier: 
+  Emotion: 2
+  EatSound: 1
+  Steps:
+  - {fileID: 21300000, guid: ae5f4fad675be2d47b2bd89f1ef37823, type: 3}
+  - {fileID: 21300000, guid: eef11c08b85e32f44ba8ee8807736cbe, type: 3}
+  - {fileID: 21300000, guid: 272104d1fe817d748bfffbab7662c913, type: 3}
+  - {fileID: 21300000, guid: 2c9d7a70992683844896c98e0ee5aa96, type: 3}
+  - {fileID: 21300000, guid: 6231b01681f57964194176f55bc0ff2f, type: 3}
+  SpoonfulOfFood: {fileID: 0}
+  ShelfName: 
+  Tool: {fileID: 0}
+  Price: 150
+  BonusPercent: 15
+  OffsetScaleOnTable: 1

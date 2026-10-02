@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: cookie-rainbow
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 12
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: ba5a09f11cc30ec4a895ef5d7bbfe4fd, type: 3}
+  - {fileID: 21300000, guid: 234fb17f5c322d04292a0ec3d43e40cc, type: 3}
+  - {fileID: 21300000, guid: ad09d774cd206ea4687f0baee00c571d, type: 3}
+  - {fileID: 21300000, guid: ce3a559c60c3589469dbe37b84d61395, type: 3}
+  - {fileID: 21300000, guid: 0f6528ff947403f42bf7d66b5b7770e0, type: 3}
+  - {fileID: 21300000, guid: 1d6ef827fd50ca54fb786beb0189938d, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: a22af399976457e48816f33905b68bef, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

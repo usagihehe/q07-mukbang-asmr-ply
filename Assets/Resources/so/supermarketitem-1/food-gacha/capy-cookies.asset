@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: capy-cookies
+  m_EditorClassIdentifier: 
+  Emotion: 9
+  EatSound: 5
+  Steps:
+  - {fileID: 21300000, guid: 6d40d89062f39514193335fc4373792a, type: 3}
+  - {fileID: 21300000, guid: 653f8a1187baa2c4fb59207629260490, type: 3}
+  - {fileID: 21300000, guid: 446f4cd3800d62e4c9ee5dca7174d30a, type: 3}
+  - {fileID: 21300000, guid: 343643d4bfb60fd4586bbb17a09c8f09, type: 3}
+  - {fileID: 21300000, guid: 82c4fd719d5985949aee4c7dd2118ce7, type: 3}
+  - {fileID: 21300000, guid: 331b3e46ec125d648836251c93210b1b, type: 3}
+  - {fileID: 21300000, guid: 4e2384d699b8bed4fabada9aa88a6e54, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 6c536666632a65246ac9479e4de131c9, type: 3}
+  Price: 0
+  BonusPercent: 200
+  OffsetScaleOnTable: 0.9

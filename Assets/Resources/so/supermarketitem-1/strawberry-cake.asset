@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: strawberry-cake
+  m_EditorClassIdentifier: 
+  Emotion: 7
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: f1db3723c4f4a5f4b95448f6efd29d4f, type: 3}
+  - {fileID: 21300000, guid: 27b1dd00f09e097499c1b064e6ccbd09, type: 3}
+  - {fileID: 21300000, guid: 67e735adb30a47c45bd85b05c595bd5e, type: 3}
+  - {fileID: 21300000, guid: d713d94a32b5c29438f840cadf860a79, type: 3}
+  - {fileID: 21300000, guid: 2edb59a3e94d3bd4d8a74b6221af7c72, type: 3}
+  - {fileID: 21300000, guid: 36c439a0fbd725c45a0142bccf8c9ccb, type: 3}
+  - {fileID: 21300000, guid: 4535ca9f5ec593847b4e8ed1ae1a2cc8, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: 73f7c12d066f75e4a81e8fe0618d7a87, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 73f7c12d066f75e4a81e8fe0618d7a87, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

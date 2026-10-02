@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: bento-pink
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 2
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: 125d3e985032e0646b3904c7ff55c727, type: 3}
+  - {fileID: 21300000, guid: e47d01b0b9d7c36419c3dcad55430115, type: 3}
+  - {fileID: 21300000, guid: 310ab0d4bab7fb747a8b363e1d3bdd02, type: 3}
+  - {fileID: 21300000, guid: 0df489959c2254c44bb972bbceec0372, type: 3}
+  - {fileID: 21300000, guid: 8adf54ee52c59d844b5b678e76e7b92e, type: 3}
+  - {fileID: 21300000, guid: 4d0c466f9ecf6314ca80992be422d98f, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 873f528e582a68c43af4a6f9218e057f, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

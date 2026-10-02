@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: crossaint-meat
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 2
+  EatSound: 9
+  Steps:
+  - {fileID: 21300000, guid: 3ceac9b712a9881448cd3f36f3e70b43, type: 3}
+  - {fileID: 21300000, guid: cbb509ba3d5dfc84fb0b20b69efeec09, type: 3}
+  - {fileID: 21300000, guid: 0d99af9c88817094cbae4ad032aae126, type: 3}
+  - {fileID: 21300000, guid: 8b497e345bd076b40b629226f005a7f3, type: 3}
+  - {fileID: 21300000, guid: 58e0c509d4c628641b1c9718ffff7d66, type: 3}
+  - {fileID: 21300000, guid: 892aa06de2bb4b540805d2613df2abb1, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: a6290d5bb46731a46ba195432710394f, type: 3}
+  Price: 250
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

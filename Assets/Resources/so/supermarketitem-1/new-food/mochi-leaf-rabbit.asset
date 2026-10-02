@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: mochi-leaf-rabbit
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 7
+  EatSound: 8
+  Steps:
+  - {fileID: 21300000, guid: 7dd0b6adc36c5cb49b0ec753cff6cfbb, type: 3}
+  - {fileID: 21300000, guid: 3d25e0c8c61a9e144804f39f5bcb6775, type: 3}
+  - {fileID: 21300000, guid: 3964f03bd3af58e44b1faf53b5d7292d, type: 3}
+  - {fileID: 21300000, guid: 0ef378e7194cd584db4135ed48966a07, type: 3}
+  - {fileID: 21300000, guid: 1e699efdcbc89f14880d61e8a04b40a1, type: 3}
+  - {fileID: 21300000, guid: ade081e36fa18754a8ef9bab43c9cfc6, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 098ea6a73153c6d42abfe307d2710fe0, type: 3}
+  Price: 350
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

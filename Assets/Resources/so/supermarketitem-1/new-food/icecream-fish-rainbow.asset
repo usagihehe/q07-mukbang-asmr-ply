@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: icecream-fish-rainbow
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 12
+  EatSound: 8
+  Steps:
+  - {fileID: 21300000, guid: d19c9eee5efc9ae48b62f51d7dac6c6d, type: 3}
+  - {fileID: 21300000, guid: 9441520d8a655c64c9ea12af153eec41, type: 3}
+  - {fileID: 21300000, guid: 7a1d9795b927e2441870728548595279, type: 3}
+  - {fileID: 21300000, guid: 67ddd4b0724fc0e42b53ed9306dc61f1, type: 3}
+  ShelfName: 
+  Tool: {fileID: 0}
+  Price: 350
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

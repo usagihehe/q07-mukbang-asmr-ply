@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: flavour-sandwick
+  m_EditorClassIdentifier: 
+  Emotion: 9
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: 62e238f9edbdd76408ee0549e4d22e2e, type: 3}
+  - {fileID: 21300000, guid: 914c11ac2f844624aba7ea9b6e6cfcd1, type: 3}
+  - {fileID: 21300000, guid: f952b9fbb6a556941ad7cf51b4bedeea, type: 3}
+  - {fileID: 21300000, guid: a00bfefa61fd4714b9d0c6f4515a5f1d, type: 3}
+  - {fileID: 21300000, guid: c467f868f4735194e97d5435b3e35640, type: 3}
+  - {fileID: 21300000, guid: e78dded3fa889a642aa531726756e781, type: 3}
+  - {fileID: 21300000, guid: 41a0b3b16da64c049a97cc89d735c20c, type: 3}
+  SpoonfulOfFood: {fileID: 21300000, guid: 903c2c99c22a3b2429c8a33015b19036, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 903c2c99c22a3b2429c8a33015b19036, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1
