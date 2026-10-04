@@ -1,7 +1,7 @@
 {
     "version": "7.2.0",
     "projectId": "629a1bf2777177f4eb5a3a65506ae16b",
-    "applicationID": 31069,
+    "applicationID": 0,
     "creativeName": "PLY31",
     "pgServer": "EU",
     "window": {
@@ -76,12 +76,12 @@
                 "Stubs/SupersonicWisdom/"
             ],
             "msbuildMac64": "/Library/Frameworks/Mono.framework/Versions/Current/bin/msbuild",
-            "msbuildWin64": "D:\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
+            "msbuildWin64": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
             "externalSources": [],
             "externalJSLibraries": [],
             "scriptingDefines": [],
             "msbuildVersion": "17.14",
-            "monoVersion": "9.0.17",
+            "monoVersion": "9.0.19",
             "dotnetVersion": ""
         },
         "assets": {
