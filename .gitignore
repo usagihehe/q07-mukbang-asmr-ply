@@ -76,3 +76,7 @@ crashlytics-build.properties
 
 # Luna build temp
 /LunaTemp/
+
+# Claude's temporary files (deleted only via .claude/scripts/rm-temp.sh)
+/[Aa]ssets/_ClaudeTemp/
+/[Aa]ssets/_ClaudeTemp.meta

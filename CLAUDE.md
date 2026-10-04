@@ -12,6 +12,27 @@
 
 - Only `git commit` locally. Never `git push` unless explicitly asked.
 
+## Project Context
+
+Game code compiles into `Assembly-CSharp` and lives in `Assets/Scripts`, `Assets/Usaki` (shared utilities) and
+`Assets/PLY*/scripts`. Third-party code (`Assets/Plugins`, `Assets/Spine`, `Assets/TextMesh Pro`, the Playworks
+package) is not ours — don't edit it.
+
+**Shared systems (use these, don't invent parallel ones):** singletons via `Usaki.ZMonoSingleton<T>`; events via
+`Usaki/Observer*` (always pair add with remove); popups via `Usaki/Panel`; UI tweens via `Usaki/UIAnim`.
+Kill tweens on disable/destroy (`DOKill` / `SetLink`).
+
+**Temporary files (Claude):** put every throwaway file you create — probes, one-off test scripts, flags, outputs — in
+`Assets/_ClaudeTemp/` (when Unity must compile/import it) or `Temp/claude/` (everything else). Both are git-ignored.
+Delete them only with `bash .claude/scripts/rm-temp.sh <path>...`; it refuses anything outside those two folders or
+tracked by git, and removes `.meta` sidecars. Never use `rm`, `git clean` or Unity MCP asset deletion for cleanup.
+
+**Harness workflow:** "theo quy trình harness" → follow `docs/workflow.md` (prompts in `docs/prompts/`, runtime
+checks in `docs/play-mode-probe.md`, probe skeleton in `docs/templates/ClaudeTemp/`).
+
+**Scope:** namespace, 200-line limit and SOLID rules below apply to **new files and new classes**. Existing code that
+doesn't follow them stays as it is unless the task is to refactor it.
+
 Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-specific instructions as needed.
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
@@ -138,6 +159,30 @@ Fall back to Grep/Glob/Read **only** when the graph doesn't cover what you need.
 2. Use `detect_changes` for code review.
 3. Use `get_affected_flows` to understand impact.
 4. Use `query_graph` pattern="tests_for" to check coverage.
+
+## Verification — required before saying a task is done
+
+1. **Unity MCP (primary).** Requires Unity Editor open with the server started in the "MCP for Unity" window. After editing scripts:
+   `refresh_unity(compile="request", mode="force", scope="scripts")` (`scope="all"` when you added new `.cs` files) → `read_console(types=["error"])` (`types` must be a list).
+   If MCP is not connected, say so — don't claim the code compiles.
+2. **`bash .claude/scripts/check-compile.sh` (fallback, no Editor needed).** Exit 0 = compiles, 1 = errors (listed), 2 = could not verify — treat 2 as "not verified". New `.cs` files are only compiled after Unity regenerates the csproj.
+3. A Stop hook runs the fallback check automatically when `.cs` files changed and blocks finishing on real compile errors.
+4. Things only a human can verify — game feel, animation timing, scene/prefab wiring, playable build in the ad network preview — list them explicitly at the end as "needs manual check".
+
+Don't hand-edit `.unity` / `.prefab` YAML. If a change needs references wired in a scene or prefab, do it through Unity MCP, or tell the human exactly which object/field to assign.
+
+## Keep this file true
+
+When you learn something about this project the hard way — a wrong assumption, a tool quirk, a pitfall that cost time, a fact that contradicts this file — add or fix it here in the same task (one line, under Known pitfalls or the relevant section). Remove lines that turn out wrong. Don't log one-off task details.
+
+### Known pitfalls
+- Unity's csproj targets net471 but `DOTween.dll` is built for net472; plain `dotnet build` drops the reference and reports hundreds of false DOTween errors (`check-compile.sh` passes `ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch=true`).
+- UnityMCP `execute_code` may fail ("Operation is not supported on this platform"). To run one-off Editor code, write a temporary EditMode test in `Assets/_ClaudeTemp/Editor/`, run it with `run_tests`, then delete it with `rm-temp.sh`.
+- `refresh_unity(scope="scripts")` does not import newly created `.cs` files — use `scope="all"` after adding scripts.
+- UnityMCP `manage_gameobject(action="duplicate")` on a UI object gives the copy a wrong `anchoredPosition` — set it explicitly afterwards.
+- When the Unity Editor window is not focused, Play Mode can hang in "playmode_transition" or run very slowly (editor throttling). Ask the human to focus Unity, or set Preferences > General > Interaction Mode = No Throttling.
+- Player Settings edited in the Unity UI are not on disk until `File > Save Project` (or Editor close); check the file, not the UI.
+- Switching git branches while Unity is open can fail with "unable to unlink" on scenes Unity holds, leaving a half-applied checkout; check `git status` + console after every switch.
 
 ---
 

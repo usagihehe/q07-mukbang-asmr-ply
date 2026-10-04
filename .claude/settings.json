@@ -1,8 +1,27 @@
 {
   "permissions": {
+    "defaultMode": "auto",
     "allow": [
       "Read(Assets/Scripts/**)",
-      "Edit(Assets/Scripts/**)"
+      "Edit(Assets/Scripts/**)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(cat ./Assets/Scripts/**)",
+      "Bash(grep * ./Assets/Scripts/**)",
+      "Bash(find ./Assets/Scripts *)",
+      "Bash(cat ./Assets/Usaki/**)",
+      "Bash(grep * ./Assets/Usaki/**)",
+      "Bash(find ./Assets/Usaki *)",
+      "Bash(bash .claude/scripts/check-compile.sh)",
+      "Bash(bash .claude/scripts/rm-temp.sh *)",
+      "mcp__UnityMCP__refresh_unity",
+      "mcp__UnityMCP__read_console"
+    ],
+    "ask": [
+      "Bash(git reset --hard*)",
+      "mcp__UnityMCP__delete_script",
+      "mcp__UnityMCP__manage_build"
     ],
     "deny": [
       "Read(**/.env)",
@@ -10,7 +29,35 @@
       "Bash(git push*)",
       "Bash(rm:*)",
       "Bash(del:*)",
-      "Bash(Remove-Item:*)"
+      "Bash(Remove-Item:*)",
+
+      "Edit(ProjectSettings/**)",
+      "Edit(**/*.meta)"
+    ]
+  },
+  "autoMode": {
+    "environment": [
+      "$defaults",
+      "Unity 2022.3.15f1 playable ad project (q07 mukbang ASMR, Playworks UPP 7.2.0). Unity Editor is controlled through UnityMCP tools.",
+      "Git remote is GitHub (usagihehe/q07-mukbang-asmr-ply). Main branch: main, working branch: ply. Commit locally only, never push unless asked."
+    ],
+    "allow": [
+      "$defaults",
+      "Running .claude/scripts/check-compile.sh or dotnet build on the project's csproj files",
+      "UnityMCP read-only tools and refresh_unity / read_console"
+    ],
+    "soft_deny": [
+      "$defaults",
+      "git push, git reset --hard, git checkout -- on files, or deleting branches",
+      "Deleting files or folders under Assets/",
+      "Changing Packages/manifest.json or adding/removing Unity packages",
+      "UnityMCP execute_code, delete_script, manage_build, manage_packages",
+      "Saving scenes or prefabs through UnityMCP"
+    ],
+    "hard_deny": [
+      "$defaults",
+      "Reading, copying or uploading signing credentials or API keys",
+      "Sending project source or assets to any external service"
     ]
   },
   "hooks": {
@@ -20,7 +67,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cat >/dev/null || true; git rev-parse --git-dir >/dev/null 2>&1 && code-review-graph update --skip-flows --repo \"D:/Wavez/SourcePlayable/q07-mukbang-asmr-ply\" || true",
+            "command": "cat >/dev/null || true; git rev-parse --git-dir >/dev/null 2>&1 && code-review-graph update --skip-flows --repo \"D:/WaveZ/Source/wavez-ply/q07-mukbang-asmr-ply\" || true",
             "timeout": 30
           }
         ]
@@ -32,8 +79,20 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cat >/dev/null || true; git rev-parse --git-dir >/dev/null 2>&1 && code-review-graph status --repo \"D:/Wavez/SourcePlayable/q07-mukbang-asmr-ply\" || echo 'Not a git repo, skipping'",
+            "command": "cat >/dev/null || true; git rev-parse --git-dir >/dev/null 2>&1 && code-review-graph status --repo \"D:/WaveZ/Source/wavez-ply/q07-mukbang-asmr-ply\" || echo 'Not a git repo, skipping'",
             "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/scripts/stop-compile-gate.sh\"",
+            "timeout": 120,
+            "statusMessage": "Checking C# compile..."
           }
         ]
       }
