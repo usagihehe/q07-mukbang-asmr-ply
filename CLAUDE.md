@@ -4,9 +4,9 @@
 
 - **Engine:** Unity 2022.3.15f1
 - **Type:** Playable ad (q07 mukbang ASMR)
-- **Playable SDK:** Playworks UPP 7.2.0 (`com.unity.playworks.upp` → `../../7.2.0/scripts`). Not Luna 6.3.0 — check the 7.2.0 API before reusing code from other playable projects.
-- **Plugins:** DOTween (`Assets/Plugins/Demigiant`), Spine (`Assets/Spine`), TextMeshPro 3.0.6
-- **Content:** `Assets/PLY1/`, scenes in `Assets/Scenes/PLY1/`
+- **Playable SDK:** Playworks UPP 7.2.0 (`com.unity.playworks.upp` → `D:/WaveZ/Package/scripts`). Not Luna 6.3.0 — check the 7.2.0 API before reusing code from other playable projects.
+- **Plugins:** DOTween (`Assets/Plugins/Demigiant`), Spine 4.1 (`Assets/Spine`), TextMeshPro 3.0.6
+- **Content:** one folder per playable variant — `Assets/PLY31/` (scenes, scripts, sprites), `Assets/PLY32/` (scenes). Build scenes: `Assets/Scenes/SampleScene.unity`, `Assets/PLY31/scenes/PLY31.unity`
 
 ## Git Workflow
 
