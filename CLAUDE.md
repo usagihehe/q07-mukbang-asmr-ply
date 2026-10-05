@@ -6,7 +6,7 @@
 - **Type:** Playable ad (q07 mukbang ASMR)
 - **Playable SDK:** Playworks UPP 7.2.0 (`com.unity.playworks.upp` → `D:/WaveZ/Package/scripts`). Not Luna 6.3.0 — check the 7.2.0 API before reusing code from other playable projects.
 - **Plugins:** DOTween (`Assets/Plugins/Demigiant`), Spine 4.1 (`Assets/Spine`), TextMeshPro 3.0.6
-- **Content:** one folder per playable variant — `Assets/PLY31/` (scenes, scripts, sprites), `Assets/PLY32/` (scenes). Build scenes: `Assets/Scenes/SampleScene.unity`, `Assets/PLY31/scenes/PLY31.unity`
+- **Content:** one folder per playable variant — `Assets/PLY31/` (scenes, scripts, sprites), `Assets/PLY32/` (scenes), `Assets/PLY33/` (blindbox gacha machine, scripts in namespace `PLY33.Blindbox`). Build scenes: `Assets/Scenes/SampleScene.unity`, `Assets/PLY31/scenes/PLY31.unity`
 
 ## Git Workflow
 
@@ -188,6 +188,9 @@ When you learn something about this project the hard way — a wrong assumption,
 - Scenes may reference sound SOs whose asset doesn't exist (dead guid) — the Inspector shows None and `CharSound` NREs in the eat states. The shared one is `Assets/Resources/so/CharacterSound.asset`.
 - PLY32 foods live in two lists: `Ply32DirectEatFlow._foods` (runtime) and `SupermarketLivePanel._itemSets` (Edit Mode table preview, applied by `OnValidate`). UnityMCP `set_property` doesn't fire `OnValidate`, so call `Init` on each slot and save the scene.
 - Probes left in `Assets/_ClaudeTemp/` boot themselves in every Play Mode run and drive the game (e.g. auto-feeding the character); delete them right after the run.
+- UnityMCP `manage_gameobject`/`manage_components` by_id or by_path can't find objects under an inactive parent (e.g. `SupermarketLivePanel`); activate the parent temporarily, then restore it.
+- UnityMCP: setting a `List<Component>` field to GameObject IDs stores nulls; set `field.Array.data[i]` to the component's instance ID.
+- Two `BlindBoxItemCtrl` classes exist (global, and `PLY33.Blindbox` used by PLY33); outside that namespace the global one wins — write `PLY33.Blindbox.BlindBoxItemCtrl` in full.
 - Switching git branches while Unity is open can fail with "unable to unlink" on scenes Unity holds, leaving a half-applied checkout; check `git status` + console after every switch.
 
 ---

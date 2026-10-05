@@ -61,4 +61,10 @@ No test assembly in the project. Verify: compile + console clean, Play Mode prob
 `git status` shows no other scene changed. Manual: game feel, anim timing, ball/slot positions, Luna build.
 
 ## Review outcomes
-(filled after review)
+- Reviewer: no blocking issues; shared code diff empty. Accepted as-is: Act → Gacha uses a fixed `_delayToAct`
+  instead of the anim end; the Edit Mode table preview shows balls instead of foods; the eat tutorial hand starts on
+  a closed ball.
+- Fixed during verify: the probe resolved the global `BlindBoxItemCtrl` (namespace lookup), not a product bug.
+- Play Mode probe: 3 gacha rounds (ball drops, can't be picked mid-drop, flies to basket showing a ball skin, Done
+  enabled at 3) → Done → live panel with 3 slots matching the basket → 3 taps open the ball and reveal the food → eat
+  path runs (`OpenItem` + `Consume`); 0 errors.
