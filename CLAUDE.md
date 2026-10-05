@@ -176,6 +176,7 @@ Don't hand-edit `.unity` / `.prefab` YAML. If a change needs references wired in
 When you learn something about this project the hard way — a wrong assumption, a tool quirk, a pitfall that cost time, a fact that contradicts this file — add or fix it here in the same task (one line, under Known pitfalls or the relevant section). Remove lines that turn out wrong. Don't log one-off task details.
 
 ### Known pitfalls
+- UnityMCP is not in `.mcp.json`; it is registered per machine with `claude mcp add --scope local --transport http UnityMCP http://127.0.0.1:8080/mcp` (or "Configure" for Claude Code in the MCP for Unity window). Restart Claude Code afterwards.
 - Unity's csproj targets net471 but `DOTween.dll` is built for net472; plain `dotnet build` drops the reference and reports hundreds of false DOTween errors (`check-compile.sh` passes `ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch=true`).
 - UnityMCP `execute_code` may fail ("Operation is not supported on this platform"). To run one-off Editor code, write a temporary EditMode test in `Assets/_ClaudeTemp/Editor/`, run it with `run_tests`, then delete it with `rm-temp.sh`.
 - `refresh_unity(scope="scripts")` does not import newly created `.cs` files — use `scope="all"` after adding scripts.
