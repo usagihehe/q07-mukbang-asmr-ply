@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: orange_drink_hlw
+  m_EditorClassIdentifier: 
+  Emotion: 9
+  EatSound: 1
+  Steps:
+  - {fileID: 21300000, guid: 39c04394adb8d8c4e88234b0ed5a58c3, type: 3}
+  - {fileID: 21300000, guid: 1fdc6e8dc7f53734485160d235e67233, type: 3}
+  - {fileID: 21300000, guid: bf1fac9184afe1b4fb935d52faa224b7, type: 3}
+  - {fileID: 21300000, guid: bf0f85471fcdd7a49ba93352c7c043cf, type: 3}
+  ShelfName: 
+  Tool: {fileID: 0}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 0.95

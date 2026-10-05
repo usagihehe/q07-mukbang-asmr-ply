@@ -183,6 +183,11 @@ When you learn something about this project the hard way — a wrong assumption,
 - UnityMCP `manage_gameobject(action="duplicate")` on a UI object gives the copy a wrong `anchoredPosition` — set it explicitly afterwards.
 - When the Unity Editor window is not focused, Play Mode can hang in "playmode_transition" or run very slowly (editor throttling). Ask the human to focus Unity, or set Preferences > General > Interaction Mode = No Throttling.
 - Player Settings edited in the Unity UI are not on disk until `File > Save Project` (or Editor close); check the file, not the UI.
+- Two `GameManager` classes exist (global and `PLY3.GameManager`); UnityMCP `manage_components` can't resolve `GameManager` — pass `component_type="GameManager, Assembly-CSharp"`.
+- UnityMCP `manage_scriptable_object` can't set `Array.size`, but setting `List.Array.data[i]` grows the list.
+- Scenes may reference sound SOs whose asset doesn't exist (dead guid) — the Inspector shows None and `CharSound` NREs in the eat states. The shared one is `Assets/Resources/so/CharacterSound.asset`.
+- PLY32 foods live in two lists: `Ply32DirectEatFlow._foods` (runtime) and `SupermarketLivePanel._itemSets` (Edit Mode table preview, applied by `OnValidate`). UnityMCP `set_property` doesn't fire `OnValidate`, so call `Init` on each slot and save the scene.
+- Probes left in `Assets/_ClaudeTemp/` boot themselves in every Play Mode run and drive the game (e.g. auto-feeding the character); delete them right after the run.
 - Switching git branches while Unity is open can fail with "unable to unlink" on scenes Unity holds, leaving a half-applied checkout; check `git status` + console after every switch.
 
 ---

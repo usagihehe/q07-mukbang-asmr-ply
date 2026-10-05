@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: hlw_crossaint
+  m_EditorClassIdentifier: 
+  Emotion: 11
+  EatSound: 7
+  Steps:
+  - {fileID: 21300000, guid: 86915c29c8140ee4fbac799f2a0630a3, type: 3}
+  - {fileID: 21300000, guid: cc65e9edba026ff4195864a6b473ed40, type: 3}
+  - {fileID: 21300000, guid: 7ef28e6e9b3f6d944b22689f25050c49, type: 3}
+  - {fileID: 21300000, guid: cce447f055b045947bb3a15a79fbd4d3, type: 3}
+  - {fileID: 21300000, guid: b86636d7112f82c4c9a0364315a030b3, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: 59512d0b876c0f24ba924402bb3ef0e9, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

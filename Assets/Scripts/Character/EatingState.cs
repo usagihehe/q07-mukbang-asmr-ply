@@ -21,11 +21,7 @@ public class EatingState : CharBaseState
         _itemSmk = _stateMachine.MukbangItem as SupermarketItemMukbang;
         _isPlay = _itemSmk != null;
         // IS SUPERMARKET
-        if (_itemSmk != null)
-        {
-            PlayEatAnimation(_itemSmk.Item);
-            _itemSmk.Consume();
-        }
+        if (_itemSmk != null) EatOneBite();
     }
 
     public override string Execute(float dt)
@@ -33,6 +29,12 @@ public class EatingState : CharBaseState
         //OTHER FOOD
         if (_isPlay) return StateMachine.EatingState;
         AudioManager.Instance.StopSoundEffect();
+        // Going back through Idle for one frame cuts the Spine mix and makes the next bite snap.
+        if (IsStillAtMouth())
+        {
+            EatOneBite();
+            return StateMachine.EatingState;
+        }
         return _stateMachine.IsSelectItem ? StateMachine.IdleState : StateMachine.AfterEatState;
     }
 
@@ -43,6 +45,18 @@ public class EatingState : CharBaseState
     public override bool IsSuitable()
     {
         return true;
+    }
+
+    private void EatOneBite()
+    {
+        PlayEatAnimation(_itemSmk.Item);
+        _itemSmk.Consume();
+    }
+
+    private bool IsStillAtMouth()
+    {
+        return _itemSmk != null && !_itemSmk.IsDone && _stateMachine.IsSelectItem
+               && _stateMachine.Distance() < _stateMachine.DistanceEating;
     }
 
     private void PlayEatAnimation(MukbangItemSO item)

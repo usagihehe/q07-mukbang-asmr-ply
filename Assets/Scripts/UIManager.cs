@@ -15,7 +15,6 @@ namespace Usaki
 
         [SerializeField] private Image lockImage;
         [SerializeField] private HandHint handHint;
-        [SerializeField] private Button installButton;
 
         private bool _isEatTutorialActive;
         private Transform _eatTutorialSlot;
@@ -31,7 +30,6 @@ namespace Usaki
         {
             base.Awake();
             canvas = GetComponent<Canvas>();
-            installButton.onClick.AddListener(GameManager.Instance.InstallFullGame);
         }
 
         public void ShowSupermarketLivePanel(List<SupermarketItemSO> items)

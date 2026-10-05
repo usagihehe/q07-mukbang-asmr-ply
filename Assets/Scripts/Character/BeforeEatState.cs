@@ -22,22 +22,16 @@ public class BeforeEatState : CharBaseState
 
     public override string Execute(float dt)
     {
-        if (_stateMachine.MukbangItem != null)
-        {
-            if (_stateMachine.Distance() < _stateMachine.DistanceEating)
-            {
-                AudioManager.Instance.StopSoundEffect();
-                return StateMachine.EatingState;
-            }
-            else
-            {
-                return StateMachine.BeforeEatState;
-            }
-        }
-        else if (!_stateMachine.IsSelectItem)
+        // MukbangItem stays set after release, so the release check must come first.
+        if (!_stateMachine.IsSelectItem)
         {
             AudioManager.Instance.StopSoundEffect();
             return StateMachine.IdleState;
+        }
+        if (_stateMachine.MukbangItem != null && _stateMachine.Distance() < _stateMachine.DistanceEating)
+        {
+            AudioManager.Instance.StopSoundEffect();
+            return StateMachine.EatingState;
         }
         return StateMachine.BeforeEatState;
     }
@@ -65,7 +59,7 @@ public class BeforeEatState : CharBaseState
         Vector3[] worldCorners = new Vector3[4];
         rectTransform.GetWorldCorners(worldCorners);
 
-        // Top Left (1) và Top Right (2)
+        // Top Left (1) vï¿½ Top Right (2)
         Vector3 topCenter = (worldCorners[1] + worldCorners[2]) / 2f;
         return topCenter;
     }
