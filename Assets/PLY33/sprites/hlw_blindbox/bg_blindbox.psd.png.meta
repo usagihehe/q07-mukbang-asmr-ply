@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0c6ced9dec23c594ab4ae898f962f8ef
+guid: 1e33e58870f6ce34ba45f4d63c417b34
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,28 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: hlw_table_0
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 319
-        width: 1889
-        height: 1143
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9882474775f1c8d46816df8d45e5da1b
-      internalID: 1778667864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -153,8 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      hlw_table_0: 1778667864
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

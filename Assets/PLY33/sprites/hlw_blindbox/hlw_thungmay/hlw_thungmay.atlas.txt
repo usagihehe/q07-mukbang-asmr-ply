@@ -1,0 +1,57 @@
+hlw_thungmay.png
+size:2025,1059
+filter:Linear,Linear
+pma:true
+Group 16
+bounds:1100,208,849,102
+offsets:0,74,849,250
+rotate:90
+Layer 36
+bounds:2,190,867,1096
+rotate:90
+Layer 37
+bounds:1920,525,532,103
+offsets:0,12,532,128
+rotate:90
+blindbox-1 copy 2
+bounds:378,5,183,188
+offsets:2,1,188,189
+rotate:90
+blindbox-1 copy 3
+bounds:758,5,183,187
+offsets:2,2,188,189
+rotate:90
+blindbox-2 copy 2
+bounds:2,2,186,182
+offsets:2,3,188,189
+rotate:90
+blindbox-2 copy 3
+bounds:186,5,190,183
+offsets:0,2,191,189
+blindbox-2 copy 4
+bounds:568,5,188,183
+offsets:2,3,191,189
+blindbox-3 copy 2
+bounds:1617,22,188,187
+offsets:1,0,190,189
+rotate:90
+blindbox-3 copy 3
+bounds:1806,276,188,187
+offsets:0,1,188,189
+blindbox-gate
+bounds:1430,212,251,214
+offsets:1,1,253,216
+rotate:90
+blindbox-glasses
+bounds:1204,637,714,420
+offsets:1,1,716,422
+blindbox-line
+bounds:1204,210,253,224
+offsets:1,1,255,226
+rotate:90
+blindbox_light_1
+bounds:947,18,668,170
+offsets:2,0,672,170
+blindbox_light_2
+bounds:1204,465,668,170
+offsets:2,0,672,170

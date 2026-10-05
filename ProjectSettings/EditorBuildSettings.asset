@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PLY31/scenes/PLY31.unity
     guid: 157a37a683653ed4ea9fc2dfff08057b
+  - enabled: 1
+    path: Assets/PLY32/scenes/PLY32.unity
+    guid: 6fd18a2b10cdbb64b92f5718544054ae
   m_configObjects: {}

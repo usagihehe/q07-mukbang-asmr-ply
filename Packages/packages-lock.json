@@ -192,7 +192,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.playworks.upp": {
-      "version": "file:D:/Wavez/SourcePlayable/7.2.0/scripts",
+      "version": "file:../../7.2.0/scripts",
       "depth": 0,
       "source": "local",
       "dependencies": {}

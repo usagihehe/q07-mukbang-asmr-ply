@@ -1,0 +1,34 @@
+hlw_qua_cau.png
+size:455,540
+filter:Linear,Linear
+pma:true
+Layer 1
+bounds:358,365,173,95
+offsets:2,0,176,98
+rotate:90
+blindbox-1 copy
+bounds:2,329,209,202
+offsets:1,0,211,202
+rotate:90
+blindbox-1-down
+bounds:189,4,185,126
+offsets:0,1,186,131
+blindbox-1-up
+bounds:2,132,195,150
+rotate:90
+blindbox-2-down
+bounds:306,156,185,123
+offsets:0,2,186,131
+rotate:90
+blindbox-2-up
+bounds:154,132,195,150
+rotate:90
+blindbox-3-down
+bounds:2,2,185,128
+offsets:0,1,186,131
+blindbox-3-up
+bounds:206,343,195,150
+rotate:90
+star
+bounds:376,109,39,45
+offsets:2,3,42,49
