@@ -46,7 +46,8 @@ namespace Usaki
             _goodsNumTxt.text = $"{_basketCtrl.PickNum}/{MAX_BASKET}";
             _totalTxt.text = _curTotalPrice + "";
             _doneBtn.interactable = false;
-            _scrollRect.horizontalNormalizedPosition = 0f;
+            // Single-shelf variants have no scroll view.
+            if (_scrollRect != null) _scrollRect.horizontalNormalizedPosition = 0f;
 
             blackBackground.SetActive(true);
         }
