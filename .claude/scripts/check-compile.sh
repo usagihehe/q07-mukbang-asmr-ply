@@ -5,7 +5,7 @@
 #
 # CONFIGURE for your project:
 CSPROJ="Assembly-CSharp.csproj"   # Unity-generated game project
-SRC_DIRS=(Assets/Scripts Assets/Usaki Assets/PLY31 Assets/PLY32)  # where game code lives
+SRC_DIRS=(Assets/Scripts Assets/Usaki Assets/PLY31 Assets/PLY32 Assets/PLY33)  # where game code lives
 # Errors matching this (case-insensitive) come from third-party references that never resolve outside Unity
 # (e.g. Firebase). When ONLY these remain, dotnet stopped at declaration binding and never checked method
 # bodies, so the result is reported as INCONCLUSIVE (exit 2) instead of OK. Empty = disabled.
@@ -34,7 +34,8 @@ if [ -n "$missing" ]; then
 fi
 
 # Unity csproj targets net471 but DOTween.dll is built for net472; without this dotnet drops the reference.
-out=$(dotnet build "$CSPROJ" -nologo -v q -clp:ErrorsOnly -p:ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch=true 2>&1)
+# --no-incremental: an incremental build reported OK on edited files that no longer compiled.
+out=$(dotnet build "$CSPROJ" --no-incremental -nologo -v q -clp:ErrorsOnly -p:ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch=true 2>&1)
 errors=$(printf '%s\n' "$out" | grep -E 'error CS[0-9]+' | sed -E 's/ \[[^]]*\.csproj\]$//' | sort -u)
 
 if [ -z "$errors" ]; then

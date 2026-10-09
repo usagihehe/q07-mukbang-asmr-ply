@@ -17,10 +17,10 @@ MonoBehaviour:
     AudioClip: {fileID: 8300000, guid: fc46f9ebe1b3f214aa1222eeefe89ec4, type: 3}
   - Type: 2
     AudioClip: {fileID: 8300000, guid: 22d5c7c7c9fb75d41bf081510a67abfa, type: 3}
+  - Type: 3
+    AudioClip: {fileID: 8300000, guid: 08e5fcdc683bab74fbf5a6caf28f2110, type: 3}
   - Type: 7
     AudioClip: {fileID: 8300000, guid: d020d875013978f498f2391b3d402924, type: 3}
-  - Type: 8
-    AudioClip: {fileID: 8300000, guid: 2474f1c31f91cce46993ade1df23673c, type: 3}
   - Type: 12
     AudioClip: {fileID: 8300000, guid: 3abf69e6f6eaea240a771666d4e8f842, type: 3}
   EmotionSounds:
@@ -28,7 +28,9 @@ MonoBehaviour:
     AudioClip: {fileID: 8300000, guid: 15375aad9a6da66498fa4c9d9f044f2b, type: 3}
   - Type: 8
     AudioClip: {fileID: 8300000, guid: 515ae4a00b51af149a7a3694066ab758, type: 3}
-  - Type: 11
-    AudioClip: {fileID: 8300000, guid: 3ee45a08334e021419a5f332c77bedb2, type: 3}
-  - Type: 12
-    AudioClip: {fileID: 8300000, guid: 0b9817657eab91a4eb98adf326674f75, type: 3}
+  - Type: 9
+    AudioClip: {fileID: 8300000, guid: 5769764cc1699c340b46ea38f869b6a3, type: 3}
+  - Type: 10
+    AudioClip: {fileID: 8300000, guid: 76d8385d050b0934fb2f0e43e73af167, type: 3}
+  - Type: 16
+    AudioClip: {fileID: 8300000, guid: fc21067262ab9c04abab5d9af1a579ec, type: 3}

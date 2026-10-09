@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -21,11 +22,6 @@ namespace PLY33.Blindbox
             }
         }
 
-        protected virtual void OnEnable()
-        {
-            ChangeState(InitialState);
-        }
-
         protected virtual void OnDisable()
         {
             _currentState?.OnExit();
@@ -34,11 +30,22 @@ namespace PLY33.Blindbox
 
         private void Update()
         {
-            if (_currentState == null) return;
+            // Entered here, not in OnEnable: a state's Awake may not have run yet when this OnEnable fires.
+            if (_currentState == null)
+            {
+                ChangeState(InitialState);
+                return;
+            }
             string nextStateName = _currentState.OnUpdate(Time.deltaTime);
-            if (string.IsNullOrEmpty(nextStateName) || nextStateName == _currentState.StateName) return;
-            if (!_states.TryGetValue(nextStateName, out IState nextState) || !nextState.IsSuitable()) return;
+            if (string.IsNullOrEmpty(nextStateName) || !CanTransitionTo(nextStateName)) return;
             ChangeState(nextStateName);
+        }
+
+        private bool CanTransitionTo(string stateName)
+        {
+            bool isLinked = Array.IndexOf(_currentState.NextStates, stateName) >= 0
+                            || Array.IndexOf(_currentState.CrossStates, stateName) >= 0;
+            return isLinked && _states.TryGetValue(stateName, out IState nextState) && nextState.IsSuitable();
         }
 
         private void ChangeState(string stateName)

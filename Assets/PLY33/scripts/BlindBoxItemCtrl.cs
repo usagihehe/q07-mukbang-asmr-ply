@@ -1,79 +1,103 @@
-using System;
 using DG.Tweening;
 using Spine.Unity;
 using UnityEngine;
 
 namespace PLY33.Blindbox
 {
-    /// <summary>Ball on the live table: opens after a number of taps, then reports so the food can be revealed.</summary>
+    /// <summary>Ball on the live table: opens after a number of taps and reveals the slot's food.</summary>
     public class BlindBoxItemCtrl : MonoBehaviour
     {
-        [SerializeField] private SkeletonGraphic _blindBox;
-        [SerializeField] private GameObject _lightEffect;
-        [SerializeField] private string _animOnOpen = "animation";
-        [SerializeField] private string _defaultAnim = "idle";
-        [SerializeField] private float _delayTap = 0.1f;
-        [SerializeField] private int _numTapToOpen = 3;
+        [SerializeField]
+        private GameObject _lightEffect;
 
-        [Header("Tap punch")]
-        [SerializeField] private float _punchAmount = 0.2f;
-        [SerializeField] private float _punchDuration = 0.4f;
+        [SerializeField]
+        private SkeletonGraphic _blindBox;
+
+        [SerializeField]
+        private SupermarketItemMukbang _itemSlot;
+
+        [SerializeField]
+        private SpringCtrl _spring;
+
+        [SerializeField]
+        private string _animOnOpen = "animation";
+
+        [SerializeField]
+        private string _defaultAnim = "idle";
+
+        [SerializeField]
+        private float _delayTap = 0.1f;
+
+        [SerializeField]
+        private int _numTapToOpen = 3;
+
+        [SerializeField]
+        private float _revealDelay = 1f;
+
+        private bool _waitOpen;
 
         private int _countTap;
-        private float _lastTapTime;
-        private bool _isOpening;
-        private Vector3 _defaultScale;
+
+        private Animator _itemSlotAnimator;
+
+        // Optional: PLY33 table slots have no Animator, the food then just appears when the ball opens.
+        private Animator ItemSlotAnimator =>
+            _itemSlotAnimator != null ? _itemSlotAnimator : _itemSlotAnimator = _itemSlot.GetComponent<Animator>();
 
         public bool IsOpen { get; private set; }
 
-        private void Awake()
+        public bool Init(SupermarketItemSO itemSo)
         {
-            _defaultScale = _blindBox.transform.localScale;
-        }
-
-        public void Init(SupermarketItemSO itemSo)
-        {
-            IsOpen = false;
-            _isOpening = false;
+            if (itemSo == null) return false;
             _countTap = 0;
-            _lastTapTime = float.NegativeInfinity;
-            _blindBox.gameObject.SetActive(true);
-            if (_lightEffect != null) _lightEffect.SetActive(false);
+            _waitOpen = false;
+            // CloseBox first: it activates the ball, and an inactive SkeletonGraphic has no skeleton to skin.
+            CloseBox();
             // SupermarketLivePanel.OnValidate calls Init in Edit Mode, where the Spine state is not built.
-            if (!Application.isPlaying) return;
-
-            _blindBox.transform.DOKill();
-            _blindBox.transform.localScale = _defaultScale;
-            BlindboxSkin.Apply(_blindBox, itemSo);
-            _blindBox.AnimationState.SetAnimation(0, _defaultAnim, true);
+            if (Application.isPlaying) BlindboxSkin.Apply(_blindBox, itemSo);
+            return true;
         }
 
-        public void OnTapBox(Action onOpened)
+        public void OnTapBox()
         {
-            if (IsOpen || _isOpening || Time.time - _lastTapTime < _delayTap) return;
-            _lastTapTime = Time.time;
-
-            Transform ballTransform = _blindBox.transform;
-            ballTransform.DOKill();
-            ballTransform.localScale = _defaultScale;
-            ballTransform.DOPunchScale(_defaultScale * _punchAmount, _punchDuration).SetLink(gameObject);
-
+            if (IsOpen || _waitOpen) return;
+            _waitOpen = true;
+            _spring.PlaySpring();
             _countTap++;
-            if (_countTap >= _numTapToOpen) OpenBox(onOpened);
+            if (_countTap >= _numTapToOpen)
+            {
+                OpenBox();
+                return;
+            }
+            DOVirtual.DelayedCall(_delayTap, () => _waitOpen = false).SetLink(gameObject);
         }
 
-        private void OpenBox(Action onOpened)
+        private void OpenBox()
         {
-            _isOpening = true;
             if (_lightEffect != null) _lightEffect.SetActive(true);
+            // The food pops in while the ball is still opening; waiting for the whole animation feels sluggish.
+            DOVirtual.DelayedCall(_revealDelay, () =>
+            {
+                _itemSlot.RevealIcon();
+                if (ItemSlotAnimator != null) ItemSlotAnimator.Play("open-blind-box");
+            }).SetLink(gameObject);
             _blindBox.AnimationState.SetAnimation(0, _animOnOpen, false).Complete += _ =>
             {
                 _blindBox.gameObject.SetActive(false);
                 if (_lightEffect != null) _lightEffect.SetActive(false);
-                _isOpening = false;
+                _waitOpen = false;
                 IsOpen = true;
-                onOpened?.Invoke();
+                _itemSlot.NotifyBlindBoxOpened();
             };
+        }
+
+        public void CloseBox()
+        {
+            IsOpen = false;
+            _blindBox.gameObject.SetActive(true);
+            if (_lightEffect != null) _lightEffect.SetActive(false);
+            _itemSlot.IconParent.gameObject.SetActive(false);
+            if (Application.isPlaying) _blindBox.AnimationState.SetAnimation(0, _defaultAnim, true);
         }
     }
 }

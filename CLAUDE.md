@@ -181,7 +181,7 @@ When you learn something about this project the hard way — a wrong assumption,
 - UnityMCP `execute_code` may fail ("Operation is not supported on this platform"). To run one-off Editor code, write a temporary EditMode test in `Assets/_ClaudeTemp/Editor/`, run it with `run_tests`, then delete it with `rm-temp.sh`.
 - `refresh_unity(scope="scripts")` does not import newly created `.cs` files — use `scope="all"` after adding scripts.
 - UnityMCP `manage_gameobject(action="duplicate")` on a UI object gives the copy a wrong `anchoredPosition` — set it explicitly afterwards.
-- When the Unity Editor window is not focused, Play Mode can hang in "playmode_transition" or run very slowly (editor throttling). Ask the human to focus Unity, or set Preferences > General > Interaction Mode = No Throttling.
+- When the Unity Editor window is not focused, Play Mode can hang in "playmode_transition" or run very slowly (editor throttling). Ask the human to focus Unity, or set Preferences > General > Interaction Mode = No Throttling. After changing that setting, a run already stuck stays stuck — stop Play Mode and start it again.
 - Player Settings edited in the Unity UI are not on disk until `File > Save Project` (or Editor close); check the file, not the UI.
 - Two `GameManager` classes exist (global and `PLY3.GameManager`); UnityMCP `manage_components` can't resolve `GameManager` — pass `component_type="GameManager, Assembly-CSharp"`.
 - UnityMCP `manage_scriptable_object` can't set `Array.size`, but setting `List.Array.data[i]` grows the list.
@@ -190,7 +190,13 @@ When you learn something about this project the hard way — a wrong assumption,
 - Probes left in `Assets/_ClaudeTemp/` boot themselves in every Play Mode run and drive the game (e.g. auto-feeding the character); delete them right after the run.
 - UnityMCP `manage_gameobject`/`manage_components` by_id or by_path can't find objects under an inactive parent (e.g. `SupermarketLivePanel`); activate the parent temporarily, then restore it.
 - UnityMCP: setting a `List<Component>` field to GameObject IDs stores nulls; set `field.Array.data[i]` to the component's instance ID.
-- Two `BlindBoxItemCtrl` classes exist (global, and `PLY33.Blindbox` used by PLY33); outside that namespace the global one wins — write `PLY33.Blindbox.BlindBoxItemCtrl` in full.
+- PLY33 blindbox states are keyed by the serialized `_StateName`, and a transition only fires if the target is listed in the current state's `_NextStates`/`_CrossStates` — a new state needs both set in the scene.
+- `dotnet build` incremental once reported OK on edited files that no longer compiled; `check-compile.sh` now passes `--no-incremental`.
+- DOTween safe mode logs only "An error inside a tween callback was taken care of" with no stack trace; set `DOTween.useSafeMode = false` in a probe's `Boot` to get the real exception and line.
+- `Assets/Resources/so/supermarketitem-1/halloween/` was recreated outside Unity as `halloweenfood/` with new guids; refs to the old guids are dead (None in the Inspector) — repoint them to the `halloweenfood` assets.
+- Grepping a scene for a script's guid misses components inside prefab instances (the scene only stores the prefab guid) — use UnityMCP `find_gameobjects(search_method="by_component")` before concluding a component is absent.
+- PLY33 balls (machine, fly, table) must use `hlw_qua_cau_SkeletonData` (skins `1`/`2`/`3`); `BlindboxSkin.Apply` throws "Skin not found" on `blindbox_SkeletonData` (the machine) and aborts `SupermarketLivePanel.ShowPanel`.
+- Table blindboxes only appear for foods listed in `SupermarketItemData._blindBoxItems`; an empty list shows every food already open.
 - Switching git branches while Unity is open can fail with "unable to unlink" on scenes Unity holds, leaving a half-applied checkout; check `git status` + console after every switch.
 
 ---

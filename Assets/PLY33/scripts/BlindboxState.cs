@@ -6,15 +6,42 @@ namespace PLY33.Blindbox
     [RequireComponent(typeof(BlindboxStateMachine))]
     public abstract class BlindboxState : MonoBehaviour, IState
     {
-        private BlindboxStateMachine _stateMachine;
+        [SerializeField]
+        protected string _StateName;
 
-        // Lazy: the machine's OnEnable may enter a state before that state's Awake has run.
-        protected BlindboxStateMachine Machine =>
-            _stateMachine != null ? _stateMachine : _stateMachine = GetComponent<BlindboxStateMachine>();
+        [SerializeField]
+        protected string[] _NextStates;
 
-        protected SkeletonGraphic Model => Machine.Model;
+        [SerializeField]
+        protected string[] _CrossStates;
 
-        public abstract string StateName { get; }
+        protected SkeletonGraphic _Model;
+
+        protected BlindboxStateMachine _StateMachine;
+
+        public virtual string StateName
+        {
+            get => _StateName;
+            protected set => _StateName = value;
+        }
+
+        public virtual string[] NextStates
+        {
+            get => _NextStates;
+            protected set => _NextStates = value;
+        }
+
+        public virtual string[] CrossStates
+        {
+            get => _CrossStates;
+            protected set => _CrossStates = value;
+        }
+
+        protected virtual void Awake()
+        {
+            _StateMachine = GetComponent<BlindboxStateMachine>();
+            _Model = _StateMachine.Model;
+        }
 
         public virtual void OnEnter()
         {
@@ -26,9 +53,6 @@ namespace PLY33.Blindbox
 
         public abstract string OnUpdate(float deltaTime);
 
-        public virtual bool IsSuitable()
-        {
-            return true;
-        }
+        public abstract bool IsSuitable();
     }
 }

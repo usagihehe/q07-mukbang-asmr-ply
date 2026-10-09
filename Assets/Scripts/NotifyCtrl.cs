@@ -28,6 +28,9 @@ public class NotifyCtrl : MonoBehaviour
 
     private ContentSizeFitter _contentSizeFitter;
 
+    // When the notify starts inactive, Awake runs inside Show's SetActive(true) and must not hide it again.
+    private bool _isShowing;
+
     private void Awake()
     {
         _rectTransform = GetComponent<RectTransform>();
@@ -41,7 +44,7 @@ public class NotifyCtrl : MonoBehaviour
 
         _originPos = _rectTransform.anchoredPosition;
         _canvasGroup.alpha = 0;
-        gameObject.SetActive(false);
+        if (!_isShowing) gameObject.SetActive(false);
     }
 
     public void Show(string message)
@@ -49,6 +52,7 @@ public class NotifyCtrl : MonoBehaviour
         DOTween.Kill(transform);
         DOTween.Kill(_canvasGroup);
         DOTween.Kill(_rectTransform);
+        _isShowing = true;
         gameObject.SetActive(true);
         _message.text = message;
         if (_contentSizeFitter != null)

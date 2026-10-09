@@ -23,9 +23,6 @@ namespace Usaki
         [SerializeField] protected float _moveTime;
         [SerializeField] protected Ease _ease;
 
-        [Header("Tutorial")]
-        [SerializeField] private GameObject blackBackground;
-
         private int _curTotalPrice;
         private const int MAX_BASKET = 5;
         public BasketCtrl Basket => _basketCtrl;
@@ -48,16 +45,6 @@ namespace Usaki
             _doneBtn.interactable = false;
             // Single-shelf variants have no scroll view.
             if (_scrollRect != null) _scrollRect.horizontalNormalizedPosition = 0f;
-
-            blackBackground.SetActive(true);
-        }
-
-        protected virtual void Update()
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                blackBackground.SetActive(false);
-            }
         }
 
         protected virtual void OnPressDoneBtn()

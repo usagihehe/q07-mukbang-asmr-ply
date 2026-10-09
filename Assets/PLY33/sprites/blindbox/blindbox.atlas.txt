@@ -1,0 +1,41 @@
+blindbox.png
+	size: 1468, 1548
+	filter: Linear, Linear
+	pma: true
+Group 16
+	bounds: 871, 695, 849, 250
+	rotate: 90
+Layer 36
+	bounds: 2, 448, 867, 1096
+Layer 37
+	bounds: 1129, 338, 532, 128
+	rotate: 90
+blindbox-1 copy 2
+	bounds: 938, 84, 188, 189
+	rotate: 90
+blindbox-1 copy 3
+	bounds: 1259, 490, 188, 189
+blindbox-2 copy 2
+	bounds: 1259, 299, 188, 189
+blindbox-2 copy 3
+	bounds: 938, 274, 191, 189
+	rotate: 90
+blindbox-2 copy 4
+	bounds: 720, 2, 191, 189
+blindbox-3 copy 2
+	bounds: 1259, 681, 190, 189
+blindbox-3 copy 3
+	bounds: 1129, 108, 188, 189
+blindbox-gate
+	bounds: 720, 193, 253, 216
+	rotate: 90
+blindbox-glasses
+	bounds: 2, 24, 716, 422
+blindbox-line
+	bounds: 871, 467, 255, 226
+blindbox_light_1
+	bounds: 1123, 872, 672, 170
+	rotate: 90
+blindbox_light_2
+	bounds: 1295, 872, 672, 170
+	rotate: 90

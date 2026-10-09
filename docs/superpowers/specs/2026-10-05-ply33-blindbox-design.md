@@ -68,3 +68,37 @@ No test assembly in the project. Verify: compile + console clean, Play Mode prob
 - Play Mode probe: 3 gacha rounds (ball drops, can't be picked mid-drop, flies to basket showing a ball skin, Done
   enabled at 3) → Done → live panel with 3 slots matching the basket → 3 taps open the ball and reveal the food → eat
   path runs (`OpenItem` + `Consume`); 0 errors.
+
+## Rewrite on the human's stubs (2026-10-06)
+The human replaced the first implementation with decompiled stubs and asked to implement them **without declaring
+any field beyond the stub**.
+
+| Question | Decision |
+|---|---|
+| `LeanTweenType` | DOTween `Ease` |
+| `Coffee.UIParticle` field | Dropped |
+| `ShelfCtrl` base | New empty class |
+| `SupermarketItemListSO` | Added by the human; asset `Assets/PLY33/so/BlindboxGachaItems.asset` |
+| `BlindboxMachineCtrl` | Idle hint: plays `act` every `_actInterval` s while idle; pressing the catcher restarts the countdown |
+| Who starts a round | `BlindboxStateMachine.CatcherBtn` (Act becomes suitable once it is pressed) |
+
+- States are keyed by serialized `_StateName`; transitions need the target in `_NextStates`/`_CrossStates`
+  (`idle→act→gacha→open→idle`, set in the scene) and `IsSuitable()`.
+- The ball drops with `DOAnchorPosY(StartPosY).From()`: its scene position is the landing spot.
+- Table ball: tap → `SpringCtrl.PlaySpring`; `_waitOpen` locks taps for `_delayTap`; open reveals `_itemSlot.IconParent`.
+- Members added only to compile: `IState.NextStates/CrossStates`, `InitialState` override, `GachaItemList` property,
+  `BlindboxActState.Awake` override. No new fields or constants.
+- Unused stub fields: `BlindboxOpenState._mask` (disabling a Mask would show its Image), `BlindboxSlotShelf._blindboxSkins`
+  (skins come from `BlindboxSkin` so machine, basket and table show the same ball).
+- Play Mode probe: 3 rounds `idle>act>gacha>open`, early pick blocked, basket 1→3, Done enabled at 3 → 3 live slots →
+  3 taps open the ball and show the food; 0 errors.
+- Machine anim sequence (human, 2026-10-06): press → `act` once (Act ends on its Complete, `_delayToAct` = wait
+  before it, 0 in scene) → `gacha` once (`_gachaTime` = extra wait after it, 0 in scene) → `gachagacha` once with the ball dropping, then `idle`.
+  Idle and the hint never cut a one-shot that has `idle` queued. Probe timeline: act 0.01s, gacha 0.47s (1 Complete each),
+  gachagacha + drop 0.81s; Idle and the hint do not cut gachagacha. `SupermarketPanel.blackBackground` removed (human).
+- Ball goes to the basket on its own once it lands (human, 2026-10-06): `BlindboxOpenState` calls
+  `BlindboxSlotShelf.Pick()`; the ball is no longer tapped. Probe: 4 catcher presses, no tap → basket 1,2,3,4.
+- Final machine flow (human, 2026-10-06): press → `act` once → `gacha` once and held on its last frame (gate open)
+  → ball drops → flies to the basket → machine returns to `idle` only when the ball arrives. `gachagacha` unused.
+  The basket clears `CanPick` on arrival; `BlindboxOpenState` waits for it. Probe: act 0.01s, gacha 0.48s, drop
+  0.83s, ball leaves machine 1.32s, idle 1.94s; 0 errors.

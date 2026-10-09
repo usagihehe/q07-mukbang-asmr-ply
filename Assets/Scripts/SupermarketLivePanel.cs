@@ -31,6 +31,8 @@ namespace Usaki
         protected int _countItem;
         protected bool _isFirstConsume;
         private bool _canScoreThisHold;
+        private bool _isBoxHintShown;
+        private bool _hasEaten;
         #endregion
 
         private void OnEnable()
@@ -39,11 +41,14 @@ namespace Usaki
             _countItem = 0;
             _isFirstConsume = false;
             _canScoreThisHold = false;
+            _isBoxHintShown = false;
+            _hasEaten = false;
             for (int i = 0; i < _itemMukbangs.Count; i++)
             {
                 _itemMukbangs[i].gameObject.SetActive(false);
                 _itemMukbangs[i].onDone = null;
                 _itemMukbangs[i].onConsume = null;
+                _itemMukbangs[i].onBlindBoxOpened = null;
             }
             if (_tapToMukbang != null) _tapToMukbang.SetActive(true);
             Observer.Instance.AddObserver(ObserverTopic.OnSelectItem, OnSelectItem);
@@ -90,11 +95,41 @@ namespace Usaki
                 _itemMukbangs[index].Init(items[index]);
                 _itemMukbangs[index].onDone = OnDone;
                 _itemMukbangs[index].onConsume = OnConsume;
+                _itemMukbangs[index].onBlindBoxOpened = OnBlindBoxOpened;
             }
             ItemMukbang.BlockPick = false;
 
             GameManager.Instance.SetCountComplete(_countToComplete);
+            ShowFirstHint();
+        }
+
+        // Closed blindboxes hide the food, so the eat tutorial waits until every box is open.
+        private void ShowFirstHint()
+        {
+            SupermarketItemMukbang closedBox = FindClosedBox();
+            if (closedBox == null)
+            {
+                UIManager.Instance.StartEatTutorial(_itemMukbangs[0].transform, _character.mPoint);
+                return;
+            }
+            _isBoxHintShown = true;
+            UIManager.Instance.ClickHandAt(closedBox.transform);
+        }
+
+        private void OnBlindBoxOpened(SupermarketItemMukbang slot)
+        {
+            if (_isBoxHintShown)
+            {
+                _isBoxHintShown = false;
+                UIManager.Instance.StopHand();
+            }
+            if (_hasEaten || FindClosedBox() != null) return;
             UIManager.Instance.StartEatTutorial(_itemMukbangs[0].transform, _character.mPoint);
+        }
+
+        private SupermarketItemMukbang FindClosedBox()
+        {
+            return _itemMukbangs.Find(slot => slot.gameObject.activeSelf && slot.IsBlindBoxClosed);
         }
 
         private void OnDone(ItemMukbang item)
@@ -106,6 +141,7 @@ namespace Usaki
         private void OnConsume(ItemMukbang item)
         {
             if (_tapToMukbang != null) _tapToMukbang.SetActive(false);
+            _hasEaten = true;
             UIManager.Instance.CompleteEatTutorial();
 
             // One press-and-hold scores once, however many bites it produces.

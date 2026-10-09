@@ -1,3 +1,5 @@
+using System;
+using DG.Tweening;
 using DG.Tweening.Core.Easing;
 using Spine.Unity;
 using UnityEngine;
@@ -8,15 +10,19 @@ public class SupermarketItemMukbang : ItemMukbang
 {
     [SerializeField] private float _delayHideTool;
     [SerializeField] private float _timeOpen;
-    [SerializeField] private BlindBoxItemCtrl _blindBox;
+    [SerializeField] private PLY33.Blindbox.BlindBoxItemCtrl _blindBox;
     [SerializeField] protected Transform _iconParent;
+    [SerializeField] private float _revealTime = 0.35f;
+    [SerializeField] private Ease _revealEase = Ease.OutBack;
     protected bool _isOpen;
-    private bool _isOpenBlindBox;
+    private bool _isBlindBox;
     protected ToolCase _toolCase;
     private int _countOpen;
+    public Action<SupermarketItemMukbang> onBlindBoxOpened;
     public SupermarketItemSO Item { get; protected set; }
     public ToolCase ToolCase => _toolCase;
     public Transform IconParent => _iconParent;
+    public bool IsBlindBoxClosed => _isBlindBox && !_blindBox.IsOpen;
 
     public virtual bool Init(SupermarketItemSO item)
     {
@@ -24,14 +30,11 @@ public class SupermarketItemMukbang : ItemMukbang
         Item = item;
         gameObject.SetActive(true);
         //Blindbox item
-        bool isBlindBox = false;
-        if (_blindBox != null && isBlindBox)
-        {
-            _blindBox.Init(Item);
-            _blindBox.CloseBox();
-        }
-        _isOpenBlindBox = !isBlindBox;
-        _iconParent.gameObject.SetActive(!isBlindBox);
+        _isBlindBox = _blindBox != null && SupermarketItemData.Instance.IsBlindBoxItem(Item);
+        if (_blindBox != null) _blindBox.gameObject.SetActive(_isBlindBox);
+        if (_isBlindBox) _blindBox.Init(Item);
+        _iconParent.DOKill();
+        _iconParent.gameObject.SetActive(!_isBlindBox);
         _iconParent.localScale = Vector3.one * Item.OffsetScaleOnTable;
 
         //Parent item
@@ -60,6 +63,16 @@ public class SupermarketItemMukbang : ItemMukbang
         return true;
     }
 
+    /// <summary>Pops the food in from zero scale once its blind box has opened.</summary>
+    public void RevealIcon()
+    {
+        _iconParent.gameObject.SetActive(true);
+        _iconParent.localScale = Vector3.zero;
+        _iconParent.DOScale(Item.OffsetScaleOnTable, _revealTime).SetEase(_revealEase).SetLink(gameObject);
+    }
+
+    public void NotifyBlindBoxOpened() => onBlindBoxOpened?.Invoke(this);
+
     public override EmotionType GetEmotion()
     {
         return Item.Emotion;
@@ -68,11 +81,9 @@ public class SupermarketItemMukbang : ItemMukbang
     public override void OnPointerDown(PointerEventData eventData)
     {
         if (!CanPick()) return;
-        if (!_isOpenBlindBox)
+        if (IsBlindBoxClosed)
         {
-
             _blindBox.OnTapBox();
-            _isOpenBlindBox = _blindBox.IsOpen;
             return;
         }
         if (_isDone) return;
@@ -86,12 +97,13 @@ public class SupermarketItemMukbang : ItemMukbang
 
     public override void OnDrag(PointerEventData eventData)
     {
+        if (IsBlindBoxClosed) return;
         base.OnDrag(eventData);
     }
 
     public override void OnPointerUp(PointerEventData eventData)
     {
-        if (_isDone) return;
+        if (_isDone || IsBlindBoxClosed) return;
         base.OnPointerUp(eventData);
         Observer.Instance.NotifyWithData(ObserverTopic.OnDropItem, this);
         HandleIconAt(_curStep);

@@ -36,6 +36,7 @@ namespace PLY33.Blindbox
         {
             if (!(data is BlindboxSlotShelf ball)) return;
             SlotBasket basketSlot = _basketCtrl.BasketSlots.Find(slot => !slot.IsOccupied);
+            // Basket full: the ball stays in the machine, still pickable.
             if (basketSlot == null) return;
 
             basketSlot.SetItem(ball.Item);
@@ -62,12 +63,15 @@ namespace PLY33.Blindbox
             _flyBall.gameObject.SetActive(true);
             BlindboxSkin.Apply(_flyBall, ball.Item);
             _flyBall.AnimationState.SetAnimation(0, IdleAnim, true);
+            ball.gameObject.SetActive(false);
 
             flyTransform.DOMove(basketSlot.IconWorldPosition, _flyTime)
                 .SetEase(_flyEase)
                 .SetLink(gameObject)
                 .OnComplete(() =>
                 {
+                    // Clearing CanPick tells the machine the ball has arrived, so it returns to idle.
+                    ball.CanPick = false;
                     _flyBall.gameObject.SetActive(false);
                     basketSlot.ShowIcon();
                     _basketCtrl.PlaySpring();

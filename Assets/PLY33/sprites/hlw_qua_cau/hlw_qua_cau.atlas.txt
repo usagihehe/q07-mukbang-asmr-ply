@@ -1,0 +1,21 @@
+hlw_qua_cau.png
+	size: 200, 1004
+	filter: Linear, Linear
+	pma: true
+Layer 1
+	bounds: 2, 857, 176, 98
+blindbox-1-down
+	bounds: 2, 724, 186, 131
+blindbox-1-up
+	bounds: 2, 306, 195, 150
+blindbox-2-down
+	bounds: 2, 591, 186, 131
+blindbox-2-up
+	bounds: 2, 154, 195, 150
+blindbox-3-down
+	bounds: 2, 458, 186, 131
+blindbox-3-up
+	bounds: 2, 2, 195, 150
+star
+	bounds: 2, 957, 42, 49
+	rotate: 90

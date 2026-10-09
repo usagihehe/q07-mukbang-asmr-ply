@@ -1,30 +1,48 @@
+using DG.Tweening;
+using Spine.Unity;
 using UnityEngine;
 using UnityEngine.UI;
-using Usaki;
 
 namespace PLY33.Blindbox
 {
-    /// <summary>Play button of the gacha machine: usable only while the machine is idle and the basket has room.</summary>
-    public class BlindboxMachineCtrl : MonoBehaviour
+    /// <summary>Idle hint: while nobody presses the catcher, the machine plays "act" every interval to invite a tap.</summary>
+    public class BlindboxMachineCtrl : ShelfCtrl
     {
-        [SerializeField] private BlindboxStateMachine _stateMachine;
-        [SerializeField] private Button _playBtn;
-        [SerializeField] private BasketCtrl _basket;
+        [SerializeField]
+        private SkeletonGraphic _model;
+
+        [SerializeField]
+        private Button _playBtn;
+
+        [SerializeField]
+        private float _actInterval = 3f;
 
         private void Awake()
         {
             _playBtn.onClick.AddListener(OnPressPlayBtn);
         }
 
-        private void Update()
+        private void OnEnable()
         {
-            _playBtn.interactable = _stateMachine.IsIdle && !_basket.IsFull;
+            DOTween.Sequence()
+                .AppendInterval(_actInterval)
+                .AppendCallback(PlayGame)
+                .SetLoops(-1)
+                .SetId(this)
+                .SetLink(gameObject, LinkBehaviour.KillOnDisable);
         }
 
         private void OnPressPlayBtn()
         {
-            AudioManager.Instance.PlayAudioClick();
-            _stateMachine.RequestPlay();
+            DOTween.Restart(this);
+        }
+
+        // A disabled button means a round owns the model; a queued animation means a one-shot (gachagacha) is still playing.
+        private void PlayGame()
+        {
+            if (!_playBtn.interactable || _model.AnimationState.GetCurrent(0)?.Next != null) return;
+            _model.AnimationState.SetAnimation(0, "act", false);
+            _model.AnimationState.AddAnimation(0, "idle", true, 0f);
         }
     }
 }

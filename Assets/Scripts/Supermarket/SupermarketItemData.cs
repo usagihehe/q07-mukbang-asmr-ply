@@ -6,6 +6,7 @@ public class SupermarketItemData : ZMonoSingleton<SupermarketItemData>
 {
     [SerializeField] private List<SupermarketItemSO> _items;
     [SerializeField] private List<SupermarketItemSO> _drinkItems;
+    [SerializeField] private List<SupermarketItemSO> _blindBoxItems;
 
     public SupermarketItemSO GetItem(string name)
     {
@@ -18,6 +19,6 @@ public class SupermarketItemData : ZMonoSingleton<SupermarketItemData>
     }
     public bool IsBlindBoxItem(SupermarketItemSO item)
     {
-        return _drinkItems?.Contains(item) ?? false;
+        return _blindBoxItems?.Contains(item) ?? false;
     }
 }
