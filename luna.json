@@ -7560,10 +7560,6 @@
                 "excluded": true
             },
             {
-                "name": "GameSoundSO",
-                "excluded": true
-            },
-            {
                 "name": "ImageState",
                 "excluded": true
             },
@@ -29851,7 +29847,7 @@
                     },
                     {
                         "name": "ClickHandAt",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "MoveHand",
@@ -33054,6 +33050,10 @@
                     {
                         "name": "GetAnimName",
                         "excluded": false
+                    },
+                    {
+                        "name": "IsPlaying",
+                        "excluded": true
                     }
                 ]
             },
@@ -34178,6 +34178,18 @@
                     {
                         "name": "OnEndLiveGamePlay",
                         "excluded": false
+                    },
+                    {
+                        "name": "ShowFirstHint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnBlindBoxOpened",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FindClosedBox",
+                        "excluded": false
                     }
                 ]
             },
@@ -34400,6 +34412,10 @@
                     {
                         "name": "RevealIcon",
                         "excluded": false
+                    },
+                    {
+                        "name": "NotifyBlindBoxOpened",
+                        "excluded": true
                     }
                 ]
             },
@@ -35584,6 +35600,14 @@
                     {
                         "name": "OnPressCatcherBtn",
                         "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HideCatcherHint",
+                        "excluded": true
                     }
                 ]
             },
@@ -36811,6 +36835,16 @@
                     },
                     {
                         "name": "PickPoseIndex",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "GameSoundSO",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "GetSound",
                         "excluded": true
                     }
                 ]

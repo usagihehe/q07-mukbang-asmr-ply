@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mukbangSound: {fileID: 11400000, guid: 164fbaf4035dbf2448c1a071d0c35d04, type: 2}
-  _gameSound: {fileID: 11400000, guid: 4dba329c976292f41b418173f3b70cdb, type: 2}
+  _gameSound: {fileID: 11400000, guid: 8f891f30450133a41bc5546624bf4ce4, type: 2}
   countComplete: 3
   DoneValue: 0
   _coinAmount: 1400

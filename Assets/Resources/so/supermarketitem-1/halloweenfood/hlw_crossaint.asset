@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: hlw_crossaint
   m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
   Emotion: 10
-  EatSound: 9
+  EatSound: 2
   Steps:
   - {fileID: 21300000, guid: 76b1e6c8c46c76d45b319283e9f328cb, type: 3}
   - {fileID: 21300000, guid: 10ae5b6eede8de340b34dd4ce3ce5ca8, type: 3}

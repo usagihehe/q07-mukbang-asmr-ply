@@ -196,7 +196,8 @@ When you learn something about this project the hard way — a wrong assumption,
 - `Assets/Resources/so/supermarketitem-1/halloween/` was recreated outside Unity as `halloweenfood/` with new guids; refs to the old guids are dead (None in the Inspector) — repoint them to the `halloweenfood` assets.
 - Grepping a scene for a script's guid misses components inside prefab instances (the scene only stores the prefab guid) — use UnityMCP `find_gameobjects(search_method="by_component")` before concluding a component is absent.
 - PLY33 balls (machine, fly, table) must use `hlw_qua_cau_SkeletonData` (skins `1`/`2`/`3`); `BlindboxSkin.Apply` throws "Skin not found" on `blindbox_SkeletonData` (the machine) and aborts `SupermarketLivePanel.ShowPanel`.
-- Table blindboxes only appear for foods listed in `SupermarketItemData._blindBoxItems`; an empty list shows every food already open.
+- Table blindboxes only appear for foods listed in `SupermarketItemData._blindBoxItems`; an empty list shows every food already open. In PLY33 that list must contain every food in `Assets/PLY33/so/BlindboxGachaItems.asset`, or the missing ones land on the table already open.
+- Spine `TrackEntry.Complete` never fires if another `SetAnimation` interrupts the entry; character states poll `CharacterCtrl.IsPlaying(entry)` instead of waiting on Complete.
 - Switching git branches while Unity is open can fail with "unable to unlink" on scenes Unity holds, leaving a half-applied checkout; check `git status` + console after every switch.
 
 ---

@@ -1,22 +1,17 @@
 using DG.Tweening.Core.Easing;
+using Spine;
 using Usaki;
 using UnityEngine;
 
 public class AfterEatState : CharBaseState
 {
-    private bool _isPlay;
+    private TrackEntry _emotionEntry;
     private ItemMukbang _itemMukbang;
     public override void EnterState()
     {
-        _isPlay = true;
-        _itemMukbang = _stateMachine.MukbangItem;
+        _itemMukbang = _stateMachine.EatenItem;
         AudioManager.Instance.PlaySoundEffect(GetSound());
-        _character.PlayAnimByName(GetEmotion(), false, delegate
-        {
-            _isPlay = false;
-            _character.PlayAnimByName(CharacterCtrl.IDLE, true);
-            AudioManager.Instance.StopSoundEffect();
-        });
+        _emotionEntry = _character.PlayAnimByName(GetEmotion(), false);
     }
 
     private AudioClip GetSound()
@@ -32,7 +27,7 @@ public class AfterEatState : CharBaseState
 
     public override string Execute(float dt)
     {
-        if (_isPlay)
+        if (_character.IsPlaying(_emotionEntry))
         {
             return StateMachine.AfterEatState;
         }
@@ -45,6 +40,7 @@ public class AfterEatState : CharBaseState
 
     public override void ExitState()
     {
+        AudioManager.Instance.StopSoundEffect();
     }
 
     private string GetAnimEmotion(EmotionType emotionType)

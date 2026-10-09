@@ -20,6 +20,12 @@ public class CharacterCtrl : MonoBehaviour
         return trackfalse;
     }
 
+    // Polled instead of relying on Complete: an interrupted entry never fires Complete.
+    public bool IsPlaying(TrackEntry entry)
+    {
+        return entry != null && _skeleton.AnimationState.GetCurrent(0) == entry && !entry.IsComplete;
+    }
+
     private void OnEnable()
     {
         PlayAnimByName(IDLE, true, null);

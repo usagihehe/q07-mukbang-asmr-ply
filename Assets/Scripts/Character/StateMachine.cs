@@ -30,6 +30,9 @@ namespace Usaki
 
         public ItemMukbang MukbangItem { get; set; }
 
+        // MukbangItem follows the latest pick, which can change while a bite is still playing.
+        public ItemMukbang EatenItem { get; set; }
+
         public float DistanceBeforeEat => _distanceBeforeEat;
 
         public float DistanceEating => _distanceEating;
