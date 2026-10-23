@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf4f87e10d8584686855f22735226a, type: 3}
+  m_Name: drink_nut_milk_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemData
+  ID: 63
+  FoodName: nut_milk
+  ToolFull: {fileID: 0}
+  EndSmallPhase: {fileID: 0}
+  EndBigPhase: {fileID: 21300000, guid: 8c18c8f08765b26498281c1c3f70b57a, type: 3}
+  SmallPhases: []
+  BigPhases:
+  - {fileID: 21300000, guid: 56dd9d7148079754493fe57ccd18af14, type: 3}
+  - {fileID: 21300000, guid: fc0e20d83adfd2742a4c9861fab59388, type: 3}
+  - {fileID: 21300000, guid: 8e43bc29526ecfe488fbb6b088ccf7cc, type: 3}
+  - {fileID: 21300000, guid: 02c00027b535bce4c98d56dec85b4c82, type: 3}
+  - {fileID: 21300000, guid: 6986bfa63dd91f143829f435ed05844b, type: 3}
+  SmallPhasesPos: []
+  BigPhasesPos: []
+  Emotion: 6
+  EatSound: 1
+  LevelUnlock: 14
+  UnlockValue: 150
+  BonusValue: 5

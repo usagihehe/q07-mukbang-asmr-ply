@@ -5,6 +5,7 @@ using Spine.Unity;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using Usaki;
+using Capyboba.Mukbang;
 
 public class SupermarketItemMukbang : ItemMukbang
 {
@@ -20,6 +21,10 @@ public class SupermarketItemMukbang : ItemMukbang
     private int _countOpen;
     public Action<SupermarketItemMukbang> onBlindBoxOpened;
     public SupermarketItemSO Item { get; protected set; }
+    public override EatStyle Style => _toolCase == ToolCase.Nothing ? EatStyle.Hold : EatStyle.Spoon;
+    // Drinks are bitten from above the cup, matching the old +50 mouth offset.
+    public override Vector3 EatPoint => SupermarketItemData.Instance.IsDrinkItem(Item) ? _tool.transform.position + Vector3.up * 50f : _tool.transform.position;
+    public override SoundType EatSound => Item.EatSound;
     public ToolCase ToolCase => _toolCase;
     public Transform IconParent => _iconParent;
     public bool IsBlindBoxClosed => _isBlindBox && !_blindBox.IsOpen;

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf4f87e10d8584686855f22735226a, type: 3}
+  m_Name: tray_rau_cu_tron_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemData
+  ID: 2
+  FoodName: rau_cu_tron
+  ToolFull: {fileID: 21300000, guid: 6273f8070a96add4ca988422b03d71f8, type: 3}
+  EndSmallPhase: {fileID: 21300000, guid: 3078759b963ac734b9c866498bb937bd, type: 3}
+  EndBigPhase: {fileID: 21300000, guid: 2e94cc30c007131408bc059635bf43e8, type: 3}
+  SmallPhases:
+  - {fileID: 21300000, guid: 41e9e6f5e1ed10444acbea4091c844fd, type: 3}
+  - {fileID: 21300000, guid: 6f8f66275a6a45a48b7d30e8e1058150, type: 3}
+  - {fileID: 21300000, guid: d2412aae8d8e4e1429a1a581624ae75f, type: 3}
+  BigPhases:
+  - {fileID: 21300000, guid: 2196f9949f627914ba5577340398ecbb, type: 3}
+  - {fileID: 21300000, guid: 7e889777ecec134428b51a9df0e501a1, type: 3}
+  - {fileID: 21300000, guid: f5938846d171c654d97e017533569214, type: 3}
+  - {fileID: 21300000, guid: 242541c12a52ce24d89e3e62f8205a23, type: 3}
+  SmallPhasesPos:
+  - {x: 0, y: 5}
+  BigPhasesPos:
+  - {x: 0, y: 0}
+  Emotion: 4
+  EatSound: 2
+  LevelUnlock: 0
+  UnlockValue: 0
+  BonusValue: 4

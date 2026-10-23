@@ -1,4 +1,3 @@
-using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -34,6 +33,7 @@ public class ScanItem : DragDropItem
         if (item == null) { return false; }
         _itemSO = item;
         _iconCtrl.ActiveIcon(item);
+        _iconCtrl.transform.localScale = Vector3.one * item.OffsetScaleOnTable;
         return true;
     }
 
@@ -64,12 +64,5 @@ public class ScanItem : DragDropItem
             transform.position = _origionPos;
             transform.eulerAngles = _originRotate;
         }
-    }
-
-    private void OnValidate()
-    {
-        _iconCtrl = transform.GetChild(0).GetComponent<ItemSpmkIconCtrl>();
-        _offset = new Vector2(0, 150f);
-
     }
 }

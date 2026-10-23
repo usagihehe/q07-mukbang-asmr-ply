@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
-using Usaki;
 
 public class PayMachineState : MonoBehaviour
 {
@@ -18,24 +17,26 @@ public class PayMachineState : MonoBehaviour
     private PayMachineCtrl _payMachine;
     [SerializeField]
     private GameObject _handObj;
-    [SerializeField] protected Dictionary<string, CharBaseState> _states;
+    protected Dictionary<string, CharBaseState> _states;
     public ScanItem SelectItem;
     public float DistanceScan => _distanceScan;
     public string CurrentState => _currentState;
 
-    protected virtual void OnEnable()
+    private void Awake()
     {
-        Observer.Instance.AddObserver(ObserverTopic.OnSelectItem, OnSelectItem);
-        Observer.Instance.AddObserver(ObserverTopic.OnDropItem, OnDropItem);
-
         _states = new Dictionary<string, CharBaseState>()
         {
             {Idle, GetComponent<PayIdleState>() },
             {WaitScan, GetComponent<WaitScanState>() },
             {Scan, GetComponent<ScanState>() },
             {Done, GetComponent<PayDoneState>() },
-
         };
+    }
+
+    protected virtual void OnEnable()
+    {
+        Observer.Instance.AddObserver(ObserverTopic.OnSelectItem, OnSelectItem);
+        Observer.Instance.AddObserver(ObserverTopic.OnDropItem, OnDropItem);
         _currentState = Idle;
         if (_states.ContainsKey(_currentState))
         {
@@ -78,14 +79,14 @@ public class PayMachineState : MonoBehaviour
         return _states.ContainsKey(stateName) ? _states[stateName] : null;
     }
 
+    // Food items share these topics; only ScanItems belong to the pay machine.
     private void OnSelectItem(object data)
     {
-        if (data == null) return;
-        SelectItem = data as ScanItem;
+        if (data is ScanItem item) SelectItem = item;
     }
 
     private void OnDropItem(object data)
     {
-        SelectItem = null;
+        if (data is ScanItem item && item == SelectItem) SelectItem = null;
     }
 }

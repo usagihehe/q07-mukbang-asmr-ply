@@ -218,7 +218,7 @@ MonoBehaviour:
   m_text: Not Enough Money
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 854442baf6dd10642a5b6eb0e03dc0cb, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 60937103f99f752489e2fb51c94022ea, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 5989f36dd5bfb27499b703e5260317fe, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

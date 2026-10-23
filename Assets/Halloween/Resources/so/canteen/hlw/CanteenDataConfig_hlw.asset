@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11e37a0a8f216744afcd7b499800c1c, type: 3}
+  m_Name: CanteenDataConfig_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.CanteenDataConfig
+  _bowlFoodDatas:
+  - {fileID: 11400000, guid: f4f98ec0d99970b4a8dc7e6b36b8b93c, type: 2}
+  - {fileID: 11400000, guid: 230fa756ab4d40e4084f9b9bb9e83fde, type: 2}
+  - {fileID: 11400000, guid: b121aec58eb59d344b2408fdb8c2c549, type: 2}
+  - {fileID: 11400000, guid: 7b81fad630cda3949b95ebeb8ce79ef1, type: 2}
+  - {fileID: 11400000, guid: 463b261145ea98842b5b720b4f2bb12d, type: 2}
+  - {fileID: 11400000, guid: 643f8877bc52b6f43a6bfb85a7952b15, type: 2}
+  - {fileID: 11400000, guid: a042ebb093f4c90429e2b8703bd36985, type: 2}
+  - {fileID: 11400000, guid: 0dd60f4dba0b25f48892c4f071f3ce01, type: 2}
+  - {fileID: 11400000, guid: ba67cb0d903d0fd4a9a7626a17ff5c1b, type: 2}
+  - {fileID: 11400000, guid: e6804d56cb463524fb2a1d6cea3c2e0e, type: 2}
+  - {fileID: 11400000, guid: 7fce04f891495814680d4c8134c1dd5f, type: 2}
+  - {fileID: 11400000, guid: 127cd92c9135002448531d2102900b97, type: 2}
+  - {fileID: 11400000, guid: 93e96f96298bf474a866a12832c45642, type: 2}
+  - {fileID: 11400000, guid: 543af9e0459b7864bacdbecb873f3847, type: 2}
+  - {fileID: 11400000, guid: a0f8ed45ae97944499f53e3bb71b799b, type: 2}
+  - {fileID: 11400000, guid: 5017e70deed074e448f349d4cfa722ac, type: 2}
+  - {fileID: 11400000, guid: 4a1ec5c9cd2369644a15b5bc7f3d54f7, type: 2}
+  - {fileID: 11400000, guid: e2a36bb743420e04cb4268835b08d33a, type: 2}
+  - {fileID: 11400000, guid: 8833fc0ae6ca709428ee4a585cf6c7a5, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c892509c9282044d99e2b58175d44e9, type: 3}
+  m_Name: bowl_steak_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.BowlFoodData
+  Id: 8
+  FoodName: steak
+  PieceSprite: {fileID: 21300000, guid: 228cf6a22a6701b48961450d1b0f5a73, type: 3}
+  FullSprite: {fileID: 21300000, guid: 0730d6309d383e64ab45bfc2c5965b19, type: 3}
+  UsedSprite: {fileID: 21300000, guid: 1d174bdd537ce464bbdd13865c83151a, type: 3}
+  LockedSprite: {fileID: 21300000, guid: 3d20fcdca4de1d24195f7fec83b6dae0, type: 3}
+  soundPick: {fileID: 8300000, guid: 5efcaa2fad7e28b44b45b962773c66cc, type: 3}
+  soundDrop: {fileID: 8300000, guid: 5efcaa2fad7e28b44b45b962773c66cc, type: 3}

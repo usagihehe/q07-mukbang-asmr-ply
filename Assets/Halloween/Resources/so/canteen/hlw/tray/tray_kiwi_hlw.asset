@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf4f87e10d8584686855f22735226a, type: 3}
+  m_Name: tray_kiwi_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemData
+  ID: 17
+  FoodName: kiwi
+  ToolFull: {fileID: 21300000, guid: c6164a6c27ee528409538de5cf3c2952, type: 3}
+  EndSmallPhase: {fileID: 21300000, guid: c12e006c61169044ea3cc9420449a967, type: 3}
+  EndBigPhase: {fileID: 21300000, guid: f02b7a5ee1fe1914f930a93024e3f12d, type: 3}
+  SmallPhases:
+  - {fileID: 21300000, guid: 7821dae63febfc84cb22f2acf69e7a73, type: 3}
+  - {fileID: 21300000, guid: 904d662bb3f577246952ed2671645f87, type: 3}
+  - {fileID: 21300000, guid: 29b6c7201c1661c4a9253e35903a8a75, type: 3}
+  BigPhases:
+  - {fileID: 21300000, guid: 0a9589863a095b64e8879cbc7ab19100, type: 3}
+  - {fileID: 21300000, guid: 299afe4b14355fe46942877f9f838279, type: 3}
+  - {fileID: 21300000, guid: 30cbd04063268234b8591018f42cd2b9, type: 3}
+  - {fileID: 21300000, guid: 757c7aa3f48dffb4eb247a3c3d88c178, type: 3}
+  SmallPhasesPos:
+  - {x: -4.3, y: 14.7}
+  BigPhasesPos:
+  - {x: -3.9, y: 8.8}
+  Emotion: 10
+  EatSound: 2
+  LevelUnlock: 11
+  UnlockValue: 150
+  BonusValue: 5

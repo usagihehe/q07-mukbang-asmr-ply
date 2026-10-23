@@ -1,5 +1,3 @@
-using Usaki;
-
 public class WaitScanState : CharBaseState
 {
     private PayMachineCtrl _payMachine;
@@ -8,13 +6,8 @@ public class WaitScanState : CharBaseState
 
     protected override void Awake()
     {
-        _stateName = PayMachineState.WaitScan;
         _payMachine = GetComponent<PayMachineCtrl>();
         _payMachineState = GetComponent<PayMachineState>();
-        _nextStates = new string[]
-        {
-              PayMachineState.Scan
-        };
     }
 
     public override void EnterState()

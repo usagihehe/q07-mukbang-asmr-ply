@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf4f87e10d8584686855f22735226a, type: 3}
+  m_Name: drink_berry_smoothie_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemData
+  ID: 61
+  FoodName: berry_smoothie
+  ToolFull: {fileID: 0}
+  EndSmallPhase: {fileID: 0}
+  EndBigPhase: {fileID: 21300000, guid: db22e8bca8d69fd4b843172cdf93896b, type: 3}
+  SmallPhases: []
+  BigPhases:
+  - {fileID: 21300000, guid: 07698067791e99346ac46ef30ac04a7b, type: 3}
+  - {fileID: 21300000, guid: 67ddca569740fc94bafa8263cfc79348, type: 3}
+  - {fileID: 21300000, guid: 8e21e741c343b7f4799f834569b2c613, type: 3}
+  - {fileID: 21300000, guid: 2821a6761d150a544b05ba6b4de27483, type: 3}
+  SmallPhasesPos: []
+  BigPhasesPos: []
+  Emotion: 6
+  EatSound: 1
+  LevelUnlock: 9
+  UnlockValue: 150
+  BonusValue: 5

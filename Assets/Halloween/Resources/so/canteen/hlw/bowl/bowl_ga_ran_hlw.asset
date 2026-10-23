@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c892509c9282044d99e2b58175d44e9, type: 3}
+  m_Name: bowl_ga_ran_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.BowlFoodData
+  Id: 3
+  FoodName: ga_ran
+  PieceSprite: {fileID: 21300000, guid: 8af0f0bf5feace447a8a10cf41128614, type: 3}
+  FullSprite: {fileID: 21300000, guid: 69a272676fd80ed47afddeb48c87b7b3, type: 3}
+  UsedSprite: {fileID: 21300000, guid: be786209917e6304ebd1035db79729cf, type: 3}
+  LockedSprite: {fileID: 0}
+  soundPick: {fileID: 8300000, guid: 75e21d3a0bda1e446908225ac57f8b52, type: 3}
+  soundDrop: {fileID: 8300000, guid: 75e21d3a0bda1e446908225ac57f8b52, type: 3}

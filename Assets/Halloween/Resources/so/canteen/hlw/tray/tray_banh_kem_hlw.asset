@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf4f87e10d8584686855f22735226a, type: 3}
+  m_Name: tray_banh_kem_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemData
+  ID: 5
+  FoodName: banh_kem
+  ToolFull: {fileID: 21300000, guid: 1ebe0dbf2255950499b45f3c586c8a7b, type: 3}
+  EndSmallPhase: {fileID: 21300000, guid: c91be3367448fcb4a993bb742ce1b439, type: 3}
+  EndBigPhase: {fileID: 21300000, guid: d7cca9bb25784f64a807f584795e8000, type: 3}
+  SmallPhases:
+  - {fileID: 21300000, guid: 19f53b1dc46b7c542adac4bc596815a8, type: 3}
+  - {fileID: 21300000, guid: 2c14c1dc24a265a4db34ce6274f8e3fa, type: 3}
+  - {fileID: 21300000, guid: 27f1ad359c40a95408f9df8f0b44b050, type: 3}
+  BigPhases:
+  - {fileID: 21300000, guid: a956de405e58a2f4cba4e3f2ea625c48, type: 3}
+  - {fileID: 21300000, guid: 04e30f61383750f4b85674fdca62a154, type: 3}
+  - {fileID: 21300000, guid: edd705e5fe50e644a981748166e7d75c, type: 3}
+  - {fileID: 21300000, guid: fa9ce8c15878e67448782e5fb9c69c88, type: 3}
+  SmallPhasesPos:
+  - {x: 0, y: 37}
+  BigPhasesPos:
+  - {x: 0, y: 28}
+  Emotion: 11
+  EatSound: 2
+  LevelUnlock: 0
+  UnlockValue: 0
+  BonusValue: 5

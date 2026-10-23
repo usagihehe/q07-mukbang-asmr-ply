@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf4f87e10d8584686855f22735226a, type: 3}
+  m_Name: tray_banh_mi_bo_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemData
+  ID: 39
+  FoodName: banh_mi_bo
+  ToolFull: {fileID: 21300000, guid: 1d8bc1c15bb442444a044ce37843b514, type: 3}
+  EndSmallPhase: {fileID: 21300000, guid: daa8491cc82249a48a2663210996367d, type: 3}
+  EndBigPhase: {fileID: 21300000, guid: f4b0584f5a1e43c45876ee6a829cf14f, type: 3}
+  SmallPhases:
+  - {fileID: 21300000, guid: 0ff380344d132d149835ca04973af87b, type: 3}
+  - {fileID: 21300000, guid: d713878f1f40d444583beb46d96ab2f8, type: 3}
+  - {fileID: 21300000, guid: 2e88cb73320f0ff4c900ab0a7034e321, type: 3}
+  BigPhases:
+  - {fileID: 21300000, guid: e8d14799aa3432144bc87c88a87b7d2b, type: 3}
+  - {fileID: 21300000, guid: a41123a510f32a144ac3c29a82dd51d3, type: 3}
+  - {fileID: 21300000, guid: 9d3370a9d9f824c419636c74142e31bc, type: 3}
+  - {fileID: 21300000, guid: 91e73e6ffe0f8704486a67f6747ec139, type: 3}
+  SmallPhasesPos:
+  - {x: 0, y: 4.4}
+  BigPhasesPos:
+  - {x: 0, y: 12}
+  Emotion: 11
+  EatSound: 5
+  LevelUnlock: 0
+  UnlockValue: 0
+  BonusValue: 6

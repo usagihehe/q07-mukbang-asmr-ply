@@ -916,7 +916,7 @@ MonoBehaviour:
   m_text: Tap To Mukbang
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 854442baf6dd10642a5b6eb0e03dc0cb, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 60937103f99f752489e2fb51c94022ea, type: 2}
+  m_sharedMaterial: {fileID: -8206485093900579974, guid: 854442baf6dd10642a5b6eb0e03dc0cb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1992,7 +1992,7 @@ MonoBehaviour:
   m_text: 00000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 854442baf6dd10642a5b6eb0e03dc0cb, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 60937103f99f752489e2fb51c94022ea, type: 2}
+  m_sharedMaterial: {fileID: -8206485093900579974, guid: 854442baf6dd10642a5b6eb0e03dc0cb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2760,8 +2760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b1f4f59414f51d4b890f154ec6bd707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stateName: 
-  _nextStates: []
 --- !u!114 &2121370869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2774,9 +2772,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa18014fb377cd346911b9521433462e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stateName: 
-  _nextStates: []
-  _waitTime: 0
 --- !u!114 &2121370870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2789,8 +2784,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e1cf7a32046184681e2718957089ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stateName: 
-  _nextStates: []
 --- !u!114 &2121370871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2803,8 +2796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4e539cacdf3ef4aa10c63a9b6933bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _stateName: 
-  _nextStates: []
   _timeHungry: 5
 --- !u!114 &2121370872
 MonoBehaviour:
@@ -2820,8 +2811,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _distanceBeforeEat: 80
   _distanceEating: 50
+  _group: 0
   _currentState: 
-  IsSelectItem: 0
 --- !u!114 &2121370873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4731,7 +4722,7 @@ MonoBehaviour:
   m_text: 4000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 854442baf6dd10642a5b6eb0e03dc0cb, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 60937103f99f752489e2fb51c94022ea, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 5989f36dd5bfb27499b703e5260317fe, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

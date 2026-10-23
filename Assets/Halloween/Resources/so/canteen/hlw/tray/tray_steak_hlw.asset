@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf4f87e10d8584686855f22735226a, type: 3}
+  m_Name: tray_steak_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemData
+  ID: 8
+  FoodName: steak
+  ToolFull: {fileID: 21300000, guid: f9c4eaa1fad57e441aaf0ed948cd4408, type: 3}
+  EndSmallPhase: {fileID: 21300000, guid: 4a80746024bf5784fb0c21ff22f248f4, type: 3}
+  EndBigPhase: {fileID: 21300000, guid: 3a4e0a7a8aba0e941b433a45467d7c6e, type: 3}
+  SmallPhases:
+  - {fileID: 21300000, guid: fff5dafb9f25d2c439c4633e243f6db3, type: 3}
+  - {fileID: 21300000, guid: b9165576ee1ce0f409143902e85599fc, type: 3}
+  - {fileID: 21300000, guid: 06ee7f4e188ef474cb2f9b379ae991c5, type: 3}
+  BigPhases:
+  - {fileID: 21300000, guid: 8042c98da8f05464a9e6942e54f95ffc, type: 3}
+  - {fileID: 21300000, guid: 328815b0923a07b41be60ae4795a4005, type: 3}
+  - {fileID: 21300000, guid: f8c8aec26b9656d4fa6db489af9fc332, type: 3}
+  - {fileID: 21300000, guid: 0fce8d206af40b142be0ffefd83d15a3, type: 3}
+  SmallPhasesPos:
+  - {x: 0, y: 13.5}
+  BigPhasesPos:
+  - {x: -2, y: 12.3}
+  Emotion: 13
+  EatSound: 2
+  LevelUnlock: 2
+  UnlockValue: 70
+  BonusValue: 5

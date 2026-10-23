@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11e37a0a8f216744afcd7b499800c1c, type: 3}
+  m_Name: CanteenDataConfig_ply34
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.CanteenDataConfig
+  _bowlFoodDatas:
+  - {fileID: 11400000, guid: 2e58f1e94f17df44989b9f3279aebc33, type: 2}
+  - {fileID: 11400000, guid: 20a3175b6c57f554bac7447142df5cad, type: 2}
+  - {fileID: 11400000, guid: e2d7987b09a39ab4d85c2b64862443c2, type: 2}
+  - {fileID: 11400000, guid: a7ca35ad9193ca24a8fd7e7c6a230e7a, type: 2}
+  - {fileID: 11400000, guid: b5cbab1f4f8ae97478f410a6b6a812ba, type: 2}

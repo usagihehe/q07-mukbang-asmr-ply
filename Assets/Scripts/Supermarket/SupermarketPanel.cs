@@ -53,11 +53,6 @@ namespace Usaki
             ShowOuttro(() => gameObject.SetActive(false));
         }
 
-        protected virtual void OnPressXBtn()
-        {
-            ShowOuttro(() => gameObject.SetActive(false));
-        }
-
         protected virtual void OnDisable()
         {
             Observer.Instance.RemoveObserver(ObserverTopic.OnPickItem, OnPickItem);

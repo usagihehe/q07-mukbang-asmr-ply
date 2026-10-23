@@ -59,7 +59,7 @@ namespace PLY32
 
         private void PlayRandomPose()
         {
-            string poseAnim = _character.GetAnimEmotion(_poses[PickPoseIndex()]);
+            string poseAnim = GetAnimEmotion(_poses[PickPoseIndex()]);
             TrackEntry pose = _character.PlayAnimByName(poseAnim, false);
             pose.Complete += delegate
             {
@@ -67,6 +67,31 @@ namespace PLY32
                 if (_character.Skeleton.AnimationState.GetCurrent(0) == pose)
                     _character.PlayAnimByName(CharacterCtrl.IDLE, true);
             };
+        }
+
+        // Same mapping as AfterEatState's private helper; CharacterCtrl no longer exposes it.
+        private static string GetAnimEmotion(EmotionType emotionType)
+        {
+            switch (emotionType)
+            {
+                case EmotionType.Blow: return CharacterCtrl.EMOJI_BLOW;
+                case EmotionType.Burp: return CharacterCtrl.EMOJI_BURP;
+                case EmotionType.Cool: return CharacterCtrl.EMOJI_COOL;
+                case EmotionType.Cute: return CharacterCtrl.EMOJI_CUTE;
+                case EmotionType.Demon: return CharacterCtrl.EMOJI_DEMON;
+                case EmotionType.Drink: return CharacterCtrl.EMOJI_DRINK;
+                case EmotionType.Drooling: return CharacterCtrl.EMOJI_DROOLING;
+                case EmotionType.Freeze: return CharacterCtrl.EMOJI_FREEZE;
+                case EmotionType.Fresh: return CharacterCtrl.EMOJI_FRESH;
+                case EmotionType.Happy: return CharacterCtrl.EMOJI_HAPPY;
+                case EmotionType.Licklips: return CharacterCtrl.EMOJI_LICKLIPS;
+                case EmotionType.Rainbow: return CharacterCtrl.EMOJI_RAINBOW;
+                case EmotionType.Relax: return CharacterCtrl.EMOJI_RELAX;
+                case EmotionType.Shock: return CharacterCtrl.EMOJI_SHOCK;
+                case EmotionType.Sour: return CharacterCtrl.EMOJI_SOUR;
+                case EmotionType.Spicy: return CharacterCtrl.EMOJI_SPICY;
+                default: return CharacterCtrl.IDLE;
+            }
         }
 
         private int PickPoseIndex()

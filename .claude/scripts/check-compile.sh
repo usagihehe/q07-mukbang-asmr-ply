@@ -5,7 +5,7 @@
 #
 # CONFIGURE for your project:
 CSPROJ="Assembly-CSharp.csproj"   # Unity-generated game project
-SRC_DIRS=(Assets/Scripts Assets/Usaki Assets/PLY31 Assets/PLY32 Assets/PLY33)  # where game code lives
+SRC_DIRS=(Assets/Scripts Assets/Usaki Assets/PLY31 Assets/PLY32 Assets/PLY33 Assets/Halloween)  # where game code lives
 # Errors matching this (case-insensitive) come from third-party references that never resolve outside Unity
 # (e.g. Firebase). When ONLY these remain, dotnet stopped at declaration binding and never checked method
 # bodies, so the result is reported as INCONCLUSIVE (exit 2) instead of OK. Empty = disabled.

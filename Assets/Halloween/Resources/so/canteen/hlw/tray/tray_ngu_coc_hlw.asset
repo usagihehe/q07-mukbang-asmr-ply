@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf4f87e10d8584686855f22735226a, type: 3}
+  m_Name: tray_ngu_coc_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemData
+  ID: 4
+  FoodName: ngu_coc
+  ToolFull: {fileID: 21300000, guid: 53b773ef35c2d40448fe3c5d22218271, type: 3}
+  EndSmallPhase: {fileID: 21300000, guid: 4aa252c6190743844846b05306fe6094, type: 3}
+  EndBigPhase: {fileID: 21300000, guid: cd78d3d33725e264bae31c1fbb1d94a6, type: 3}
+  SmallPhases:
+  - {fileID: 21300000, guid: f26b77aec05c9104faa10bcea80738e9, type: 3}
+  - {fileID: 21300000, guid: cf131c7d11123ba499dd22f4e38cda1e, type: 3}
+  - {fileID: 21300000, guid: aa19d56a4f04c8a428b0115667b0bb90, type: 3}
+  BigPhases:
+  - {fileID: 21300000, guid: 7a9dbd70212e54f428e182865fad5e50, type: 3}
+  - {fileID: 21300000, guid: 9d085fbed2937384481cb2c5bd44271f, type: 3}
+  - {fileID: 21300000, guid: cdfcdabe2d6c0e943948427a2200c87a, type: 3}
+  - {fileID: 21300000, guid: c2f73fe472580af488abacafb706646c, type: 3}
+  SmallPhasesPos:
+  - {x: -5, y: 5}
+  BigPhasesPos:
+  - {x: 0, y: 11}
+  Emotion: 12
+  EatSound: 4
+  LevelUnlock: 0
+  UnlockValue: 0
+  BonusValue: 4

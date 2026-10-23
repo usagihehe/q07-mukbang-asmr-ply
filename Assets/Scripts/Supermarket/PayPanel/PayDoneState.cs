@@ -1,5 +1,4 @@
 using UnityEngine;
-using Usaki;
 
 public class PayDoneState : CharBaseState
 {
@@ -7,7 +6,6 @@ public class PayDoneState : CharBaseState
 
     protected override void Awake()
     {
-        _stateName = PayMachineState.Done;
         _payMachine = GetComponent<PayMachineCtrl>();
     }
 

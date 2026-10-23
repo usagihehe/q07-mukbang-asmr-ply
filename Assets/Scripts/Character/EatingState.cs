@@ -1,43 +1,28 @@
-using DG.Tweening.Core.Easing;
-using Usaki;
+using Capyboba.Mukbang;
 using Spine;
-using Spine.Unity;
-using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 
-public class EatingState : CharBaseState
+public class EatingState : CharBaseState, IBiteAnimator
 {
-    private TrackEntry _biteEntry;
-    private SupermarketItemMukbang _itemSmk;
-
-    protected override void Awake()
-    {
-        base.Awake();
-    }
+    private TrackEntry _entry;
+    private BiteStatus _status;
 
     public override void EnterState()
     {
-        _itemSmk = _stateMachine.MukbangItem as SupermarketItemMukbang;
-        _biteEntry = null;
-        // IS SUPERMARKET
-        if (_itemSmk == null) return;
-        _stateMachine.EatenItem = _itemSmk;
-        EatOneBite();
+        _entry = null;
+        _status = BiteStatus.Completed;
+        _stateMachine.Brain.BeginEating();
     }
 
     public override string Execute(float dt)
     {
-        //OTHER FOOD
-        if (_character.IsPlaying(_biteEntry)) return StateMachine.EatingState;
-        AudioManager.Instance.StopSoundEffect();
-        // Going back through Idle for one frame cuts the Spine mix and makes the next bite snap.
-        if (IsStillAtMouth())
-        {
-            EatOneBite();
-            return StateMachine.EatingState;
-        }
-        return _stateMachine.IsSelectItem ? StateMachine.BeforeEatState : StateMachine.AfterEatState;
+        // Another script replaced our animation, so its Complete callback will never run.
+        if (_status == BiteStatus.Playing && !_character.IsCurrent(_entry)) _status = BiteStatus.Interrupted;
+        if (_status != BiteStatus.Playing) AudioManager.Instance.StopSoundEffect();
+
+        EaterState next = _stateMachine.Brain.TickEating(_stateMachine.Mouth, _status);
+        if (next != EaterState.Eating) AudioManager.Instance.StopSoundEffect();
+        return StateMachine.ToKey(next);
     }
 
     public override void ExitState()
@@ -49,31 +34,24 @@ public class EatingState : CharBaseState
         return true;
     }
 
-    private void EatOneBite()
+    public void PlayBite(IEdible item)
     {
-        PlayEatAnimation(_itemSmk.Item);
-        _itemSmk.Consume();
+        _status = BiteStatus.Playing;
+        AudioClip sound = GameManager.Instance.CharSound.GetEatSound(item.EatSound);
+        if (sound != null) AudioManager.Instance.PlaySoundEffect(sound);
+        _entry = _character.PlayAnimByName(GetAnimName(item.EatSound), false, _ => _status = BiteStatus.Completed);
     }
 
-    // The player may drop this food and pick another mid-bite; only keep biting the one still held.
-    private bool IsStillAtMouth()
+    private string GetAnimName(SoundType type)
     {
-        return _itemSmk != null && !_itemSmk.IsDone && _stateMachine.IsSelectItem
-               && _stateMachine.MukbangItem == _itemSmk
-               && _stateMachine.Distance() < _stateMachine.DistanceEating;
-    }
-
-    private void PlayEatAnimation(MukbangItemSO item)
-    {
-        string animName = GetAnimName(item);
-        if (GameManager.Instance.CharSound.GetEatSound(item.EatSound) != null)
-            AudioManager.Instance.PlaySoundEffect(GameManager.Instance.CharSound.GetEatSound(item.EatSound));
-        _biteEntry = _character.PlayAnimByName(animName, false);
-    }
-
-    private string GetAnimName(MukbangItemSO item)
-    {
-        return _character.GetAnimName(item.EatSound);
+        switch (type)
+        {
+            case SoundType.Drink:
+                return CharacterCtrl.MOUTH_DRINK;
+            case SoundType.Noodle:
+                return CharacterCtrl.MOUTH_NOODLE;
+            default:
+                return CharacterCtrl.MOUTH_EAT;
+        }
     }
 }
-

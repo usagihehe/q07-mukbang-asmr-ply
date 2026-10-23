@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c892509c9282044d99e2b58175d44e9, type: 3}
+  m_Name: bowl_banh_mi_ply34
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.BowlFoodData
+  Id: 6
+  FoodName: banh_mi
+  PieceSprite: {fileID: 21300000, guid: 561c92d0defba0c40b276cac52498eee, type: 3}
+  FullSprite: {fileID: 21300000, guid: e3daecb04d4a3d04d8a4ccf81ef7f889, type: 3}
+  UsedSprite: {fileID: 21300000, guid: d4e2ad02bc8fbda49b68136f941c9b84, type: 3}
+  LockedSprite: {fileID: 0}
+  soundPick: {fileID: 8300000, guid: 266b9aa67b5c33c4bb85394e549111d2, type: 3}
+  soundDrop: {fileID: 8300000, guid: 266b9aa67b5c33c4bb85394e549111d2, type: 3}

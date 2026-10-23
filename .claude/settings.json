@@ -14,23 +14,25 @@
       "Bash(grep * ./Assets/Usaki/**)",
       "Bash(find ./Assets/Usaki *)",
       "Bash(bash .claude/scripts/check-compile.sh)",
-      "Bash(bash .claude/scripts/rm-temp.sh *)",
       "mcp__UnityMCP__refresh_unity",
       "mcp__UnityMCP__read_console"
     ],
     "ask": [
       "Bash(git reset --hard*)",
       "mcp__UnityMCP__delete_script",
-      "mcp__UnityMCP__manage_build"
+      "mcp__UnityMCP__manage_build",
+      "Bash(rm:*)",
+      "Bash(del:*)",
+      "Bash(Remove-Item:*)",
+      "Bash(rmdir:*)",
+      "Bash(git rm:*)",
+      "Bash(git clean:*)",
+      "Bash(bash .claude/scripts/rm-temp.sh *)"
     ],
     "deny": [
       "Read(**/.env)",
       "Read(**/.env.*)",
       "Bash(git push*)",
-      "Bash(rm:*)",
-      "Bash(del:*)",
-      "Bash(Remove-Item:*)",
-
       "Edit(ProjectSettings/**)",
       "Edit(**/*.meta)"
     ]
@@ -49,9 +51,8 @@
     "soft_deny": [
       "$defaults",
       "git push, git reset --hard, git checkout -- on files, or deleting branches",
-      "Deleting files or folders under Assets/",
       "Changing Packages/manifest.json or adding/removing Unity packages",
-      "UnityMCP execute_code, delete_script, manage_build, manage_packages",
+      "UnityMCP execute_code, manage_build, manage_packages",
       "Saving scenes or prefabs through UnityMCP"
     ],
     "hard_deny": [
@@ -61,6 +62,18 @@
     ]
   },
   "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__UnityMCP__manage_asset|mcp__UnityMCP__manage_gameobject|mcp__UnityMCP__manage_components",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/scripts/ask-on-mcp-delete.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
     "PostToolUse": [
       {
         "matcher": "Edit|Write|Bash",

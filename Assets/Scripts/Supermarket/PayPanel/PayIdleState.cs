@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Usaki;
 
 public class PayIdleState : CharBaseState
 {
@@ -10,18 +9,14 @@ public class PayIdleState : CharBaseState
 
     protected override void Awake()
     {
-        _stateName = PayMachineState.Idle;
         _payMachineState = GetComponent<PayMachineState>();
         _payMachine = GetComponent<PayMachineCtrl>();
-        _nextStates = new string[]
-        {
-            PayMachineState.WaitScan
-        };
     }
 
     public override void EnterState()
     {
         if (_payMachineState == null) _payMachineState = GetComponent<PayMachineState>();
+        //_payMachineState.SelectItem = null;
         if (_payMachine == null) _payMachine = GetComponent<PayMachineCtrl>();
         _payMachine.Scan.SetState(IMGState.OFF);
         _payMachine.ScaneEffect.gameObject.SetActive(false);

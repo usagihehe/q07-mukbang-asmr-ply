@@ -1,6 +1,6 @@
 using DG.Tweening;
 using UnityEngine;
-using Usaki;
+using UnityEngine.SocialPlatforms;
 
 public class ScanState : CharBaseState
 {
@@ -17,14 +17,8 @@ public class ScanState : CharBaseState
 
     protected override void Awake()
     {
-        _stateName = PayMachineState.Scan;
         _payMachine = GetComponent<PayMachineCtrl>();
         _payMachineState = GetComponent<PayMachineState>();
-        _nextStates = new string[]
-        {
-              PayMachineState.Idle,
-              PayMachineState.Done
-        };
     }
 
     public override void EnterState()
@@ -71,6 +65,9 @@ public class ScanState : CharBaseState
 
     public override void ExitState()
     {
+        // A scanned item is locked (BlockControl) and never sends OnDropItem, so release it here;
+        // otherwise Idle sees it still selected and lights the scanner with an empty hand.
+        if (_payMachineState.SelectItem == _item) _payMachineState.SelectItem = null;
         _item = null;
         _isExecute = false;
     }

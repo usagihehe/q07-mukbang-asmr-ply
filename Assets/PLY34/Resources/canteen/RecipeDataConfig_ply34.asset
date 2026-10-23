@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c821d578e08221343a80ded5cfdf9794, type: 3}
+  m_Name: RecipeDataConfig_ply34
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.RecipeDataConfig
+  _recipes:
+  - ResultId: 36
+    ResultName: tiramisu_dau
+    IngredientIds: 0500000007000000
+    Ingredients: 5;7
+  - ResultId: 37
+    ResultName: tiramisu_dua_hau
+    IngredientIds: 050000000f000000
+    Ingredients: 5;15
+  - ResultId: 40
+    ResultName: banh_mi_xuc_xich
+    IngredientIds: 060000000c000000
+    Ingredients: 6;12

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d5e623940eaa344b74abaacc8cd621, type: 3}
+  m_Name: TrayFoodItemSO_ply34
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemSO
+  _foodItems:
+  - {fileID: 11400000, guid: 9a820059f7a2d994f9ddcff4d7521d3f, type: 2}
+  - {fileID: 11400000, guid: d021641b835fd3b4d81fcb3343f36d27, type: 2}
+  - {fileID: 11400000, guid: 1f5c4c8f1a9998a44ab616ec576fdbf7, type: 2}
+  - {fileID: 11400000, guid: 6056881ca8ab2ff45b636542084a349b, type: 2}
+  - {fileID: 11400000, guid: 4705f667f64daf846b24acb46eb2f827, type: 2}
+  - {fileID: 11400000, guid: d6190b30dd5a5dc40b0c4b8094376a62, type: 2}
+  - {fileID: 11400000, guid: 0f6ab7fbc49f28146a81e66df4e15ab8, type: 2}
+  - {fileID: 11400000, guid: 61bf429d90ba111408d81838cb50f94c, type: 2}
+  _canteenDataConfig: {fileID: 11400000, guid: 15ec176c7ed1d5341bf7ef8ee15dcd5c, type: 2}
+  _recipeDataConfig: {fileID: 11400000, guid: 8ab09df0a1ce5804593e63904f32a38a, type: 2}

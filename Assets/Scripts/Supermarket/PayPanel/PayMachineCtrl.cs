@@ -1,4 +1,3 @@
-using DG.Tweening;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,17 +39,21 @@ public class PayMachineCtrl : MonoBehaviour
     [SerializeField] private GameObject _thankScreen;
 
     private Dictionary<PayScreen, GameObject> _screens;
+
     private Dictionary<SupermarketItemSO, int> _itemBill;
+
     private PayScreen _curScreen;
+
     private int _countScan;
 
-    public Action onFirstScan;
-
     public ImageState Scan => _scan;
-    public Transform FirstScanItem => _scanItems.Length > 0 ? _scanItems[0].transform : null;
+
     public Image ScaneEffect => _scanEffect;
+
     public TransformTweenAnim Direct => _direct;
+
     public Button DoneBtn => _doneBtn;
+
     public List<SupermarketItemSO> Items { get; private set; }
 
     public PayScreen CurScreen
@@ -85,6 +88,7 @@ public class PayMachineCtrl : MonoBehaviour
     private void OnEnable()
     {
         _itemBill = new Dictionary<SupermarketItemSO, int>();
+        CurScreen = PayScreen.Scan; // the previous checkout left the Thank screen on
         _scan.SetState(IMGState.OFF);
         ScaneEffect.gameObject.SetActive(false);
         _countScan = 0;
@@ -117,10 +121,6 @@ public class PayMachineCtrl : MonoBehaviour
 
     public void PrintItem(SupermarketItemSO item)
     {
-        if (_countScan == 0)
-        {
-            onFirstScan?.Invoke();
-        }
         _countScan++;
         if (_itemBill.ContainsKey(item))
         {

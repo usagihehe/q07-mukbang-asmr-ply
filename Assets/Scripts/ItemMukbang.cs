@@ -1,10 +1,11 @@
+using Capyboba.Mukbang;
 using DG.Tweening;
 using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ItemMukbang : MonoBehaviour, IDragHandler, IEventSystemHandler, IPointerDownHandler, IPointerUpHandler
+public class ItemMukbang : MonoBehaviour, IDragHandler, IEventSystemHandler, IPointerDownHandler, IPointerUpHandler, IEdible
 {
     public static bool BlockPick;
 
@@ -34,6 +35,14 @@ public class ItemMukbang : MonoBehaviour, IDragHandler, IEventSystemHandler, IPo
     public Vector2 Offset => new Vector2(0, _heightOffset);
 
     public int CurStep => _curStep;
+
+    public virtual EatStyle Style => EatStyle.Spoon;
+
+    public virtual EaterGroup Group => EaterGroup.Main;
+
+    public virtual Vector3 EatPoint => _tool.transform.position;
+
+    public virtual SoundType EatSound => SoundType.Eat;
 
     public virtual bool IsDone
     {

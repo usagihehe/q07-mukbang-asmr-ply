@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf4f87e10d8584686855f22735226a, type: 3}
+  m_Name: tray_ga_ran_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemData
+  ID: 3
+  FoodName: ga_ran
+  ToolFull: {fileID: 21300000, guid: 14165760225f6354bbc9e946f328b4ed, type: 3}
+  EndSmallPhase: {fileID: 21300000, guid: ec63652bf8c471342a5a4ea4789f3c07, type: 3}
+  EndBigPhase: {fileID: 21300000, guid: 1c556579a045a52488ceaf698c4f58a7, type: 3}
+  SmallPhases:
+  - {fileID: 21300000, guid: fb907b55d5106c9488023e9b16ff41fe, type: 3}
+  - {fileID: 21300000, guid: 5fb05985f882b9540a828a57b296b9fa, type: 3}
+  - {fileID: 21300000, guid: 99736819404713a468dbaf2ea712bb70, type: 3}
+  BigPhases:
+  - {fileID: 21300000, guid: b8af0eb3a051cb54da8334b0497ce035, type: 3}
+  - {fileID: 21300000, guid: fe2c53bbbce0eb442bf9343dd89c4cd6, type: 3}
+  - {fileID: 21300000, guid: c376e6dc89850a64891e9f034888ffec, type: 3}
+  - {fileID: 21300000, guid: 78d9981d5f7af88469c9f56dcc33364d, type: 3}
+  SmallPhasesPos:
+  - {x: 0, y: 18}
+  BigPhasesPos:
+  - {x: -3.5, y: 33}
+  Emotion: 10
+  EatSound: 9
+  LevelUnlock: 0
+  UnlockValue: 0
+  BonusValue: 4

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf4f87e10d8584686855f22735226a, type: 3}
+  m_Name: drink_peach_soda_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemData
+  ID: 60
+  FoodName: peach_soda
+  ToolFull: {fileID: 0}
+  EndSmallPhase: {fileID: 0}
+  EndBigPhase: {fileID: 21300000, guid: 88888f6c4c76d8f4091abf2aac6b65bf, type: 3}
+  SmallPhases: []
+  BigPhases:
+  - {fileID: 21300000, guid: 7b1b9ed45b06d7842b01df092388c5bb, type: 3}
+  - {fileID: 21300000, guid: c27fcb062c26527438ccb78102280376, type: 3}
+  - {fileID: 21300000, guid: aa015f2328a7edf44bb385129b3eadb9, type: 3}
+  - {fileID: 21300000, guid: aed0ac2acf4382748abaa835a84cd470, type: 3}
+  - {fileID: 21300000, guid: e8798e6752e669645ae0c48b3f276e1e, type: 3}
+  SmallPhasesPos: []
+  BigPhasesPos: []
+  Emotion: 6
+  EatSound: 1
+  LevelUnlock: 3
+  UnlockValue: 90
+  BonusValue: 5

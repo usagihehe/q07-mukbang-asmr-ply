@@ -1,7 +1,5 @@
 using Spine;
 using Spine.Unity;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class CharacterCtrl : MonoBehaviour
@@ -15,15 +13,25 @@ public class CharacterCtrl : MonoBehaviour
 
     public TrackEntry PlayAnimByName(string animName, bool loop, Spine.AnimationState.TrackEntryDelegate callbackOnComplete = null)
     {
-        TrackEntry trackfalse = _skeleton.AnimationState.SetAnimation(0, animName, loop);
-        trackfalse.Complete += callbackOnComplete;
-        return trackfalse;
+        TrackEntry trackEntry = _skeleton.AnimationState.SetAnimation(0, animName, loop);
+        AddCompleteCallback(trackEntry, callbackOnComplete);
+        return trackEntry;
     }
 
-    // Polled instead of relying on Complete: an interrupted entry never fires Complete.
-    public bool IsPlaying(TrackEntry entry)
+    public bool IsCurrent(TrackEntry entry)
     {
-        return entry != null && _skeleton.AnimationState.GetCurrent(0) == entry && !entry.IsComplete;
+        return entry != null && _skeleton.AnimationState.GetCurrent(0) == entry;
+    }
+
+    // Spine still fires Complete on a replaced entry while it mixes out (defaultMix 0.2s),
+    // so a stale callback could override the animation that replaced it.
+    private void AddCompleteCallback(TrackEntry entry, Spine.AnimationState.TrackEntryDelegate callback)
+    {
+        if (callback == null) return;
+        entry.Complete += e =>
+        {
+            if (IsCurrent(e)) callback(e);
+        };
     }
 
     private void OnEnable()
@@ -41,6 +49,7 @@ public class CharacterCtrl : MonoBehaviour
     public const string EMOJI_FREEZE = "Emoji_Freeze";
     public const string EMOJI_FRESH = "Emoji_Fresh";
     public const string EMOJI_HAPPY = "Emoji_Happy";
+    public const string EMOJI_SAD = "Emoji_Sad";
     public const string EMOJI_LICKLIPS = "Emoji_Licklips";
     public const string EMOJI_RAINBOW = "Emoji_Rainbow";
     public const string EMOJI_RELAX = "Emoji_Relax";
@@ -53,8 +62,6 @@ public class CharacterCtrl : MonoBehaviour
     public const string MOUTH_NOODLE = "Mouth_Noodle";
     public const string MOUTH_OPEN = "Mouth_Open";
     public const string TALK = "Talk";
-    public const string EMOJI_SAD = "Emoji_Sad";
-
 
     public static readonly string[] EMOJIS = new string[]
     {
@@ -83,95 +90,10 @@ public class CharacterCtrl : MonoBehaviour
         TrackEntry trackEntry = _skeleton.AnimationState.SetAnimation(0, animName, loop);
 
         // Attach a callback to be called when the animation completes (if provided)
-        if (callbackOnComplete != null)
-            trackEntry.Complete += callbackOnComplete;
+        AddCompleteCallback(trackEntry, callbackOnComplete);
 
         // Return the TrackEntry for further use if needed
         return trackEntry;
     }
-    public string GetAnimEmotion(EmotionType emotionType)
-    {
-        string animName = CharacterCtrl.IDLE;
-        switch (emotionType)
-        {
-            case EmotionType.Blow:
-                animName = CharacterCtrl.EMOJI_BLOW;
-                break;
-            case EmotionType.Burp:
-                animName = CharacterCtrl.EMOJI_BURP;
-                break;
-            case EmotionType.Cool:
-                animName = CharacterCtrl.EMOJI_COOL;
-                break;
-            case EmotionType.Cute:
-                animName = CharacterCtrl.EMOJI_CUTE;
-                break;
-            case EmotionType.Demon:
-                animName = CharacterCtrl.EMOJI_DEMON;
-                break;
-            case EmotionType.Drink:
-                animName = CharacterCtrl.EMOJI_DRINK;
-                break;
-            case EmotionType.Drooling:
-                animName = CharacterCtrl.EMOJI_DROOLING;
-                break;
-            case EmotionType.Freeze:
-                animName = CharacterCtrl.EMOJI_FREEZE;
-                break;
-            case EmotionType.Fresh:
-                animName = CharacterCtrl.EMOJI_FRESH;
-                break;
-            case EmotionType.Happy:
-                animName = CharacterCtrl.EMOJI_HAPPY;
-                break;
-            case EmotionType.Licklips:
-                animName = CharacterCtrl.EMOJI_LICKLIPS;
-                break;
-            case EmotionType.Rainbow:
-                animName = CharacterCtrl.EMOJI_RAINBOW;
-                break;
-            case EmotionType.Relax:
-                animName = CharacterCtrl.EMOJI_RELAX;
-                break;
-            case EmotionType.Shock:
-                animName = CharacterCtrl.EMOJI_SHOCK;
-                break;
-            case EmotionType.Sour:
-                animName = CharacterCtrl.EMOJI_SOUR;
-                break;
-            case EmotionType.Spicy:
-                animName = CharacterCtrl.EMOJI_SPICY;
-                break;
-            case EmotionType.None:
-            default:
-                animName = CharacterCtrl.IDLE;
-                break;
-        }
-
-        return animName;
-    }
-
-    public string GetAnimName(SoundType type)
-    {
-        string soundName = MOUTH_EAT;
-
-        switch (type)
-        {
-            case SoundType.Drink:
-                soundName = MOUTH_DRINK;
-                break;
-            case SoundType.Noodle:
-                soundName = MOUTH_NOODLE;
-                break;
-            default:
-                soundName = MOUTH_EAT;
-                break;
-        }
-
-        return soundName;
-    }
 
 }
-
-
-

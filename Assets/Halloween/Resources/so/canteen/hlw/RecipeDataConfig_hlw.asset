@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c821d578e08221343a80ded5cfdf9794, type: 3}
+  m_Name: RecipeDataConfig_hlw
+  m_EditorClassIdentifier: Assembly-CSharp::SLunch.RecipeDataConfig
+  _recipes:
+  - ResultId: 30
+    ResultName: com_tron
+    IngredientIds: 0000000002000000
+    Ingredients: 0;2
+  - ResultId: 31
+    ResultName: com_hai_san
+    IngredientIds: 1e00000009000000
+    Ingredients: 30;9
+  - ResultId: 32
+    ResultName: ngu_coc_sua
+    IngredientIds: 0100000004000000
+    Ingredients: 1;4
+  - ResultId: 33
+    ResultName: ngu_coc_sua_dau
+    IngredientIds: 2000000007000000
+    Ingredients: 32;7
+  - ResultId: 34
+    ResultName: ngu_coc_sua_dua_hau
+    IngredientIds: 200000000f000000
+    Ingredients: 32;15
+  - ResultId: 35
+    ResultName: ngu_coc_sua_dao
+    IngredientIds: 2000000010000000
+    Ingredients: 32;16
+  - ResultId: 36
+    ResultName: tiramisu_dau
+    IngredientIds: 0500000007000000
+    Ingredients: 5;7
+  - ResultId: 37
+    ResultName: tiramisu_dua_hau
+    IngredientIds: 050000000f000000
+    Ingredients: 5;15
+  - ResultId: 38
+    ResultName: tiramisu_dao
+    IngredientIds: 0500000010000000
+    Ingredients: 5;16
+  - ResultId: 39
+    ResultName: banh_mi_bo
+    IngredientIds: 0600000008000000
+    Ingredients: 6;8
+  - ResultId: 40
+    ResultName: banh_mi_xuc_xich
+    IngredientIds: 060000000c000000
+    Ingredients: 6;12
+  - ResultId: 41
+    ResultName: com_sot_nam
+    IngredientIds: 000000000b000000
+    Ingredients: 0;11
+  - ResultId: 42
+    ResultName: xuc_xich_xien_ban
+    IngredientIds: 0c0000000e000000
+    Ingredients: '12;14 '
+  - ResultId: 43
+    ResultName: com_xuc_xich
+    IngredientIds: 000000000c000000
+    Ingredients: 0;12
+  - ResultId: 44
+    ResultName: com_xuc_xich_rau_cu
+    IngredientIds: 1e0000000c000000
+    Ingredients: 30;12
+  - ResultId: 45
+    ResultName: sua_ngu_coc_kiwi
+    IngredientIds: 2000000011000000
+    Ingredients: 32;17
