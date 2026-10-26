@@ -23,10 +23,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: fc0e20d83adfd2742a4c9861fab59388, type: 3}
   - {fileID: 21300000, guid: 8e43bc29526ecfe488fbb6b088ccf7cc, type: 3}
   - {fileID: 21300000, guid: 02c00027b535bce4c98d56dec85b4c82, type: 3}
-  - {fileID: 21300000, guid: 6986bfa63dd91f143829f435ed05844b, type: 3}
   SmallPhasesPos: []
   BigPhasesPos: []
-  Emotion: 6
+  Emotion: 9
   EatSound: 1
   LevelUnlock: 14
   UnlockValue: 150

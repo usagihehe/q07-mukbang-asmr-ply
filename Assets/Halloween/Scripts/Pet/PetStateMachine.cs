@@ -81,7 +81,7 @@ namespace Pet
 
         public float Distance()
         {
-            return Vector3.Distance(_character.mPoint.transform.position, Held.EatPoint);
+            return Vector3.Distance(_character.mPoint.transform.position, Held.EatPoint) / Held.CanvasScale;
         }
 
         private void OnSelectItem(object data)

@@ -44,7 +44,7 @@ public class GameManager : ZMonoSingleton<GameManager>
         if (!_useCoinCost) return true;
         if (_coinAmount < amount) return false;
         _coinAmount -= amount;
-        _coinBar?.TakeCoin(amount);
+        if (_coinBar != null) _coinBar.TakeCoin(amount);
         return true;
     }
 
@@ -58,7 +58,7 @@ public class GameManager : ZMonoSingleton<GameManager>
         IsCompleteGame = false;
         countComplete = 0;
         SetCountComplete(4);
-        _coinBar?.ResetCoin(_coinAmount);
+        if (_coinBar != null) _coinBar.ResetCoin(_coinAmount);
         Luna.Unity.LifeCycle.GameStarted();
         Luna.Unity.LifeCycle.GameLoaded();
     }

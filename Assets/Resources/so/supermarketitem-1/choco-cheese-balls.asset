@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
   m_Name: choco-cheese-balls
   m_EditorClassIdentifier: 
-  Emotion: 11
+  Emotion: 2
   EatSound: 5
   Steps:
   - {fileID: 21300000, guid: be7d726d5443893418452476c1c3fc34, type: 3}

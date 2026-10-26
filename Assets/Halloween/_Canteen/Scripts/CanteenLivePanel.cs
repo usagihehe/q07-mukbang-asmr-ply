@@ -18,6 +18,7 @@ namespace SLunch.Livestream
         //[SerializeField] private TextMeshProUGUI _viewerTxt;
         //[SerializeField] private TextMeshProUGUI _liveTxt;
         [SerializeField] private Image _flash;
+        [SerializeField] private GameObject _lockImage;
 
         [Header("Character & Coin")]
         [SerializeField] private CharacterCtrl _character;
@@ -61,6 +62,17 @@ namespace SLunch.Livestream
             }
             _drinkMukbang.gameObject.SetActive(false);
             _drinkMukbang.onDone = null;
+            Observer.Instance.AddObserver(ObserverTopic.OnEndLiveGamePlay, OnEndLiveGamePlay);
+        }
+
+        private void OnDisable()
+        {
+            Observer.Instance.RemoveObserver(ObserverTopic.OnEndLiveGamePlay, OnEndLiveGamePlay);
+        }
+
+        private void OnEndLiveGamePlay(object data)
+        {
+            if (_lockImage != null) _lockImage.SetActive(true);
         }
 
         public void ShowPanel(Dictionary<int, TrayFoodItemDTO> itemDataDict, FoodItemData drinkData)
@@ -122,7 +134,7 @@ namespace SLunch.Livestream
 
         private void ClaimCoin(int coinClaim = 30)
         {
-            _coinBarCtrl.AddCoin(coinClaim);
+            if (_coinBarCtrl != null) _coinBarCtrl.AddCoin(coinClaim);
         }
 
         public void ShowIntro(Action onCompleted)

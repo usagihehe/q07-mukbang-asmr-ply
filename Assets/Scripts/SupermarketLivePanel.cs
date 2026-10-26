@@ -33,6 +33,7 @@ namespace Usaki
         private bool _canScoreThisHold;
         private bool _isBoxHintShown;
         private bool _hasEaten;
+        private bool _isDrinkSipped;
         #endregion
 
         private void OnEnable()
@@ -43,6 +44,7 @@ namespace Usaki
             _canScoreThisHold = false;
             _isBoxHintShown = false;
             _hasEaten = false;
+            _isDrinkSipped = false;
             for (int i = 0; i < _itemMukbangs.Count; i++)
             {
                 _itemMukbangs[i].gameObject.SetActive(false);
@@ -82,6 +84,20 @@ namespace Usaki
         private void OnDropItem(object data)
         {
             UIManager.Instance.OnEatSlotRelease();
+            if (IsDrink(data)) ScoreDrinkSession();
+        }
+
+        // Sipping without letting go is one drink; it scores when the cup leaves the mouth (the emotion plays).
+        private void ScoreDrinkSession()
+        {
+            if (!_isDrinkSipped) return;
+            _isDrinkSipped = false;
+            GameManager.Instance.UpdateCountComplete();
+        }
+
+        private static bool IsDrink(object item)
+        {
+            return item is SupermarketItemMukbang supermarketItem && SupermarketItemData.Instance.IsDrinkItem(supermarketItem.Item);
         }
 
         public void ShowPanel(List<SupermarketItemSO> items)
@@ -136,6 +152,8 @@ namespace Usaki
         {
             _countItem++;
             ClaimCoin(item);
+            // A finished cup with a last frame never sends OnDropItem (OnPointerUp skips done items).
+            if (IsDrink(item)) ScoreDrinkSession();
         }
 
         private void OnConsume(ItemMukbang item)
@@ -143,6 +161,12 @@ namespace Usaki
             if (_tapToMukbang != null) _tapToMukbang.SetActive(false);
             _hasEaten = true;
             UIManager.Instance.CompleteEatTutorial();
+
+            if (IsDrink(item))
+            {
+                _isDrinkSipped = true;
+                return;
+            }
 
             // One press-and-hold scores once, however many bites it produces.
             if (!_canScoreThisHold) return;

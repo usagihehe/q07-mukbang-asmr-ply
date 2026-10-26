@@ -30,7 +30,7 @@ MonoBehaviour:
   - {x: 0, y: 11}
   BigPhasesPos:
   - {x: 0, y: 8.6}
-  Emotion: 4
+  Emotion: 2
   EatSound: 2
   LevelUnlock: 8
   UnlockValue: 150

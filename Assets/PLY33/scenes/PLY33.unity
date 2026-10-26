@@ -683,6 +683,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spmkIconCtrl: {fileID: 653036526}
+  _timeMove: 0
+  _moveEase: 0
+  _timeFly: 0
+  _flyHigh: {x: 0, y: 0, z: 0}
+  _fadeEase: 0
   Item: {fileID: 0}
 --- !u!1 &166716247
 GameObject:
@@ -1237,6 +1242,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spmkIconCtrl: {fileID: 1234739980}
+  _timeMove: 0
+  _moveEase: 0
+  _timeFly: 0
+  _flyHigh: {x: 0, y: 0, z: 0}
+  _fadeEase: 0
   Item: {fileID: 0}
 --- !u!1 &368414663
 GameObject:
@@ -1562,6 +1572,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385748992}
   m_CullTransparentMesh: 1
+--- !u!1 &405819700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 405819701}
+  - component: {fileID: 405819703}
+  - component: {fileID: 405819702}
+  m_Layer: 0
+  m_Name: Renderer2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &405819701
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405819700}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 721654754}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &405819702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405819700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deeb12332c062954093c24a3fab10b83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!222 &405819703
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405819700}
+  m_CullTransparentMesh: 0
 --- !u!1 &435873138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,6 +1687,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spmkIconCtrl: {fileID: 547217372}
+  _timeMove: 0
+  _moveEase: 0
+  _timeFly: 0
+  _flyHigh: {x: 0, y: 0, z: 0}
+  _fadeEase: 0
   Item: {fileID: 0}
 --- !u!1 &451813228
 GameObject:
@@ -3116,6 +3196,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spmkIconCtrl: {fileID: 1747976215}
+  _timeMove: 0
+  _moveEase: 0
+  _timeFly: 0
+  _flyHigh: {x: 0, y: 0, z: 0}
+  _fadeEase: 0
   Item: {fileID: 0}
 --- !u!1 &653036522
 GameObject:
@@ -3424,6 +3509,7 @@ RectTransform:
   m_Children:
   - {fileID: 49700986}
   - {fileID: 1987774897}
+  - {fileID: 405819701}
   m_Father: {fileID: 555576981}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3472,6 +3558,7 @@ MonoBehaviour:
   canvasRenderers:
   - {fileID: 49700988}
   - {fileID: 1987774899}
+  - {fileID: 405819703}
   separatorSlotNames: []
   enableSeparatorSlots: 0
   separatorParts: []
@@ -6054,6 +6141,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spmkIconCtrl: {fileID: 1300524004}
+  _timeMove: 0
+  _moveEase: 0
+  _timeFly: 0
+  _flyHigh: {x: 0, y: 0, z: 0}
+  _fadeEase: 0
   Item: {fileID: 0}
 --- !u!1 &1549093758
 GameObject:
@@ -7223,7 +7315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1987774897
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7914,8 +8006,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a0b89c985f2ed4eb4baa51165e0fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _distanceBeforeEat: 80
-  _distanceEating: 50
+  _distanceBeforeEat: 74
+  _distanceEating: 46
   _group: 0
   _currentState: 
 --- !u!114 &2121370873

@@ -91,7 +91,7 @@ namespace SLunch.Livestream
             _isOpen = true;
             _curStep--;
             HandleIconAt(_curStep);
-            AudioManager.Instance.PlaySoundEffect(GameManager.Instance.GameSound.GetSound("Take-Item"));
+            AudioManager.Instance.PlaySoundEffect(GameManager.Instance.GameSound.GetSound("click"));
         }
 
         protected void HandleIconAt(int index, bool active = true)

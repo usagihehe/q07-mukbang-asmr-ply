@@ -45,7 +45,7 @@ MonoBehaviour:
   - Type: 5
     AudioClip: {fileID: 8300000, guid: 4280c78caff69234987f720ef13a3b9f, type: 3}
   - Type: 6
-    AudioClip: {fileID: 8300000, guid: b7b78a77e29333b47823baabd5118205, type: 3}
+    AudioClip: {fileID: 0}
   - Type: 7
     AudioClip: {fileID: 8300000, guid: 6b27c5e2e0d316a44b73408a3e63f7e1, type: 3}
   - Type: 8

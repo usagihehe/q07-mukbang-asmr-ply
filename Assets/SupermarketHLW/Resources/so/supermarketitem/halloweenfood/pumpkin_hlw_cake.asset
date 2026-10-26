@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be3016d30b2e3a4fb3e8a6c1896b8c3, type: 3}
+  m_Name: pumpkin_hlw_cake
+  m_EditorClassIdentifier: Assembly-CSharp::SupermarketItemSO
+  Emotion: 10
+  EatSound: 2
+  Steps:
+  - {fileID: 21300000, guid: 4632ae5fdd2e75e4a9ceff0883323dd1, type: 3}
+  - {fileID: 21300000, guid: 8ff7bf41f008c9d4d8aee44adfdb8b6d, type: 3}
+  - {fileID: 21300000, guid: 590caaa3c9a5c1b428d9193462e482c0, type: 3}
+  - {fileID: 21300000, guid: 2b5323b2f76259f459ff57410ece2f90, type: 3}
+  - {fileID: 21300000, guid: 6697ae89d15030e44b9b96daa415a147, type: 3}
+  - {fileID: 21300000, guid: 97d6883c5d69bf242b0e19a5a70b637d, type: 3}
+  ShelfName: 
+  Tool: {fileID: 21300000, guid: f94fc3df46e1bd2449f01d55ac63ead7, type: 3}
+  Price: 300
+  BonusPercent: 10
+  OffsetScaleOnTable: 1

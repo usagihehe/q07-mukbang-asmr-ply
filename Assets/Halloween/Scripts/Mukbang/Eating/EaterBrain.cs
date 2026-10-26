@@ -102,7 +102,7 @@ namespace Capyboba.Mukbang
 
         private static float Distance(Vector3 mouth, IEdible item)
         {
-            return Vector3.Distance(mouth, item.EatPoint);
+            return Vector3.Distance(mouth, item.EatPoint) / item.CanvasScale;
         }
     }
 }

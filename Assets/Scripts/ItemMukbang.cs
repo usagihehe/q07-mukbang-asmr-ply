@@ -42,6 +42,8 @@ public class ItemMukbang : MonoBehaviour, IDragHandler, IEventSystemHandler, IPo
 
     public virtual Vector3 EatPoint => _tool.transform.position;
 
+    public float CanvasScale => GetComponentInParent<Canvas>().rootCanvas.scaleFactor;
+
     public virtual SoundType EatSound => SoundType.Eat;
 
     public virtual bool IsDone

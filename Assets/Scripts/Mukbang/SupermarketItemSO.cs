@@ -9,7 +9,6 @@ public class SupermarketItemSO : MukbangItemSO
     public int Price;
     public int BonusPercent;
     public float OffsetScaleOnTable = 1f;
-    protected Dictionary<string, string> _Prams;
 
     public Sprite GetIcon()
     {

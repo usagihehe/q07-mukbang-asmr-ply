@@ -1,7 +1,7 @@
 {
     "version": "7.2.0",
     "projectId": "629a1bf2777177f4eb5a3a65506ae16b",
-    "applicationID": 26084,
+    "applicationID": 31069,
     "creativeName": "ply34",
     "pgServer": "EU",
     "window": {
@@ -209,6 +209,8 @@
             "Assets/PLY33/scenes/PLY33.unity",
             "Assets/PLY34/scenes/PLY34.unity",
             "Assets/PLY34/scenes/PLY344.unity",
+            "Assets/PLY34/scenes/PLY35 1.unity",
+            "Assets/PLY34/scenes/PLY35.unity",
             "Assets/Scenes/SampleScene.unity"
         ],
         "startupScene": 0,
@@ -7806,47 +7808,11 @@
                 "excluded": false
             },
             {
-                "name": "AlphaTweenAnim",
-                "excluded": true
-            },
-            {
                 "name": "BaseProcess",
                 "excluded": true
             },
             {
-                "name": "BasketCtrl",
-                "excluded": true
-            },
-            {
-                "name": "BillItemCtrl",
-                "excluded": true
-            },
-            {
                 "name": "CanteenProcessCtrl.ScaleAnim",
-                "excluded": true
-            },
-            {
-                "name": "DG.Tweening.DOTweenCYInstruction.WaitForCompletion",
-                "excluded": true
-            },
-            {
-                "name": "DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops",
-                "excluded": true
-            },
-            {
-                "name": "DG.Tweening.DOTweenCYInstruction.WaitForKill",
-                "excluded": true
-            },
-            {
-                "name": "DG.Tweening.DOTweenCYInstruction.WaitForPosition",
-                "excluded": true
-            },
-            {
-                "name": "DG.Tweening.DOTweenCYInstruction.WaitForRewind",
-                "excluded": true
-            },
-            {
-                "name": "DG.Tweening.DOTweenCYInstruction.WaitForStart",
                 "excluded": true
             },
             {
@@ -7858,99 +7824,7 @@
                 "excluded": true
             },
             {
-                "name": "DG.Tweening.DOTweenModuleSprite",
-                "excluded": true
-            },
-            {
                 "name": "DG.Tweening.DOTweenModuleUI.Utils",
-                "excluded": true
-            },
-            {
-                "name": "DG.Tweening.DOTweenModuleUnityVersion",
-                "excluded": true
-            },
-            {
-                "name": "DragDropItem",
-                "excluded": true
-            },
-            {
-                "name": "FridgeCtrl",
-                "excluded": true
-            },
-            {
-                "name": "ImageState",
-                "excluded": true
-            },
-            {
-                "name": "ItemSpmkIconCtrl",
-                "excluded": true
-            },
-            {
-                "name": "LuckyDessertCtrl",
-                "excluded": true
-            },
-            {
-                "name": "PayMachineCtrl",
-                "excluded": true
-            },
-            {
-                "name": "PayMachineState",
-                "excluded": true
-            },
-            {
-                "name": "PlayAnimClick",
-                "excluded": true
-            },
-            {
-                "name": "PLY31.Ply31PlayableFlow",
-                "excluded": true
-            },
-            {
-                "name": "PLY32.PhoneFlashButton",
-                "excluded": true
-            },
-            {
-                "name": "PLY32.Ply32DirectEatFlow",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BaseStateMachine",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindBoxItemCtrl",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxSkin",
-                "excluded": true
-            },
-            {
-                "name": "SlotShelfCtrl",
-                "excluded": true
-            },
-            {
-                "name": "Usaki.SupermarketPanel",
-                "excluded": true
-            },
-            {
-                "name": "Popup",
-                "excluded": true
-            },
-            {
-                "name": "RectTransformExtension",
-                "excluded": true
-            },
-            {
-                "name": "SkinCtrl",
-                "excluded": true
-            },
-            {
-                "name": "SlotBasket",
-                "excluded": true
-            },
-            {
-                "name": "SLunch.Character.PhoneCtrl",
                 "excluded": true
             },
             {
@@ -7962,19 +7836,7 @@
                 "excluded": true
             },
             {
-                "name": "Spine.Unity.AttachmentTools.AttachmentCloneExtensions",
-                "excluded": true
-            },
-            {
-                "name": "Spine.Unity.AttachmentTools.AttachmentRegionExtensions",
-                "excluded": true
-            },
-            {
                 "name": "Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache",
-                "excluded": true
-            },
-            {
-                "name": "Spine.Unity.EventDataReferenceAsset",
                 "excluded": true
             },
             {
@@ -8018,107 +7880,7 @@
                 "excluded": true
             },
             {
-                "name": "Spine.Unity.WaitForSpineAnimation",
-                "excluded": true
-            },
-            {
-                "name": "Spine.Unity.WaitForSpineEvent",
-                "excluded": true
-            },
-            {
-                "name": "SpringCtrl",
-                "excluded": true
-            },
-            {
-                "name": "SpringUtils",
-                "excluded": true
-            },
-            {
-                "name": "Supermarket.LuckyControlTween",
-                "excluded": true
-            },
-            {
-                "name": "UIAnim",
-                "excluded": true
-            },
-            {
-                "name": "UIAnimCtrl",
-                "excluded": true
-            },
-            {
-                "name": "Usaki.HandCtrl",
-                "excluded": true
-            },
-            {
-                "name": "Usaki.HandHint",
-                "excluded": true
-            },
-            {
-                "name": "Usaki.SupermarketLivePanel",
-                "excluded": true
-            },
-            {
                 "name": "ProcessCtrl",
-                "excluded": true
-            },
-            {
-                "name": "LevelProcessCtrl",
-                "excluded": true
-            },
-            {
-                "name": "MoveFade",
-                "excluded": true
-            },
-            {
-                "name": "MoveFadeElement",
-                "excluded": true
-            },
-            {
-                "name": "MoveNoFade",
-                "excluded": true
-            },
-            {
-                "name": "PayDoneState",
-                "excluded": true
-            },
-            {
-                "name": "PayIdleState",
-                "excluded": true
-            },
-            {
-                "name": "PayPanel",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxState",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxMachineCtrl",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxSlotShelf",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxSpmkIconCtrl",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxStateMachine",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxSupermarketPanel",
-                "excluded": true
-            },
-            {
-                "name": "ScanItem",
-                "excluded": true
-            },
-            {
-                "name": "ScanState",
                 "excluded": true
             },
             {
@@ -8162,47 +7924,11 @@
                 "excluded": true
             },
             {
-                "name": "Spine.Unity.WaitForSpineAnimationComplete",
-                "excluded": true
-            },
-            {
-                "name": "Spine.Unity.WaitForSpineAnimationEnd",
-                "excluded": true
-            },
-            {
                 "name": "SupermarketItemSO",
                 "excluded": true
             },
             {
-                "name": "Usaki.SelfieState",
-                "excluded": true
-            },
-            {
-                "name": "WaitScanState",
-                "excluded": true
-            },
-            {
                 "name": "CanteenProcessCtrl",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxActState",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxGachaState",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxIdleState",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.BlindboxOpenState",
-                "excluded": true
-            },
-            {
-                "name": "Spine.Unity.AnimationReferenceAsset",
                 "excluded": true
             },
             {
@@ -8238,10 +7964,6 @@
                 "excluded": false
             },
             {
-                "name": "DG.Tweening.DOTweenCYInstruction",
-                "excluded": true
-            },
-            {
                 "name": "EmotionAudio",
                 "excluded": false
             },
@@ -8254,39 +7976,11 @@
                 "excluded": true
             },
             {
-                "name": "IIntro",
-                "excluded": true
-            },
-            {
-                "name": "IMGState",
-                "excluded": true
-            },
-            {
-                "name": "IOuttro",
-                "excluded": true
-            },
-            {
                 "name": "IPanel",
                 "excluded": false
             },
             {
-                "name": "MoveFadeSO",
-                "excluded": true
-            },
-            {
                 "name": "MukbangItemSO",
-                "excluded": true
-            },
-            {
-                "name": "PayScreen",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.IState",
-                "excluded": true
-            },
-            {
-                "name": "PLY33.Blindbox.ShelfCtrl",
                 "excluded": true
             },
             {
@@ -8376,22 +8070,6 @@
             {
                 "name": "Spine.Unity.UpdateTiming",
                 "excluded": false
-            },
-            {
-                "name": "Spine.Unity.WaitForSpineAnimation.AnimationEventTypes",
-                "excluded": true
-            },
-            {
-                "name": "SpringUtils.tDampedSpringMotionParams",
-                "excluded": true
-            },
-            {
-                "name": "SupermarketItemListSO",
-                "excluded": true
-            },
-            {
-                "name": "ToolCase",
-                "excluded": true
             },
             {
                 "name": "TweenType",
@@ -23892,186 +23570,6 @@
                 ]
             },
             {
-                "className": "Spine.Unity.AttachmentTools.AtlasUtilities",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ToAtlasRegion$2",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToAtlasRegion$3",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToAtlasRegion",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToAtlasRegion$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToAtlasRegion$4",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToAtlasRegionPMAClone$2",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToAtlasRegionPMAClone$3",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToAtlasRegionPMAClone",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToAtlasRegionPMAClone$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToSpineAtlasPage",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetRepackedAttachments",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetRepackedAttachments$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetRepackedSkin",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetRepackedSkin$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToSprite",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ClearCache",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ToTexture",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToTexture$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetClone",
-                        "excluded": true
-                    },
-                    {
-                        "name": "CopyTexture",
-                        "excluded": true
-                    },
-                    {
-                        "name": "CopyTextureApplyPMA",
-                        "excluded": true
-                    },
-                    {
-                        "name": "IsRenderable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SpineUnityFlipRect",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetUnityRect",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetUnityRect$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetSpineAtlasRect",
-                        "excluded": true
-                    },
-                    {
-                        "name": "UVRectToTextureRect",
-                        "excluded": true
-                    },
-                    {
-                        "name": "TextureRectToUVRect",
-                        "excluded": true
-                    },
-                    {
-                        "name": "UVRectToAtlasRegion",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetMainTexture",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetTexture$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetTexture",
-                        "excluded": true
-                    },
-                    {
-                        "name": "CopyTextureAttributesFrom",
-                        "excluded": true
-                    },
-                    {
-                        "name": "InverseLerp",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "getDefaultValue",
-                        "excluded": false
-                    },
-                    {
-                        "name": "$ctor1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ctor",
-                        "excluded": false
-                    },
-                    {
-                        "name": "getHashCode",
-                        "excluded": true
-                    },
-                    {
-                        "name": "equals",
-                        "excluded": true
-                    },
-                    {
-                        "name": "$clone",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "Spine.Unity.DoubleBuffered$1",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -24292,16 +23790,6 @@
                 ]
             },
             {
-                "className": "PLY3.GameManager",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "inherits",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
                 "className": "SLunch.CanteenManager",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -24338,16 +23826,8 @@
                         "excluded": false
                     },
                     {
-                        "name": "Start",
-                        "excluded": false
-                    },
-                    {
                         "name": "OnEnable",
                         "excluded": false
-                    },
-                    {
-                        "name": "OnValidate",
-                        "excluded": true
                     },
                     {
                         "name": "Initialize",
@@ -24368,98 +23848,6 @@
                     {
                         "name": "GetFoodItemDatasPick",
                         "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "SupermarketItemData",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "inherits",
-                        "excluded": false
-                    },
-                    {
-                        "name": "GetItem",
-                        "excluded": true
-                    },
-                    {
-                        "name": "IsDrinkItem",
-                        "excluded": true
-                    },
-                    {
-                        "name": "IsBlindBoxItem",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "Usaki.UIManager",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "inherits",
-                        "excluded": false
-                    },
-                    {
-                        "name": "SupermarketLivePanel#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "PayPanel#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Notify#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "HandHint#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ShowSupermarketLivePanel",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ShowPayPanel",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ActiceLockImage",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ClickHandAt",
-                        "excluded": true
-                    },
-                    {
-                        "name": "MoveHand",
-                        "excluded": true
-                    },
-                    {
-                        "name": "StopHand",
-                        "excluded": true
-                    },
-                    {
-                        "name": "StartEatTutorial",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnEatSlotPress",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnEatSlotRelease",
-                        "excluded": true
-                    },
-                    {
-                        "name": "CompleteEatTutorial",
-                        "excluded": true
                     }
                 ]
             },
@@ -26727,7 +26115,7 @@
                     },
                     {
                         "name": "rootCanvas#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "worldCamera#get",
@@ -31650,271 +31038,11 @@
                 ]
             },
             {
-                "className": "FitToScreen",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Start",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Fit",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Fit$1",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ResetScale",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "GameSoundSO",
                 "staticMethods": [],
                 "instanceMethods": [
                     {
                         "name": "GetSound",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "NotifyCtrl",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Show",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "Pet.PetBaseState",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "StateName#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "NextStates#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "Pet.PetCtrl",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Skeleton#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "mPoint#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "mPoint#set",
-                        "excluded": false
-                    },
-                    {
-                        "name": "PlayAnimByName",
-                        "excluded": false
-                    },
-                    {
-                        "name": "PlaySound",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnEnable",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "Pet.PetDecor",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Start",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ChangeSkin",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "Pet.PetDragCtrl",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "IsDragging#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnEnable",
-                        "excluded": false
-                    },
-                    {
-                        "name": "HandlePointerDown",
-                        "excluded": false
-                    },
-                    {
-                        "name": "HandleDrag",
-                        "excluded": true
-                    },
-                    {
-                        "name": "HandlePointerUp",
-                        "excluded": false
-                    },
-                    {
-                        "name": "EndDrag",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CanPick",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CanDrag",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnDisable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetLiftSorting",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "Pet.PetDragPointerInput",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnPointerDown",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnDrag",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnPointerUp",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "Pet.PetStateMachine",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "IsPetFood",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Held#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Tracker#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DistanceEating#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CurrentState#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Start",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnEnable",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnDisable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Update",
-                        "excluded": false
-                    },
-                    {
-                        "name": "GetState",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Distance",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnSelectItem",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnDropItem",
-                        "excluded": false
-                    },
-                    {
-                        "name": "TrySetState",
-                        "excluded": false
-                    },
-                    {
-                        "name": "BuildStatesDictionary",
                         "excluded": false
                     }
                 ]
@@ -31952,10 +31080,6 @@
                     {
                         "name": "FoodController#get",
                         "excluded": false
-                    },
-                    {
-                        "name": "OnValidate",
-                        "excluded": true
                     },
                     {
                         "name": "Awake",
@@ -32186,10 +31310,6 @@
                     {
                         "name": "Awake",
                         "excluded": false
-                    },
-                    {
-                        "name": "OnValidate",
-                        "excluded": true
                     },
                     {
                         "name": "OnEnable",
@@ -33012,62 +32132,6 @@
                 ]
             },
             {
-                "className": "Usaki.ClaimCoinCtrl",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Awake",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnDisable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "PlayAnim",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SpawnCoin",
-                        "excluded": true
-                    },
-                    {
-                        "name": "MoveCoin",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnCoinMoveDone",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "Usaki.CoinAnim",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Awake",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnDisable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Spawn",
-                        "excluded": true
-                    },
-                    {
-                        "name": "MoveToTarget",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "Usaki.CoinBarCtrl",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -33292,121 +32356,9 @@
                     {
                         "name": "CanDrag",
                         "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "Pet.PetAfterEatState",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "EnterState",
-                        "excluded": true
                     },
                     {
-                        "name": "Execute",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ExitState",
-                        "excluded": true
-                    },
-                    {
-                        "name": "IsSuitable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "PlayHappyAnimation",
-                        "excluded": true
-                    },
-                    {
-                        "name": "PlayHappyAnimationTwice",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "Pet.PetDragState",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "EnterState",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Execute",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ExitState",
-                        "excluded": false
-                    },
-                    {
-                        "name": "IsSuitable",
-                        "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "Pet.PetEatState",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "EnterState",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Execute",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ExitState",
-                        "excluded": true
-                    },
-                    {
-                        "name": "IsSuitable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "PlayEatAnimation",
-                        "excluded": true
-                    },
-                    {
-                        "name": "PlayEatAnimationTwice",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "Pet.PetIdleState",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Awake",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnDisable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "EnterState",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Execute",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ExitState",
-                        "excluded": false
-                    },
-                    {
-                        "name": "IsSuitable",
+                        "name": "CanvasScale#get",
                         "excluded": false
                     }
                 ]
@@ -33426,10 +32378,6 @@
                     {
                         "name": "ShowUsed",
                         "excluded": false
-                    },
-                    {
-                        "name": "OnValidate",
-                        "excluded": true
                     },
                     {
                         "name": "GetData",
@@ -33584,6 +32532,14 @@
                     {
                         "name": "PlayFlash",
                         "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEndLiveGamePlay",
+                        "excluded": false
                     }
                 ]
             },
@@ -33655,7 +32611,7 @@
                     },
                     {
                         "name": "TryMixFood",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetMixRecipe",
@@ -33691,7 +32647,7 @@
                     },
                     {
                         "name": "ActiveEffectBling",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ActiveEffectFull",
@@ -33791,7 +32747,7 @@
                     },
                     {
                         "name": "ActiveEffectBling",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ActiveEffectFull",
@@ -33936,10 +32892,6 @@
                     {
                         "name": "HideTool",
                         "excluded": false
-                    },
-                    {
-                        "name": "OnValidate",
-                        "excluded": true
                     }
                 ]
             },
@@ -36166,88 +35118,6 @@
                 ]
             },
             {
-                "className": "SupermarketItemMukbang",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Style#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "EatPoint#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "EatSound#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ToolCase#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "IconParent#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "IsBlindBoxClosed#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "init",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Init",
-                        "excluded": true
-                    },
-                    {
-                        "name": "RevealIcon",
-                        "excluded": true
-                    },
-                    {
-                        "name": "NotifyBlindBoxOpened",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetEmotion",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnPointerDown",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnDrag",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnPointerUp",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Consume",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OpenItem",
-                        "excluded": true
-                    },
-                    {
-                        "name": "HandleIconAt",
-                        "excluded": true
-                    },
-                    {
-                        "name": "HandleTool",
-                        "excluded": true
-                    },
-                    {
-                        "name": "HideTool",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "UnityEngine.PlayerPrefs.SessionStorageWrapper",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -36304,6 +35174,16 @@
                     {
                         "name": "Has",
                         "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "PLY34.UI.Ply34UIManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
                     }
                 ]
             }
@@ -36449,7 +35329,7 @@
                         "maxHeight": 512,
                         "format": "jpeg",
                         "compression": "quantSize",
-                        "quality": 80,
+                        "quality": 70,
                         "script": "",
                         "ext": "",
                         "name": "Assets/Sprites/halloween/hlw_bg_spm.png"
@@ -36483,6 +35363,256 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/Animation/nv_45/nv.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "jpeg",
+                        "compression": "quantSize",
+                        "quality": 70,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/bg_live_canteen.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "jpeg",
+                        "compression": "quantSize",
+                        "quality": 70,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/bg_cantine_2_hlw.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/xuc_xich_hlw/xuc_xich_hlw_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/xuc_xich_hlw/xuc_xich_hlw_2.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/dau_tay_hlw/dau_tay_hlw_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/dau_tay_hlw/dau_tay_hlw_2.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/banh_mi_hlw/banh_mi_hlw_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/banh_mi_hlw/banh_mi_hlw_2.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/dua_hau_hlw/dua_hau_hlw_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/banh_kem_hlw/banh_kem_hlw_1.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/drink/bat_milktea_hlw/bat_milk_tea_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/drink/bat_milktea_hlw/bat_milk_tea_2.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/banh_mi_hlw/ngan_nho/banh_mi_hlw_traysmall_99.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/banh_mi_hlw/ngan_lon/banh_mi_hlw_traybig_99.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/xuc_xich_hlw/ngan_nho/xuc_xich_hlw_traysmall_99.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/banh_mi_xuc_xich_hlw/ngan_nho/banh_mi_xuc_xich_hlw_traysmall_99.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/tiramisu_dau_hlw/ngan_lon/tiramisu_dau_hlw_traybig_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/tiramisu_dau_hlw/ngan_nho/tiramisu_dau_hlw_traysmall_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/dua_hau_hlw/dua_hau_hlw_2.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/tiramisu_dua_hau_hlw/ngan_lon/tiramisu_dua_hau_hlw_traybig_4.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/dua_hau_hlw/dua_hau_hlw_picker.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/dau_tay_hlw/dau_tay_hlw_picker.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/drink/berry_smothie_hlw/berry_smoothie_hlw_3.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/drink/berry_smothie_hlw/berry_smoothie_hlw_4.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/dua_hau_hlw/ngan_nho/dua_hau_hlw_traysmall_99.png"
                     }
                 ]
             },
@@ -36510,8 +35640,8 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
                         "bitrate": 128,
                         "script": "",
                         "ext": "",
@@ -36550,8 +35680,8 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
                         "bitrate": 128,
                         "script": "",
                         "ext": "",
@@ -36590,8 +35720,8 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
                         "bitrate": 128,
                         "script": "",
                         "ext": "",
@@ -36630,8 +35760,8 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
                         "bitrate": 128,
                         "script": "",
                         "ext": "",
@@ -36640,8 +35770,8 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
                         "bitrate": 128,
                         "script": "",
                         "ext": "",
@@ -36700,12 +35830,112 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Audio/Combine.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/AudioClip/Audio/Mouth-Eat.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
                         "endTime": "00:00.000",
                         "lengthInSeconds": 0.0,
                         "bitrate": 128,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/Halloween/Audio/Combine.ogg"
+                        "name": "Assets/AudioClip/Audio/Mouth-Open.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/AudioClip/Audio/Emoji-Cute.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/AudioClip/Audio/Emoji_Happy.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/_Canteen/Audio/Drop-Soft-Food.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/_Canteen/Audio/Drop-bread.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/AudioClip/SuperMarketSound/Take-Item.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.744",
+                        "lengthInSeconds": 30.743999481201173,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/AudioClip/FX/click.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/AudioClip/Audio/Emoji-Burp.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 128,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/AudioClip/Audio/Emoji-Fresh.ogg"
                     }
                 ]
             },

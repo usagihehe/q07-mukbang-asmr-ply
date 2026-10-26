@@ -1,0 +1,308 @@
+removed SupermarketPanel_hlw/Panel/HUD/CoinBar
+removed SupermarketPanel_hlw/Panel/HUD/XBtn
+removed SupermarketPanel_hlw/Panel/HUD/PhoneLive
+saved Assets/_ClaudeTemp/SupermarketHLW/Prefabs/SupermarketPanel_hlw.prefab
+removed PayPanel_hlw/Panel/XBtn
+removed PayPanel_hlw/Panel/CoinBar
+saved Assets/_ClaudeTemp/SupermarketHLW/Prefabs/PayPanel_hlw.prefab
+removed SupermarketLivePanel_hlw/HUD/UserProfile
+removed SupermarketLivePanel_hlw/HUD/CoinBar
+removed SupermarketLivePanel_hlw/HUD/SettingBtn
+removed SupermarketLivePanel_hlw/HUD/VirtualComment
+removed SupermarketLivePanel_hlw/HUD/emoji_1
+removed SupermarketLivePanel_hlw/HUD/emoji_2
+removed SupermarketLivePanel_hlw/Content/Pet
+saved Assets/_ClaudeTemp/SupermarketHLW/Prefabs/SupermarketLivePanel_hlw.prefab
+
+== INCLUDED (233) ==
+Assets/Animation/open-blind-box.anim
+Assets/Animation/spmk-live-item.controller
+Assets/Halloween/Sprites/bg_table_hlw/bg_live_spmk.png
+Assets/Halloween/Sprites/bg_table_hlw/table_live_spmk.png
+Assets/Halloween/Sprites/hlw_blindbox/basket_back.png
+Assets/Halloween/Sprites/hlw_blindbox/basket_front.png
+Assets/Halloween/Sprites/hlw_blindbox/phone.png
+Assets/Halloween/Sprites/hlw_payment_counter/hlw_capybara_sales_agent.png
+Assets/Halloween/Sprites/hlw_payment_counter/hlw_capybara_thank_yout.png
+Assets/Halloween/Sprites/hlw_payment_counter/hlw_kinh.png
+Assets/Halloween/Sprites/hlw_payment_counter/hlw_kinh_ko_line.png
+Assets/Halloween/Sprites/hlw_payment_counter/hlw_may_thanh_toan_khong_nut.png
+Assets/Halloween/Sprites/hlw_payment_counter/hlw_nut_chua_quet_do.png
+Assets/Halloween/Sprites/hlw_payment_counter/hlw_nut_quet_duoc_do.png
+Assets/Halloween/Sprites/hlw_payment_counter/hlw_nut_trai_phai.png
+Assets/Halloween/Sprites/supermaket/bg/hlw_bg_spm.png
+Assets/Halloween/Sprites/supermaket/door/L_door.png
+Assets/Halloween/Sprites/supermaket/door/R_door.png
+Assets/Halloween/Sprites/supermaket/food/booger_hlw/booger_hlw_1.png
+Assets/Halloween/Sprites/supermaket/food/booger_hlw/booger_hlw_2.png
+Assets/Halloween/Sprites/supermaket/food/booger_hlw/booger_hlw_3.png
+Assets/Halloween/Sprites/supermaket/food/booger_hlw/booger_hlw_4.png
+Assets/Halloween/Sprites/supermaket/food/booger_hlw/booger_hlw_99.png
+Assets/Halloween/Sprites/supermaket/food/booger_hlw/booger_hlw_no_box.png
+Assets/Halloween/Sprites/supermaket/food/green_drink_hlw/green_drink_hlw_1.png
+Assets/Halloween/Sprites/supermaket/food/green_drink_hlw/green_drink_hlw_2.png
+Assets/Halloween/Sprites/supermaket/food/green_drink_hlw/green_drink_hlw_3.png
+Assets/Halloween/Sprites/supermaket/food/green_drink_hlw/green_drink_hlw_99.png
+Assets/Halloween/Sprites/supermaket/food/green_drink_hlw/green_drink_hlw_tool.png
+Assets/Halloween/Sprites/supermaket/food/green_hlw_milk/green_hlw_milk_0.png
+Assets/Halloween/Sprites/supermaket/food/green_hlw_milk/green_hlw_milk_1.png
+Assets/Halloween/Sprites/supermaket/food/green_hlw_milk/green_hlw_milk_2.png
+Assets/Halloween/Sprites/supermaket/food/green_hlw_milk/green_hlw_milk_3.png
+Assets/Halloween/Sprites/supermaket/food/green_hlw_milk/green_hlw_milk_99.png
+Assets/Halloween/Sprites/supermaket/food/hlw_boba/hlw_boba_0.png
+Assets/Halloween/Sprites/supermaket/food/hlw_boba/hlw_boba_1.png
+Assets/Halloween/Sprites/supermaket/food/hlw_boba/hlw_boba_2.png
+Assets/Halloween/Sprites/supermaket/food/hlw_boba/hlw_boba_3.png
+Assets/Halloween/Sprites/supermaket/food/hlw_boba/hlw_boba_99.png
+Assets/Halloween/Sprites/supermaket/food/hlw_crossaint/hlw_crossaint_1.png
+Assets/Halloween/Sprites/supermaket/food/hlw_crossaint/hlw_crossaint_2.png
+Assets/Halloween/Sprites/supermaket/food/hlw_crossaint/hlw_crossaint_3.png
+Assets/Halloween/Sprites/supermaket/food/hlw_crossaint/hlw_crossaint_4.png
+Assets/Halloween/Sprites/supermaket/food/hlw_crossaint/hlw_crossaint_99.png
+Assets/Halloween/Sprites/supermaket/food/hlw_crossaint/hlw_crossaint_tool.png
+Assets/Halloween/Sprites/supermaket/food/hlw_eyecandy_jar/hlw_eyecandy_jar_1.png
+Assets/Halloween/Sprites/supermaket/food/hlw_eyecandy_jar/hlw_eyecandy_jar_2.png
+Assets/Halloween/Sprites/supermaket/food/hlw_eyecandy_jar/hlw_eyecandy_jar_3.png
+Assets/Halloween/Sprites/supermaket/food/hlw_eyecandy_jar/hlw_eyecandy_jar_4.png
+Assets/Halloween/Sprites/supermaket/food/hlw_eyecandy_jar/hlw_eyecandy_jar_99.png
+Assets/Halloween/Sprites/supermaket/food/hlw_eyecandy_jar/hlw_eyecandy_jar_tool.png
+Assets/Halloween/Sprites/supermaket/food/hlw_green_icecream_cone/hlw_green_icecream_cone_0.png
+Assets/Halloween/Sprites/supermaket/food/hlw_green_icecream_cone/hlw_green_icecream_cone_1.png
+Assets/Halloween/Sprites/supermaket/food/hlw_green_icecream_cone/hlw_green_icecream_cone_2.png
+Assets/Halloween/Sprites/supermaket/food/hlw_green_icecream_cone/hlw_green_icecream_cone_3.png
+Assets/Halloween/Sprites/supermaket/food/hlw_green_icecream_cone/hlw_green_icecream_cone_4.png
+Assets/Halloween/Sprites/supermaket/food/hlw_green_icecream_cone/hlw_green_icecream_cone_99.png
+Assets/Halloween/Sprites/supermaket/food/hlw_icecream_cone/hlw_icecream_cone_0.png
+Assets/Halloween/Sprites/supermaket/food/hlw_icecream_cone/hlw_icecream_cone_1.png
+Assets/Halloween/Sprites/supermaket/food/hlw_icecream_cone/hlw_icecream_cone_2.png
+Assets/Halloween/Sprites/supermaket/food/hlw_icecream_cone/hlw_icecream_cone_3.png
+Assets/Halloween/Sprites/supermaket/food/hlw_icecream_cone/hlw_icecream_cone_4.png
+Assets/Halloween/Sprites/supermaket/food/hlw_icecream_cone/hlw_icecream_cone_99.png
+Assets/Halloween/Sprites/supermaket/food/hlw_ramen/hlw_ramen_1.png
+Assets/Halloween/Sprites/supermaket/food/hlw_ramen/hlw_ramen_2.png
+Assets/Halloween/Sprites/supermaket/food/hlw_ramen/hlw_ramen_3.png
+Assets/Halloween/Sprites/supermaket/food/hlw_ramen/hlw_ramen_4.png
+Assets/Halloween/Sprites/supermaket/food/hlw_ramen/hlw_ramen_99.png
+Assets/Halloween/Sprites/supermaket/food/hlw_ramen/hlw_ramen_tool.png
+Assets/Halloween/Sprites/supermaket/food/hlw_snack/hlw_snack_0.png
+Assets/Halloween/Sprites/supermaket/food/hlw_snack/hlw_snack_1.png
+Assets/Halloween/Sprites/supermaket/food/hlw_snack/hlw_snack_2.png
+Assets/Halloween/Sprites/supermaket/food/hlw_snack/hlw_snack_3.png
+Assets/Halloween/Sprites/supermaket/food/hlw_snack/hlw_snack_99.png
+Assets/Halloween/Sprites/supermaket/food/hlw_snack/hlw_snack_tool.png
+Assets/Halloween/Sprites/supermaket/food/hlw_zombiecookie_jar/hlw_zombiecookie_jar_1.png
+Assets/Halloween/Sprites/supermaket/food/hlw_zombiecookie_jar/hlw_zombiecookie_jar_2.png
+Assets/Halloween/Sprites/supermaket/food/hlw_zombiecookie_jar/hlw_zombiecookie_jar_3.png
+Assets/Halloween/Sprites/supermaket/food/hlw_zombiecookie_jar/hlw_zombiecookie_jar_4.png
+Assets/Halloween/Sprites/supermaket/food/hlw_zombiecookie_jar/hlw_zombiecookie_jar_99.png
+Assets/Halloween/Sprites/supermaket/food/hlw_zombiecookie_jar/hlw_zombiecookie_jar_tool.png
+Assets/Halloween/Sprites/supermaket/food/normal_pumpkin_soup/normal_pumpkin_soup_1.png
+Assets/Halloween/Sprites/supermaket/food/normal_pumpkin_soup/normal_pumpkin_soup_2.png
+Assets/Halloween/Sprites/supermaket/food/normal_pumpkin_soup/normal_pumpkin_soup_3.png
+Assets/Halloween/Sprites/supermaket/food/normal_pumpkin_soup/normal_pumpkin_soup_4.png
+Assets/Halloween/Sprites/supermaket/food/normal_pumpkin_soup/normal_pumpkin_soup_99.png
+Assets/Halloween/Sprites/supermaket/food/normal_pumpkin_soup/normal_pumpkin_soup_tool.png
+Assets/Halloween/Sprites/supermaket/food/orange_drink_hlw/orange_drink_hlw_1.png
+Assets/Halloween/Sprites/supermaket/food/orange_drink_hlw/orange_drink_hlw_2.png
+Assets/Halloween/Sprites/supermaket/food/orange_drink_hlw/orange_drink_hlw_3.png
+Assets/Halloween/Sprites/supermaket/food/orange_drink_hlw/orange_drink_hlw_99.png
+Assets/Halloween/Sprites/supermaket/food/orange_drink_hlw/orange_drink_hlw_tool.png
+Assets/Halloween/Sprites/supermaket/food/orange_hlw_milk/orange_hlw_milk_0.png
+Assets/Halloween/Sprites/supermaket/food/orange_hlw_milk/orange_hlw_milk_1.png
+Assets/Halloween/Sprites/supermaket/food/orange_hlw_milk/orange_hlw_milk_2.png
+Assets/Halloween/Sprites/supermaket/food/orange_hlw_milk/orange_hlw_milk_3.png
+Assets/Halloween/Sprites/supermaket/food/orange_hlw_milk/orange_hlw_milk_99.png
+Assets/Halloween/Sprites/supermaket/food/pizza_box_hlw/pizza_box_hlw_0.png
+Assets/Halloween/Sprites/supermaket/food/pizza_box_hlw/pizza_box_hlw_1.png
+Assets/Halloween/Sprites/supermaket/food/pizza_box_hlw/pizza_box_hlw_2.png
+Assets/Halloween/Sprites/supermaket/food/pizza_box_hlw/pizza_box_hlw_3.png
+Assets/Halloween/Sprites/supermaket/food/pizza_box_hlw/pizza_box_hlw_4.png
+Assets/Halloween/Sprites/supermaket/food/pizza_box_hlw/pizza_box_hlw_99.png
+Assets/Halloween/Sprites/supermaket/food/pizza_box_hlw/pizza_box_hlw_tool.png
+Assets/Halloween/Sprites/supermaket/food/pumpkin_hlw_cake/pumpkin_hlw_cake_0.png
+Assets/Halloween/Sprites/supermaket/food/pumpkin_hlw_cake/pumpkin_hlw_cake_1.png
+Assets/Halloween/Sprites/supermaket/food/pumpkin_hlw_cake/pumpkin_hlw_cake_2.png
+Assets/Halloween/Sprites/supermaket/food/pumpkin_hlw_cake/pumpkin_hlw_cake_3.png
+Assets/Halloween/Sprites/supermaket/food/pumpkin_hlw_cake/pumpkin_hlw_cake_4.png
+Assets/Halloween/Sprites/supermaket/food/pumpkin_hlw_cake/pumpkin_hlw_cake_99.png
+Assets/Halloween/Sprites/supermaket/food/pumpkin_hlw_cake/pumpkin_hlw_cake_tool.png
+Assets/Halloween/Sprites/supermaket/food/purple_pumpkin_soup/purple_pumpkin_soup_1.png
+Assets/Halloween/Sprites/supermaket/food/purple_pumpkin_soup/purple_pumpkin_soup_2.png
+Assets/Halloween/Sprites/supermaket/food/purple_pumpkin_soup/purple_pumpkin_soup_3.png
+Assets/Halloween/Sprites/supermaket/food/purple_pumpkin_soup/purple_pumpkin_soup_4.png
+Assets/Halloween/Sprites/supermaket/food/purple_pumpkin_soup/purple_pumpkin_soup_99.png
+Assets/Halloween/Sprites/supermaket/food/purple_pumpkin_soup/purple_pumpkin_soup_tool.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_cake/cat-chip_tool.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_cake/hlw_cake_0.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_cake/hlw_cake_1.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_cake/hlw_cake_2.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_cake/hlw_cake_3.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_cake/hlw_cake_4.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_cake/hlw_cake_99.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_green_icecream_cone/hlw_green_icecream_cone_0.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_green_icecream_cone/hlw_green_icecream_cone_1.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_green_icecream_cone/hlw_green_icecream_cone_2.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_green_icecream_cone/hlw_green_icecream_cone_3.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_green_icecream_cone/hlw_green_icecream_cone_4.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_green_icecream_cone/hlw_green_icecream_cone_99.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_icecream_cone/hlw_icecream_cone_0.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_icecream_cone/hlw_icecream_cone_1.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_icecream_cone/hlw_icecream_cone_2.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_icecream_cone/hlw_icecream_cone_3.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_icecream_cone/hlw_icecream_cone_4.png
+Assets/Halloween/Sprites/supermaket/food/rename/hlw_icecream_cone/hlw_icecream_cone_99.png
+Assets/Halloween/Sprites/supermaket/shelf/shelf_hlw_1/shelf_hlw_1.png
+Assets/Halloween/Sprites/supermaket/shelf/shelf_hlw_1/title_shelf_hlw_1.png
+Assets/Halloween/Sprites/supermaket/shelf/shelf_hlw_2/shelf_hlw_2.png
+Assets/Halloween/Sprites/supermaket/shelf/shelf_hlw_2/title_shelf_hlw_2.png
+Assets/Halloween/Sprites/supermaket/shelf/shelf_hlw_3/shelf_hlw_3.png
+Assets/Halloween/Sprites/supermaket/shelf/shelf_hlw_3/shelf_hlw_3_front.png
+Assets/Halloween/Sprites/supermaket/shelf/shelf_hlw_3/title_shelf_hlw_3.png
+Assets/Halloween/Sprites/supermaket/shelf/shelf_hlw_4/shelf_hlw_4.png
+Assets/Halloween/Sprites/supermaket/shelf/shelf_hlw_4/title_shelf_hlw_4.png
+Assets/Resources/MoveFadeSO/top-intro.asset
+Assets/Resources/MoveFadeSO/top-outtro.asset
+Assets/Resources/so/supermarketitem/halloweenfood/booger_hlw.asset
+Assets/Resources/so/supermarketitem/halloweenfood/green_drink_hlw.asset
+Assets/Resources/so/supermarketitem/halloweenfood/green_hlw_milk.asset
+Assets/Resources/so/supermarketitem/halloweenfood/hlw_boba.asset
+Assets/Resources/so/supermarketitem/halloweenfood/hlw_crossaint.asset
+Assets/Resources/so/supermarketitem/halloweenfood/hlw_eyecandy_jar.asset
+Assets/Resources/so/supermarketitem/halloweenfood/hlw_green_icecream_cone.asset
+Assets/Resources/so/supermarketitem/halloweenfood/hlw_icecream_cone.asset
+Assets/Resources/so/supermarketitem/halloweenfood/hlw_ramen.asset
+Assets/Resources/so/supermarketitem/halloweenfood/hlw_snack.asset
+Assets/Resources/so/supermarketitem/halloweenfood/hlw_zombiecookie_jar.asset
+Assets/Resources/so/supermarketitem/halloweenfood/normal_pumpkin_soup.asset
+Assets/Resources/so/supermarketitem/halloweenfood/orange_drink_hlw.asset
+Assets/Resources/so/supermarketitem/halloweenfood/orange_hlw_milk.asset
+Assets/Resources/so/supermarketitem/halloweenfood/pizza_box_hlw.asset
+Assets/Resources/so/supermarketitem/halloweenfood/pumpkin_hlw_cake.asset
+Assets/Resources/so/supermarketitem/halloweenfood/purple_pumpkin_soup.asset
+Assets/Scripts/Button/ClickButton.cs
+Assets/Scripts/Button/SoundClick.cs
+Assets/Scripts/Character/AfterEatState.cs
+Assets/Scripts/Character/BeforeEatState.cs
+Assets/Scripts/Character/CharacterCtrl.cs
+Assets/Scripts/Character/EatingState.cs
+Assets/Scripts/Character/IdleState.cs
+Assets/Scripts/Character/StateMachine.cs
+Assets/Scripts/Decor/DecorItem.cs
+Assets/Scripts/F_Supermarket/BasketCtrl.cs
+Assets/Scripts/F_Supermarket/DoorCtrl.cs
+Assets/Scripts/F_Supermarket/DragDropItem.cs
+Assets/Scripts/F_Supermarket/FridgeCtrl.cs
+Assets/Scripts/F_Supermarket/ItemSpmkIconCtrl.cs
+Assets/Scripts/F_Supermarket/LuckyDessertCtrl.cs
+Assets/Scripts/F_Supermarket/PayPanel/BillItemCtrl.cs
+Assets/Scripts/F_Supermarket/PayPanel/PayDoneState.cs
+Assets/Scripts/F_Supermarket/PayPanel/PayIdleState.cs
+Assets/Scripts/F_Supermarket/PayPanel/PayMachineCtrl.cs
+Assets/Scripts/F_Supermarket/PayPanel/PayMachineState.cs
+Assets/Scripts/F_Supermarket/PayPanel/PayPanel.cs
+Assets/Scripts/F_Supermarket/PayPanel/PayScreen.cs
+Assets/Scripts/F_Supermarket/PayPanel/ScanItem.cs
+Assets/Scripts/F_Supermarket/PayPanel/ScanState.cs
+Assets/Scripts/F_Supermarket/PayPanel/WaitScanState.cs
+Assets/Scripts/F_Supermarket/PhoneLiveCtrl.cs
+Assets/Scripts/F_Supermarket/SlotBasket.cs
+Assets/Scripts/F_Supermarket/SlotShelfCtrl.cs
+Assets/Scripts/F_Supermarket/SupermarketItemMukbang.cs
+Assets/Scripts/F_Supermarket/SupermarketLivePanel.cs
+Assets/Scripts/F_Supermarket/SupermarketPanel.cs
+Assets/Scripts/Images/AlphaCheckImage.cs
+Assets/Scripts/Mukbang/SupermarketItemSO.cs
+Assets/Scripts/Plugins/SafeArea.cs
+Assets/Scripts/UIAnim/AlphaTweenAnim.cs
+Assets/Scripts/UIAnim/MoveFade.cs
+Assets/Scripts/UIAnim/MoveFadeSO.cs
+Assets/Scripts/UIAnim/SpringCtrl.cs
+Assets/Scripts/UIAnim/TransformTweenAnim.cs
+Assets/Scripts/UIAnim/UIAnim.cs
+Assets/Scripts/Usaki/FitToScreen.cs
+Assets/Scripts/Usaki/ImageState.cs
+Assets/Sound/BGM/BGM-Livestream.ogg
+Assets/Sound/FX/Thank_You.ogg
+Assets/Sound/SuperMarketSound/Cash_Money_SFX.ogg
+Assets/Sound/SuperMarketSound/Scanner_beep.ogg
+Assets/Sound/SuperMarketSound/Store_Enter.ogg
+Assets/Sound/SuperMarketSound/SupermarketSound.ogg
+Assets/Sprites/phone.png
+Assets/Sprites/supermarket/food_update_22_1/mochi-matcha/mochi-matcha_0.png
+Assets/Sprites/supermarket/food_update_22_1/mochi-matcha/mochi-matcha_tool.png
+Assets/Sprites/supermarket/food_update_22_1/pan-cake-pink/pan-cake-pink_0.png
+Assets/Sprites/supermarket/food_update_22_1/pan-cake-pink/pan-cake-pink_tool.png
+Assets/Sprites/supermarket/food_update_22_1/pan-cake-rainbow/pan_cake_rainbow_tool.png
+Assets/Sprites/supermarket/food_update_22_1/pan-cake-rainbow/pan-cake-rainbow_0.png
+Assets/Sprites/supermarket/food_update_22_1/roll-cake-rainbow/roll-cake-rainbow_1.png
+Assets/Sprites/supermarket/food_update_22_1/roll-cake-rainbow/roll-cake-rainbow_tool.png
+Assets/Sprites/supermarket/food_update_22_1/tacos-original/tacos_original_0.png
+Assets/Sprites/supermarket/food_update_22_1/tacos-original/tacos-original_tool.png
+Assets/Sprites/supermarket/goods-number.png
+Assets/Sprites/supermarket/ice_cream/matcha-icebox_0.png
+Assets/Sprites/supermarket/payment_counter/tia_quet_do.png
+Assets/Sprites/supermarket/price-tag.png
+Assets/Sprites/supermarket/shopping cart.png
+Assets/Sprites/UI/BG.png
+Assets/Sprites/UI/main/coin.png
+Assets/Sprites/UI/mukbang/bt.png
+Assets/Sprites/UI/mukbang/frame_food_2.png
+Assets/Sprites/UI/mukbang/hand_character_0.png
+
+== SKIPPED (font / Spine / TMP / DOTween / packages) (56) ==
+Assets/AnimationSpine/nv/nv.atlas.txt
+Assets/AnimationSpine/nv/nv.json
+Assets/AnimationSpine/nv/nv.png
+Assets/AnimationSpine/nv/nv_10.png
+Assets/AnimationSpine/nv/nv_2.png
+Assets/AnimationSpine/nv/nv_3.png
+Assets/AnimationSpine/nv/nv_4.png
+Assets/AnimationSpine/nv/nv_5.png
+Assets/AnimationSpine/nv/nv_6.png
+Assets/AnimationSpine/nv/nv_7.png
+Assets/AnimationSpine/nv/nv_8.png
+Assets/AnimationSpine/nv/nv_9.png
+Assets/AnimationSpine/nv/nv_Atlas.asset
+Assets/AnimationSpine/nv/nv_nv.mat
+Assets/AnimationSpine/nv/nv_nv_10.mat
+Assets/AnimationSpine/nv/nv_nv_2.mat
+Assets/AnimationSpine/nv/nv_nv_3.mat
+Assets/AnimationSpine/nv/nv_nv_4.mat
+Assets/AnimationSpine/nv/nv_nv_5.mat
+Assets/AnimationSpine/nv/nv_nv_6.mat
+Assets/AnimationSpine/nv/nv_nv_7.mat
+Assets/AnimationSpine/nv/nv_nv_8.mat
+Assets/AnimationSpine/nv/nv_nv_9.mat
+Assets/AnimationSpine/nv/nv_SkeletonData.asset
+Assets/Font/Arista/Arista No Out SDF.asset
+Assets/Font/Arista/Arista Outline Brown.mat
+Assets/Font/Arista/Arista.ttf
+Assets/Font/Lonely Cake/Lonely Cake Brown.mat
+Assets/Font/Lonely Cake/Lonely Cake SDF.asset
+Assets/Font/Lonely Cake/Lonely Cake.otf
+Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.png
+Assets/Spine/Editor/spine-unity/Editor/GUI/SkeletonDataAsset Icon.png
+Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataAsset.cs
+Assets/Spine/Runtime/spine-unity/Asset Types/SpineAtlasAsset.cs
+Assets/Spine/Runtime/spine-unity/Components/Internal/SkeletonSubmeshGraphic.cs
+Assets/Spine/Runtime/spine-unity/Components/SkeletonGraphic.cs
+Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicAdditive.mat
+Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicDefault.mat
+Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicMultiply.mat
+Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicScreen.mat
+Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shader
+Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Additive.shader
+Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Multiply.shader
+Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-Screen.shader
+Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton.shader
+Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+Packages/com.unity.ugui/Editor Resources/Gizmos/TMP - Font Asset Icon.psd
+Packages/com.unity.ugui/Editor Resources/Gizmos/TMP - Text Component Icon.psd
+Packages/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs
+Packages/com.unity.ugui/Runtime/TMP/TMP_FontAsset.cs
+Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Button.cs
+Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Image.cs
+Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/HorizontalLayoutGroup.cs
+Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Layout/VerticalLayoutGroup.cs
+Packages/com.unity.ugui/Runtime/UGUI/UI/Core/Mask.cs
+Packages/com.unity.ugui/Runtime/UGUI/UI/Core/ScrollRect.cs

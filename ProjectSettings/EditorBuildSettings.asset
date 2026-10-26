@@ -33,6 +33,12 @@ EditorBuildSettings:
     path: Assets/PLY34/scenes/PLY344.unity
     guid: 86d10d98ad3f5bd46b87803325853265
   - enabled: 1
-    path: Assets/PLY34/scenes/PLY345.unity
+    path: Assets/PLY34/scenes/PLY34.unity
     guid: 96e4c4ba87dacc64e83663339e1b8950
+  - enabled: 1
+    path: Assets/PLY34/scenes/PLY35.unity
+    guid: b928f4ad3bb65d54e8589e89fe054758
+  - enabled: 1
+    path: Assets/PLY34/scenes/PLY35 1.unity
+    guid: 919a0780a22fe014a82fd7a2c39f646a
   m_configObjects: {}

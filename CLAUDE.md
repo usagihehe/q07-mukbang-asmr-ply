@@ -213,7 +213,13 @@ When you learn something about this project the hard way — a wrong assumption,
 - A TMP font asset with `material: {fileID: 0}` works in the Editor but crashes the Playworks build ("Cannot read properties of null (reading 'GetInstanceID')" in `SetArraySizes`) — point it at its own atlas material sub-asset.
 - Unity wipes `Temp/` (including `Temp/claude/`) when the Editor restarts — never keep backups there; use the session scratchpad.
 - Playworks "Size breakdown → Scripts" is the `scripts` field of the estimate JSON written to `LunaTemp/luna.log`. Runtime Analysis history lives in `luna.json` (`unity.unusedClasses`/`unusedMethods`); "Reset Code" empties them.
+- That `scripts` figure is `total − Σ asset types − other`, and it grows by exactly the sounds size (PLY345 vs PLY35: both +1209 KB) — a long BGM inflates "Scripts" too. Luna re-encodes every clip to 128 kbps mono MP3 regardless of Unity's quality setting; shorten the clip itself.
+- `TMP Settings.asset` (in `TextMesh Pro/Resources/`) ships in every Playworks build, so its `m_defaultFontAsset` drags that font's atlas in even when a scene has no text — it is now None.
+- Luna's `AudioSource.Stop()` doesn't stop sounds started with `PlayOneShot` (its JS `playOneShot` never marks the instance as playing), so the Editor can't reproduce it. `AudioManager.PlaySoundEffect` uses `clip` + `Play()` for that reason — don't switch it back.
+- UI canvases are Screen Space – Overlay, so `transform.position` is in screen pixels and differs per device (Luna's `Screen.width` = CSS width × capped DPR). Eat distances (`EaterBrain`, `PetStateMachine`) divide by `IEdible.CanvasScale` and are tuned in 1080-wide canvas units; any new position-distance check must do the same.
 - `Assets/Font/Arista/*.mat` and `Arista.ttf` were recreated with new guids; TMP texts on an old guid show material None — relink them to the current Arista materials.
+- UnityMCP `manage_asset(action="delete")` on a subfolder once also removed its parent folder and a sibling file (`SupermarketHLW/Scripts/Plugins` → whole `Scripts/`). Back up untracked folders to the scratchpad before deleting, and check siblings afterwards.
+- `SupermarketHLW` panels (from q3-v2) need `Usaki.UIManager` (not `Ply34UIManager`) + HandHint/LockImage, a `SupermarketItemData` object, `BasketCtrl._flyIcons`, `PayPanel._coinBarCtrl` (a hidden CoinBar is enough); their Lonely Cake font and `AnimationSpine/nv` skeleton don't exist here — use Arista and `Assets/Animation/nv_<skin>`.
 - Scenes copied from q3-v2 carry its script guids (UIManager, AudioManager, CanvasAutoScale…) as Missing; `manage_scene(action="validate", auto_repair=true)` strips them, then re-add our classes and rewire.
 
 ---

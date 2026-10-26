@@ -2537,6 +2537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CanteenLivePanel
   _phoneBtn: {fileID: 514682508}
   _flash: {fileID: 1604963814}
+  _lockImage: {fileID: 0}
   _character: {fileID: 4223839498085520877}
   _showCoinPos: {fileID: 559819598}
   _coinBarCtrl: {fileID: 682972902}
@@ -2549,6 +2550,7 @@ MonoBehaviour:
   _drinkMukbang: {fileID: 774268798}
   _foodUnlockCtrl: {fileID: 335793914}
   _bgm: {fileID: 0}
+  _foodBitesToComplete: 3
 --- !u!1 &9293215
 GameObject:
   m_ObjectHideFlags: 0
@@ -27757,7 +27759,6 @@ MonoBehaviour:
   - {fileID: 1665225648}
   - {fileID: 837393201}
   - {fileID: 671608548}
-  _commingSoonBtn: {fileID: 1931240780}
   _waterBasket: {fileID: 56524351}
   _dataConfig: {fileID: 11400000, guid: 364545f38e21e0743b3841c48b30f84a, type: 2}
   _foodItemSO: {fileID: 11400000, guid: 74fa9ec065f8e0b478b6817d08373b20, type: 2}
@@ -198309,8 +198310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a0b89c985f2ed4eb4baa51165e0fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StateMachine
-  _distanceBeforeEat: 200
-  _distanceEating: 80
+  _distanceBeforeEat: 185
+  _distanceEating: 74
   _group: 1
   _currentState: 
 --- !u!114 &5711384904812350918

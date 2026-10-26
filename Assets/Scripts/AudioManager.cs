@@ -21,7 +21,9 @@ public class AudioManager : ZMonoSingleton<AudioManager>
         float volume = GetSoundVolumn();
         if (volume > 0)
         {
-            audioSoundEffect.PlayOneShot(_audio);
+            // Luna's AudioSource.Stop() can't stop a PlayOneShot sound, so StopSoundEffect would leave it playing.
+            audioSoundEffect.clip = _audio;
+            audioSoundEffect.Play();
         }
     }
 

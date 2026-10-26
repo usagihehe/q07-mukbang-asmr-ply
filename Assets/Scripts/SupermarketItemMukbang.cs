@@ -23,7 +23,7 @@ public class SupermarketItemMukbang : ItemMukbang
     public SupermarketItemSO Item { get; protected set; }
     public override EatStyle Style => _toolCase == ToolCase.Nothing ? EatStyle.Hold : EatStyle.Spoon;
     // Drinks are bitten from above the cup, matching the old +50 mouth offset.
-    public override Vector3 EatPoint => SupermarketItemData.Instance.IsDrinkItem(Item) ? _tool.transform.position + Vector3.up * 50f : _tool.transform.position;
+    public override Vector3 EatPoint => SupermarketItemData.Instance.IsDrinkItem(Item) ? _tool.transform.position + Vector3.up * 50f * CanvasScale :_tool.transform.position;
     public override SoundType EatSound => Item.EatSound;
     public ToolCase ToolCase => _toolCase;
     public Transform IconParent => _iconParent;

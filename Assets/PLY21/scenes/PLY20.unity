@@ -173,6 +173,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spmkIconCtrl: {fileID: 224858112}
+  _timeMove: 0
+  _moveEase: 0
+  _timeFly: 0
+  _flyHigh: {x: 0, y: 0, z: 0}
+  _fadeEase: 0
   Item: {fileID: 0}
 --- !u!1 &18721387
 GameObject:
@@ -2351,6 +2356,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spmkIconCtrl: {fileID: 853440488}
+  _timeMove: 0
+  _moveEase: 0
+  _timeFly: 0
+  _flyHigh: {x: 0, y: 0, z: 0}
+  _fadeEase: 0
   Item: {fileID: 0}
 --- !u!1 &313829722
 GameObject:
@@ -7065,6 +7075,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spmkIconCtrl: {fileID: 1406690875}
+  _timeMove: 0
+  _moveEase: 0
+  _timeFly: 0
+  _flyHigh: {x: 0, y: 0, z: 0}
+  _fadeEase: 0
   Item: {fileID: 0}
 --- !u!1 &740768597
 GameObject:
@@ -17246,6 +17261,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spmkIconCtrl: {fileID: 1209046088}
+  _timeMove: 0
+  _moveEase: 0
+  _timeFly: 0
+  _flyHigh: {x: 0, y: 0, z: 0}
+  _fadeEase: 0
   Item: {fileID: 0}
 --- !u!1 &1619778980
 GameObject:
@@ -18011,6 +18031,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spmkIconCtrl: {fileID: 296287836}
+  _timeMove: 0
+  _moveEase: 0
+  _timeFly: 0
+  _flyHigh: {x: 0, y: 0, z: 0}
+  _fadeEase: 0
   Item: {fileID: 0}
 --- !u!1 &1668499282
 GameObject:
@@ -23057,8 +23082,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a0b89c985f2ed4eb4baa51165e0fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _distanceBeforeEat: 60
-  _distanceEating: 30
+  _distanceBeforeEat: 55
+  _distanceEating: 28
   _group: 0
   _currentState: 
 --- !u!114 &2121370873

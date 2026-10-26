@@ -102,7 +102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 108e6ecbe6632714a823ce02c61f34fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PetDecor
-  type: 5
   petObj: {fileID: 7262431546557564460}
   skeleton: {fileID: 8569732507169235494}
   petCtrl: {fileID: 4610397664629138074}
@@ -115,6 +114,8 @@ MonoBehaviour:
   - {fileID: 1862557247488427540}
   - {fileID: 7646681478533458064}
   - {fileID: 8520087440046585426}
+  _petId: 0
+  _petSkinName: 1
 --- !u!1 &1442378442874841949
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,6 +734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Pet.PetCtrl
   _skeleton: {fileID: 8569732507169235494}
   _mPoint: {fileID: 0}
+  _petSound: {fileID: 0}
 --- !u!114 &7521043469718699784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -745,7 +747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a431256f368f20b46906adeb834a46f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pet.PetStateMachine
-  _distanceEating: 70
+  _distanceEating: 65
   _currentState: 
 --- !u!114 &6343139160625286530
 MonoBehaviour:

@@ -1394,8 +1394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29a0b89c985f2ed4eb4baa51165e0fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StateMachine
-  _distanceBeforeEat: 250
-  _distanceEating: 100
+  _distanceBeforeEat: 231
+  _distanceEating: 92
   _group: 1
   _currentState: 
 --- !u!114 &15312261
@@ -9981,6 +9981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CanteenLivePanel
   _phoneBtn: {fileID: 1923889914}
   _flash: {fileID: 168927296}
+  _lockImage: {fileID: 0}
   _character: {fileID: 15312265}
   _showCoinPos: {fileID: 119915462}
   _coinBarCtrl: {fileID: 1120457191}
@@ -14633,7 +14634,6 @@ MonoBehaviour:
   - {fileID: 309957804}
   - {fileID: 1132478078}
   - {fileID: 1853848355}
-  _commingSoonBtn: {fileID: 0}
   _waterBasket: {fileID: 1519038418}
   _dataConfig: {fileID: 11400000, guid: 15ec176c7ed1d5341bf7ef8ee15dcd5c, type: 2}
   _foodItemSO: {fileID: 11400000, guid: 278c55aafe3067a4cae2da479334e762, type: 2}
@@ -15995,7 +15995,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a431256f368f20b46906adeb834a46f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pet.PetStateMachine
-  _distanceEating: 70
+  _distanceEating: 65
   _currentState: 
 --- !u!114 &1757618868
 MonoBehaviour:
