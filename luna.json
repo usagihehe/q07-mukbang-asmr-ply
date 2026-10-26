@@ -1,8 +1,8 @@
 {
     "version": "7.2.0",
     "projectId": "629a1bf2777177f4eb5a3a65506ae16b",
-    "applicationID": 26084,
-    "creativeName": "",
+    "applicationID": 31069,
+    "creativeName": "ply34",
     "pgServer": "EU",
     "window": {
         "‐⁘": true
@@ -24539,7 +24539,7 @@
                     },
                     {
                         "name": "EndGame",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -36794,7 +36794,7 @@
                         "startTime": "00:00.000",
                         "endTime": "00:26.803",
                         "lengthInSeconds": 26.80299949645996,
-                        "bitrate": 128,
+                        "bitrate": 64,
                         "script": "",
                         "ext": "",
                         "name": "Assets/Halloween/Audio/Halo-BGM.ogg"
@@ -36818,6 +36818,16 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/AudioClip/Cook/wing-eat.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.000",
+                        "lengthInSeconds": 30.0,
+                        "bitrate": 64,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Audio/Canteen-BGM.ogg"
                     }
                 ]
             },

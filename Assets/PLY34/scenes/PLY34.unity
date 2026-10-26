@@ -9883,7 +9883,7 @@ MonoBehaviour:
   - {fileID: 201505604}
   _drinkMukbang: {fileID: 620924211}
   _bgm: {fileID: 8300000, guid: b03737016da3bfb43a3c47cbbdc2070c, type: 3}
-  _foodBitesToComplete: 3
+  _foodBitesToComplete: 5
 --- !u!114 &945405691
 MonoBehaviour:
   m_ObjectHideFlags: 0
