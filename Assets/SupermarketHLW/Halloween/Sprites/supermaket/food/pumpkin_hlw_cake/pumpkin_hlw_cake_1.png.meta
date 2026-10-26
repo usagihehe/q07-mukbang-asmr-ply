@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6697ae89d15030e44b9b96daa415a147
+guid: 97d6883c5d69bf242b0e19a5a70b637d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2310459130179401930
-    second: hlw_cake_1_0
+      213: 1046189560827369816
+    second: hlw_cake_0_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,8 +100,8 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 50
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hlw_cake_1_0
+      name: hlw_cake_0_0
       rect:
         serializedVersion: 2
         x: 0
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac8b66a6656601020800000000000000
-      internalID: 2310459130179401930
+      spriteID: 85956d4dcdfc48e00800000000000000
+      internalID: 1046189560827369816
       vertices: []
       indices: 
       edges: []
@@ -157,7 +157,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hlw_cake_1_0: 2310459130179401930
+      hlw_cake_0_0: 1046189560827369816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

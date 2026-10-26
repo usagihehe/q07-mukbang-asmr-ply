@@ -2,7 +2,7 @@
     "version": "7.2.0",
     "projectId": "629a1bf2777177f4eb5a3a65506ae16b",
     "applicationID": 31069,
-    "creativeName": "ply34",
+    "creativeName": "ply35",
     "pgServer": "EU",
     "window": {
         "‐⁘": true
@@ -130,9 +130,11 @@
             ]
         },
         "scenes": [
+            "Assets/PLY34/scenes/PLY35.unity"
+        ],
+        "disabledScenes": [
             "Assets/PLY34/scenes/PLY34.unity"
         ],
-        "disabledScenes": [],
         "startupScene": 0,
         "packages": {
             "default": {
@@ -1857,10 +1859,6 @@
             },
             {
                 "name": "UnityEngine.SoftJointLimitSpring",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.Sprites.DataUtility",
                 "excluded": true
             },
             {
@@ -4861,7 +4859,7 @@
             },
             {
                 "name": "UnityEngine.RectTransform.Edge",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.RemoteNotificationType",
@@ -5437,7 +5435,7 @@
             },
             {
                 "name": "UnityEngine.TextAnchor",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.TextClipping",
@@ -6588,10 +6586,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.UI.LayoutUtility",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.UI.Misc",
                 "excluded": true
             },
@@ -6601,10 +6595,6 @@
             },
             {
                 "name": "UnityEngine.UI.ReflectionMethodsCache",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.UI.SetPropertyUtility",
                 "excluded": true
             },
             {
@@ -6636,15 +6626,7 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.UI.ContentSizeFitter",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.UI.Dropdown.DropdownItem",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.UI.LayoutGroup",
                 "excluded": true
             },
             {
@@ -6664,10 +6646,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.UI.HorizontalOrVerticalLayoutGroup",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.UI.Outline",
                 "excluded": true
             },
@@ -6681,14 +6659,6 @@
             },
             {
                 "name": "UnityEngine.UI.Toggle",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.UI.HorizontalLayoutGroup",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.UI.VerticalLayoutGroup",
                 "excluded": true
             },
             {
@@ -6733,7 +6703,7 @@
             },
             {
                 "name": "UnityEngine.UI.ContentSizeFitter.FitMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.UI.CoroutineTween.ITweenValue",
@@ -7153,7 +7123,7 @@
             },
             {
                 "name": "TMPro.FontFeatureLookupFlags",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "TMPro.FontStyles",
@@ -7400,10 +7370,6 @@
                 "excluded": true
             },
             {
-                "name": "DG.Tweening.DOVirtual",
-                "excluded": true
-            },
-            {
                 "name": "DG.Tweening.EaseFactory",
                 "excluded": true
             },
@@ -7480,10 +7446,6 @@
                 "excluded": true
             },
             {
-                "name": "DG.Tweening.Sequence",
-                "excluded": true
-            },
-            {
                 "name": "DG.Tweening.CustomPlugins.PureQuaternionPlugin",
                 "excluded": true
             },
@@ -7492,15 +7454,7 @@
                 "excluded": true
             },
             {
-                "name": "DG.Tweening.Plugins.ColorPlugin",
-                "excluded": true
-            },
-            {
                 "name": "DG.Tweening.Plugins.DoublePlugin",
-                "excluded": true
-            },
-            {
-                "name": "DG.Tweening.Plugins.FloatPlugin",
                 "excluded": true
             },
             {
@@ -7736,19 +7690,7 @@
                 "excluded": false
             },
             {
-                "name": "AlphaTweenAnim",
-                "excluded": true
-            },
-            {
                 "name": "BaseProcess",
-                "excluded": true
-            },
-            {
-                "name": "BasketCtrl",
-                "excluded": true
-            },
-            {
-                "name": "BillItemCtrl",
                 "excluded": true
             },
             {
@@ -7808,35 +7750,11 @@
                 "excluded": true
             },
             {
-                "name": "DragDropItem",
-                "excluded": true
-            },
-            {
                 "name": "FridgeCtrl",
                 "excluded": true
             },
             {
-                "name": "ImageState",
-                "excluded": true
-            },
-            {
-                "name": "ItemSpmkIconCtrl",
-                "excluded": true
-            },
-            {
                 "name": "LuckyDessertCtrl",
-                "excluded": true
-            },
-            {
-                "name": "NotifyCtrl",
-                "excluded": true
-            },
-            {
-                "name": "PayMachineCtrl",
-                "excluded": true
-            },
-            {
-                "name": "PayMachineState",
                 "excluded": true
             },
             {
@@ -7868,23 +7786,11 @@
                 "excluded": true
             },
             {
-                "name": "SlotShelfCtrl",
-                "excluded": true
-            },
-            {
-                "name": "Usaki.SupermarketPanel",
-                "excluded": true
-            },
-            {
                 "name": "Popup",
                 "excluded": true
             },
             {
                 "name": "SkinCtrl",
-                "excluded": true
-            },
-            {
-                "name": "SlotBasket",
                 "excluded": true
             },
             {
@@ -8040,14 +7946,6 @@
                 "excluded": true
             },
             {
-                "name": "SpringCtrl",
-                "excluded": true
-            },
-            {
-                "name": "SpringUtils",
-                "excluded": true
-            },
-            {
                 "name": "Supermarket.LuckyControlTween",
                 "excluded": true
             },
@@ -8061,10 +7959,6 @@
             },
             {
                 "name": "Usaki.HandCtrl",
-                "excluded": true
-            },
-            {
-                "name": "Usaki.SupermarketLivePanel",
                 "excluded": true
             },
             {
@@ -8085,18 +7979,6 @@
             },
             {
                 "name": "MoveNoFade",
-                "excluded": true
-            },
-            {
-                "name": "PayDoneState",
-                "excluded": true
-            },
-            {
-                "name": "PayIdleState",
-                "excluded": true
-            },
-            {
-                "name": "PayPanel",
                 "excluded": true
             },
             {
@@ -8121,14 +8003,6 @@
             },
             {
                 "name": "PLY33.Blindbox.BlindboxSupermarketPanel",
-                "excluded": true
-            },
-            {
-                "name": "ScanItem",
-                "excluded": true
-            },
-            {
-                "name": "ScanState",
                 "excluded": true
             },
             {
@@ -8192,15 +8066,7 @@
                 "excluded": true
             },
             {
-                "name": "SupermarketItemSO",
-                "excluded": true
-            },
-            {
                 "name": "Usaki.SelfieState",
-                "excluded": true
-            },
-            {
-                "name": "WaitScanState",
                 "excluded": true
             },
             {
@@ -8289,7 +8155,7 @@
             },
             {
                 "name": "IMGState",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "IOuttro",
@@ -8305,11 +8171,11 @@
             },
             {
                 "name": "MukbangItemSO",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "PayScreen",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "PLY33.Blindbox.IState",
@@ -8334,14 +8200,6 @@
             {
                 "name": "SLunch.CanteenManager.TrayFoodItemDTO",
                 "excluded": false
-            },
-            {
-                "name": "SLunch.Livestream.ITrayLivestream",
-                "excluded": false
-            },
-            {
-                "name": "SLunch.Livestream.ITraySlot",
-                "excluded": true
             },
             {
                 "name": "SLunch.RecipeData",
@@ -8433,7 +8291,7 @@
             },
             {
                 "name": "SpringUtils.tDampedSpringMotionParams",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "SupermarketItemListSO",
@@ -8441,11 +8299,11 @@
             },
             {
                 "name": "ToolCase",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "TweenType",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Spine.Unity.IHasSkeletonDataAsset",
@@ -9549,7 +9407,7 @@
                     },
                     {
                         "name": "isLetter",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "isHighSurrogate",
@@ -9573,7 +9431,7 @@
                     },
                     {
                         "name": "isSeparator",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "isPunctuation",
@@ -9851,7 +9709,7 @@
                     },
                     {
                         "name": "toString",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "parse",
@@ -13105,11 +12963,11 @@
                     },
                     {
                         "name": "IncreaseCapacity",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetCapacity",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddIfNotPresent",
@@ -13267,7 +13125,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -16537,23 +16395,23 @@
                 "instanceMethods": [
                     {
                         "name": "FromPaddings",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "vertical#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "horizontal#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -17933,11 +17791,11 @@
                     },
                     {
                         "name": "eulerAngles#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "eulerAngles#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "localRotation#get",
@@ -19197,11 +19055,11 @@
                     },
                     {
                         "name": "SetSizeWithCurrentAnchors",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetParentSize",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetWorldCorners",
@@ -19213,7 +19071,7 @@
                     },
                     {
                         "name": "SetInsetAndSizeFromParentEdge",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ForceUpdateRectTransforms",
@@ -19675,7 +19533,7 @@
                     },
                     {
                         "name": "disabledColor#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "disabledColor#set",
@@ -19887,7 +19745,7 @@
                     },
                     {
                         "name": "disabledSprite#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "disabledSprite#set",
@@ -20003,7 +19861,7 @@
                     },
                     {
                         "name": "color#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -20275,7 +20133,7 @@
                     },
                     {
                         "name": "type#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "type#set",
@@ -20355,11 +20213,11 @@
                     },
                     {
                         "name": "pixelsPerUnit#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "multipliedPixelsPerUnit#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "mainTexture#get",
@@ -20371,11 +20229,11 @@
                     },
                     {
                         "name": "minWidth#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "preferredWidth#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "flexibleWidth#get",
@@ -20395,7 +20253,7 @@
                     },
                     {
                         "name": "layoutPriority#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "alphaHitTestMinimumThreshold#get",
@@ -20885,7 +20743,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -21547,7 +21405,7 @@
                     },
                     {
                         "name": "minWidth#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "minHeight#get",
@@ -21567,7 +21425,7 @@
                     },
                     {
                         "name": "preferredWidth#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "preferredHeight#get",
@@ -21847,7 +21705,7 @@
                     },
                     {
                         "name": "ResizeInternalArray$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddFloatToInternalTextBackingArray",
@@ -21883,7 +21741,7 @@
                     },
                     {
                         "name": "GetPreferredWidth",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetPreferredWidth$1",
@@ -21923,7 +21781,7 @@
                     },
                     {
                         "name": "CalculatePreferredValues",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetCompoundBounds",
@@ -23507,15 +23365,15 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Reset",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "getHashCode",
@@ -23527,7 +23385,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -23537,15 +23395,15 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Reset",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "getHashCode",
@@ -23557,7 +23415,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -24701,7 +24559,7 @@
                     },
                     {
                         "name": "IsDrinkItem",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "IsBlindBoxItem",
@@ -24719,39 +24577,39 @@
                     },
                     {
                         "name": "SupermarketLivePanel#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PayPanel#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Notify#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "HandHint#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Awake",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ShowSupermarketLivePanel",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ShowPayPanel",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ActiceLockImage",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ClickHandAt",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "MoveHand",
@@ -24759,23 +24617,23 @@
                     },
                     {
                         "name": "StopHand",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "StartEatTutorial",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnEatSlotPress",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnEatSlotRelease",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "CompleteEatTutorial",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -26953,7 +26811,7 @@
                     },
                     {
                         "name": "border#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "textureRect#get",
@@ -27351,7 +27209,7 @@
                     },
                     {
                         "name": "interactable#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "interactable#set",
@@ -27509,7 +27367,7 @@
                     },
                     {
                         "name": "disabledTrigger#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "disabledTrigger#set",
@@ -28431,7 +28289,7 @@
                     },
                     {
                         "name": "scale#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "scale#set",
@@ -28589,7 +28447,7 @@
                 "instanceMethods": [
                     {
                         "name": "op_Addition",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "getDefaultValue",
@@ -28597,7 +28455,7 @@
                     },
                     {
                         "name": "xPlacement#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "xPlacement#set",
@@ -28605,7 +28463,7 @@
                     },
                     {
                         "name": "yPlacement#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "yPlacement#set",
@@ -28621,7 +28479,7 @@
                     },
                     {
                         "name": "yAdvance#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "yAdvance#set",
@@ -29025,7 +28883,7 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -29041,7 +28899,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -29741,11 +29599,11 @@
                     },
                     {
                         "name": "GetSequence",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetUpdateType",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddActiveTweenToSequence",
@@ -29951,7 +29809,7 @@
                     },
                     {
                         "name": "To$4",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "To$1",
@@ -30063,7 +29921,7 @@
                     },
                     {
                         "name": "ToAlpha",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Punch",
@@ -30087,7 +29945,7 @@
                     },
                     {
                         "name": "Sequence",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Sequence$1",
@@ -30107,7 +29965,7 @@
                     },
                     {
                         "name": "CompleteAndReturnKilledTot$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "CompleteAndReturnKilledTot$2",
@@ -30499,7 +30357,7 @@
                     },
                     {
                         "name": "DOScale",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DOScaleX",
@@ -30883,7 +30741,7 @@
                     },
                     {
                         "name": "SetAutoKill$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetId$1",
@@ -30955,7 +30813,7 @@
                     },
                     {
                         "name": "SetUpdate$2",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetInverted",
@@ -30987,7 +30845,7 @@
                     },
                     {
                         "name": "OnStepComplete",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnComplete",
@@ -31027,7 +30885,7 @@
                     },
                     {
                         "name": "AppendInterval",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PrependInterval",
@@ -31047,7 +30905,7 @@
                     },
                     {
                         "name": "ValidateAddToSequence",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "From",
@@ -31135,7 +30993,7 @@
                     },
                     {
                         "name": "SetOptions$4",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetOptions$6",
@@ -31291,7 +31149,7 @@
                     },
                     {
                         "name": "SetFrom",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ConvertToStartValue",
@@ -32081,7 +31939,7 @@
                 "instanceMethods": [
                     {
                         "name": "DOFade",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DOFade$1",
@@ -32089,7 +31947,7 @@
                     },
                     {
                         "name": "DOFade$2",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "DOFade$3",
@@ -33671,19 +33529,19 @@
                     },
                     {
                         "name": "Awake",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnEnable",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnDisable",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PlayAnim",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Revert",
@@ -33829,7 +33687,7 @@
                     },
                     {
                         "name": "TakeCoin",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ChangeCoin",
@@ -34025,7 +33883,7 @@
                     },
                     {
                         "name": "Group#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "EatPoint#get",
@@ -34065,7 +33923,7 @@
                     },
                     {
                         "name": "ShowTool",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "HideTool",
@@ -34378,32 +34236,6 @@
                     {
                         "name": "PlayFlash",
                         "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "SLunch.Livestream.TrayLivestream",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "Initialize",
-                        "excluded": true
-                    },
-                    {
-                        "name": "CreateFoods",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetSlotByID",
-                        "excluded": true
-                    },
-                    {
-                        "name": "IsCompleted",
-                        "excluded": true
-                    },
-                    {
-                        "name": "RetrieveFoods",
-                        "excluded": true
                     }
                 ]
             },
@@ -35567,7 +35399,7 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "init",
@@ -35587,7 +35419,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -35831,7 +35663,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -35901,11 +35733,11 @@
                     },
                     {
                         "name": "Resize",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Resize$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -36143,7 +35975,7 @@
                     },
                     {
                         "name": "UnRegisterTextObjectForUpdate",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "UnRegisterTextElementForRebuild",
@@ -36191,7 +36023,7 @@
                     },
                     {
                         "name": "InternalUnRegisterTextObjectForUpdate",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -36225,7 +36057,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -36235,7 +36067,7 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -36255,7 +36087,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -36407,15 +36239,15 @@
                 "instanceMethods": [
                     {
                         "name": "Style#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "EatPoint#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "EatSound#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ToolCase#get",
@@ -36427,15 +36259,15 @@
                     },
                     {
                         "name": "IsBlindBoxClosed#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "init",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Init",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RevealIcon",
@@ -36447,39 +36279,43 @@
                     },
                     {
                         "name": "GetEmotion",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnPointerDown",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnDrag",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnPointerUp",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Consume",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OpenItem",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "HandleIconAt",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "HandleTool",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "HideTool",
-                        "excluded": true
+                        "excluded": false
+                    },
+                    {
+                        "name": "DrinkPoint#get",
+                        "excluded": false
                     }
                 ]
             },
@@ -36506,6 +36342,1394 @@
                     {
                         "name": "ResetScale",
                         "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.SetPropertyUtility",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "SetColor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetStruct",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetClass",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.ContentSizeFitter",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "horizontalFit#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "horizontalFit#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "verticalFit#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "verticalFit#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rectTransform#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnRectTransformDimensionsChange",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HandleSelfFittingAlongAxis",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetLayoutHorizontal",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetLayoutVertical",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetDirty",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.LayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "childAlignment#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childAlignment#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "padding#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "padding#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minWidth#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "preferredWidth#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "flexibleWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "layoutPriority#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "rectChildren#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "rectTransform#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "isRootLayoutGroup#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalculateLayoutInputHorizontal",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetChildAlongAxis",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetChildAlongAxis$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLayoutInputForAxis",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetStartOffset",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetAlignmentOnAxis",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetTotalMinSize",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetTotalPreferredSize",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetTotalFlexibleSize",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetProperty",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnTransformChildrenChanged",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnRectTransformDimensionsChange",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDidApplyAnimationProperties",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetDirty",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DelayedSetDirty",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.HorizontalOrVerticalLayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "spacing#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "spacing#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childForceExpandWidth#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "childForceExpandWidth#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childForceExpandHeight#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "childForceExpandHeight#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlWidth#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "childControlHeight#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalcAlongAxis",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetChildrenAlongAxis",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetChildSizes",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.HorizontalLayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalculateLayoutInputHorizontal",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalculateLayoutInputVertical",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetLayoutHorizontal",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetLayoutVertical",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.VerticalLayoutGroup",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalculateLayoutInputHorizontal",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalculateLayoutInputVertical",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetLayoutHorizontal",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetLayoutVertical",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "AlphaTweenAnim",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Duration#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayAnim",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Revert",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "BasketCtrl",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "BasketSlots#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Items#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsFull#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PickNum#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlaySpring",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ClearBasket",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PutInItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PutOutItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowFlyIcon",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetSlot",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "BillItemCtrl",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Quantity#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ResetBillItem",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "DragDropItem",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Offset#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerDown",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerUp",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "ImageState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "SetState",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "ItemSpmkIconCtrl",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ActiveIcon",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DisableIcon",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsActive",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnValidate",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "NotifyCtrl",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Show",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PayMachineCtrl",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Scan#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScaneEffect#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Direct#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DoneBtn#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CurScreen#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CurScreen#set",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetItems",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsScanAll",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PrintItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetBillItem",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PayMachineState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DistanceScan#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CurrentState#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetDistance",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnSelectItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDropItem",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "SlotShelfCtrl",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Item#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CanPick#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CanPick#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetFirstView",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Usaki.SupermarketPanel",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Basket#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPressDoneBtn",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPickItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnTakeOut",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowPanel",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowIntro",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowOuttro",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScrollToLeftChild",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ScrollToRightChild",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "SlotBasket",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "IsOccupied#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IconWorldPosition#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetItem$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ShowIcon",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ClearSlot",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TakeOut",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "SpringCtrl",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlaySpring",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ApplyScale",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "SpringUtils",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CalcDampedSpringMotionParams",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateDampedSpringMotion",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Usaki.SupermarketLivePanel",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "IsDrink",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnValidate",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnSelectItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDropItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScoreDrinkSession",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowPanel",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowFirstHint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnBlindBoxOpened",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FindClosedBox",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDone",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnConsume",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ClaimCoin",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEndLiveGamePlay",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PayDoneState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EnterState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Execute",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ExitState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsSuitable",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PayIdleState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EnterState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Execute",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ExitState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsSuitable",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PayPanel",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Items#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowPanel",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPressDoneBtn",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowIntro",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ShowOuttro",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "ScanItem",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "SO#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerDown",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDrag",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerUp",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "ScanState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EnterState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Execute",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ExitState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsSuitable",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "SupermarketItemSO",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetIcon",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HasLastFrame",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HasBox",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Reverse",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "WaitScanState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EnterState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Execute",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ExitState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsSuitable",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "DG.Tweening.DOVirtual",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Float",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Int",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Vector3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Color",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$5",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$6",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EasedValue$7",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DelayedCall",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "DG.Tweening.Sequence",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Setup",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DoStartup",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DoApplyTween",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ApplyInternalCycle",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StableSortSequencedObjs",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsAnyCallbackSet",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DoPrepend",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DoInsert",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DoAppendInterval",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DoPrependInterval",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DoInsertCallback",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateDelay",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Reset",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Validate",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Startup",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ApplyTween",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "DG.Tweening.Plugins.FloatPlugin",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Reset",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetFrom$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetFrom",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ConvertToStartValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetRelativeEndValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetChangeValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetSpeedBasedDuration",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EvaluateAndApply",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Sprites.DataUtility",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "GetOuterUV",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetInnerUV",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetPadding",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetMinSize",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.LayoutUtility",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "GetMinSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetPreferredSize",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetFlexibleSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetMinWidth",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetPreferredWidth",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetFlexibleWidth",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetMinHeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetPreferredHeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetFlexibleHeight",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLayoutProperty",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetLayoutProperty$1",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PLY34.Hint.ShelfTapHint",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPickItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnScroll",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScheduleShow",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PLY34.UI.HideOnShelfDrag",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "OnBeginDrag",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "DG.Tweening.Plugins.ColorPlugin",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Reset",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetFrom$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetFrom",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ConvertToStartValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetRelativeEndValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetChangeValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetSpeedBasedDuration",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EvaluateAndApply",
+                        "excluded": false
                     }
                 ]
             }
@@ -36651,7 +37875,7 @@
                         "maxHeight": 512,
                         "format": "jpeg",
                         "compression": "crush",
-                        "quality": 80,
+                        "quality": 75,
                         "script": "",
                         "ext": "",
                         "name": "Assets/Sprites/halloween/hlw_bg_spm.png"
@@ -36775,6 +37999,266 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/Animation/ui_emoji/ui_emoji.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/SupermarketHLW/Halloween/Sprites/supermaket/food/hlw_snack/hlw_snack_0.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/hlw_ramen/hlw_ramen_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/hlw_zombiecookie_jar/hlw_zombiecookie_jar_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/hlw_ramen/hlw_ramen_2.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/hlw_zombiecookie_jar/hlw_zombiecookie_jar_2.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/green_drink_hlw/green_drink_hlw_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/hlw_ramen/hlw_ramen_3.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/SupermarketHLW/Halloween/Sprites/supermaket/food/pumpkin_hlw_cake/pumpkin_hlw_cake_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/hlw_ramen/hlw_ramen_4.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/hlw_zombiecookie_jar/hlw_zombiecookie_jar_3.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/orange_drink_hlw/orange_drink_hlw_1.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/hlw_zombiecookie_jar/hlw_zombiecookie_jar_4.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "jpeg",
+                        "compression": "quantSize",
+                        "quality": 75,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/bg_table_hlw/bg_mode_hlw.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/hlw_crossaint/hlw_crossaint_3.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/green_drink_hlw/green_drink_hlw_3.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/orange_drink_hlw/orange_drink_hlw_2.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/hlw_crossaint/hlw_crossaint_4.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/SupermarketHLW/Halloween/Sprites/hlw_payment_counter/hlw_kinh_ko_line.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Animation/nv_43/nv.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/green_hlw_milk/green_hlw_milk_2.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/PLY33/sprites/basket_front.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/food/orange_hlw_milk/orange_hlw_milk_99.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/SupermarketHLW/Halloween/Sprites/supermaket/food/pumpkin_hlw_cake/pumpkin_hlw_cake_99.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/SupermarketHLW/Halloween/Sprites/supermaket/food/hlw_snack/hlw_snack_99.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/hand_character_0.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "quantSize",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/SupermarketHLW/Halloween/Sprites/hlw_payment_counter/hlw_nut_quet_duoc_do.png"
                     }
                 ]
             },
@@ -36798,26 +38282,6 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/Halloween/Audio/Halo-BGM.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.000",
-                        "lengthInSeconds": 30.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Cook/thigh-eat.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Cook/wing-eat.ogg"
                     },
                     {
                         "channels": 1,

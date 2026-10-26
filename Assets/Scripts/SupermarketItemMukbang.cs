@@ -22,8 +22,17 @@ public class SupermarketItemMukbang : ItemMukbang
     public Action<SupermarketItemMukbang> onBlindBoxOpened;
     public SupermarketItemSO Item { get; protected set; }
     public override EatStyle Style => _toolCase == ToolCase.Nothing ? EatStyle.Hold : EatStyle.Spoon;
-    // Drinks are bitten from above the cup, matching the old +50 mouth offset.
-    public override Vector3 EatPoint => SupermarketItemData.Instance.IsDrinkItem(Item) ? _tool.transform.position + Vector3.up * 50f * CanvasScale :_tool.transform.position;
+    // Drinks are sipped half a cup above the tool, so the offset follows each cup's height.
+    public override Vector3 EatPoint => SupermarketItemData.Instance.IsDrinkItem(Item) ? DrinkPoint : _tool.transform.position;
+    private Vector3 DrinkPoint
+    {
+        get
+        {
+            // lossyScale converts the sprite's local height to screen pixels (canvas scale included).
+            float halfHeightPixels = _tool.rectTransform.rect.height / 2f * _tool.transform.lossyScale.y;
+            return _tool.transform.position + Vector3.up * halfHeightPixels;
+        }
+    }
     public override SoundType EatSound => Item.EatSound;
     public ToolCase ToolCase => _toolCase;
     public Transform IconParent => _iconParent;
@@ -151,7 +160,7 @@ public class SupermarketItemMukbang : ItemMukbang
         _isOpen = true;
         _curStep--;
         HandleIconAt(_curStep);
-        AudioManager.Instance.PlaySoundEffect(null);
+        AudioManager.Instance.PlayAudioClick();
     }
 
     protected void HandleIconAt(int index, bool active = true)

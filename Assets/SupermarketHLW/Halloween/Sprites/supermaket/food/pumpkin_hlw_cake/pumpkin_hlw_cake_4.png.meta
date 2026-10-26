@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 8ff7bf41f008c9d4d8aee44adfdb8b6d
+guid: 590caaa3c9a5c1b428d9193462e482c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8391155635613919388
-    second: hlw_cake_4_0
+      213: 9027121363721700662
+    second: hlw_cake_3_0
+  - first:
+      213: 5316748023771834101
+    second: hlw_cake_3_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -75,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,8 +103,8 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 50
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hlw_cake_4_0
+      name: hlw_cake_3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 477
-        height: 334
+        height: 373
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +143,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 467173c5860ac8b80800000000000000
-      internalID: -8391155635613919388
+      spriteID: 635c8f47d07c64d70800000000000000
+      internalID: 9027121363721700662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hlw_cake_3_1
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 246
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f62e258822e8c940800000000000000
+      internalID: 5316748023771834101
       vertices: []
       indices: 
       edges: []
@@ -157,7 +181,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hlw_cake_4_0: -8391155635613919388
+      hlw_cake_3_0: 9027121363721700662
+      hlw_cake_3_1: 5316748023771834101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

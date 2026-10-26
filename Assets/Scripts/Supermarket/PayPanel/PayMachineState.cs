@@ -69,9 +69,11 @@ public class PayMachineState : MonoBehaviour
         }
     }
 
+    // Overlay canvas positions are screen pixels; divide like the eat distance so _distanceScan is in 1080-wide canvas units.
     public float GetDistance()
     {
-        return Vector3.Distance(_payMachine.Scan.transform.position, SelectItem.transform.position);
+        float canvasScale = GetComponentInParent<Canvas>().rootCanvas.scaleFactor;
+        return Vector3.Distance(_payMachine.Scan.transform.position, SelectItem.transform.position) / canvasScale;
     }
 
     public CharBaseState GetState(string stateName)

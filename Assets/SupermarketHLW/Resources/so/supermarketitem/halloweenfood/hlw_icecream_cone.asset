@@ -15,12 +15,12 @@ MonoBehaviour:
   Emotion: 8
   EatSound: 7
   Steps:
-  - {fileID: 21300000, guid: a90486041b89d494f80b887d320042e3, type: 3}
-  - {fileID: 21300000, guid: c2d32ad7b41e7424c805cd10acd7e0cc, type: 3}
-  - {fileID: 21300000, guid: 2c0c959754d2dfa429b980a311af4840, type: 3}
-  - {fileID: 21300000, guid: d25dcb5fcc8f6ef4fb02b8beaf4a5cd4, type: 3}
-  - {fileID: 21300000, guid: c38d0e0a79fb2b7438b66fce6c71149e, type: 3}
-  - {fileID: 21300000, guid: 3e911495ff3e58a489721999f8653f74, type: 3}
+  - {fileID: 21300000, guid: 95bc0c8e9c15df541ad6fa7e5eba604c, type: 3}
+  - {fileID: 21300000, guid: aa6f298574e0d474897aeb02767dc03c, type: 3}
+  - {fileID: 21300000, guid: 1e9a5809575382945b9fa7f37fb68e19, type: 3}
+  - {fileID: 21300000, guid: 55d8a12a51596f94f8cdacdbdb6a003c, type: 3}
+  - {fileID: 21300000, guid: 6d5b35381945d0e40b8477b49a7f8d53, type: 3}
+  - {fileID: 21300000, guid: ce2bdb86bd24c1744b3f2474c03a782c, type: 3}
   ShelfName: 
   Tool: {fileID: 0}
   Price: 300

@@ -63,9 +63,10 @@ namespace Usaki
             handHint.ShowHint(slot, canvas);
         }
 
-        public void OnEatSlotPress()
+        public void OnEatSlotPress(Transform pressedSlot)
         {
             if (!_isEatTutorialActive) return;
+            _eatTutorialSlot = pressedSlot;
             handHint.MoveHint(_eatTutorialSlot, _eatTutorialTarget, canvas);
         }
 

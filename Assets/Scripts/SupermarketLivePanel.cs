@@ -78,7 +78,7 @@ namespace Usaki
         private void OnSelectItem(object data)
         {
             _canScoreThisHold = true;
-            UIManager.Instance.OnEatSlotPress();
+            UIManager.Instance.OnEatSlotPress(((Component)data).transform);
         }
 
         private void OnDropItem(object data)
