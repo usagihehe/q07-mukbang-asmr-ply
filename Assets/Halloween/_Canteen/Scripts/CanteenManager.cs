@@ -35,6 +35,7 @@ namespace SLunch
         private FoodItemData _drinkItemBasket;
         public FoodController FoodController => _foodController;
         public TrayController TrayController => _trayController;
+        public BowlFood[] BowlFoods => _bowlFoods;
         public CanteenDataConfig DataConfig => _dataConfig;
         public FoodItemSO FoodItemSO => _foodItemSO;
         public FoodItemSO DrinkItemSOs => _drinkItemSOs;

@@ -37,9 +37,9 @@ namespace Usaki
         private void ShowHint(Vector2 anchoredPosition)
         {
             _hand.DOKill();
-            _hand.anchoredPosition = anchoredPosition;
+            _hand.anchoredPosition = anchoredPosition + _clickOffset;
             _hand.gameObject.SetActive(true);
-            _tween = _hand.DOAnchorPos(anchoredPosition + _clickOffset, _duration)
+            _tween = _hand.DOAnchorPos(anchoredPosition, _duration)
                 .SetEase(_ease)
                 .SetLoops(-1, LoopType.Yoyo);
         }

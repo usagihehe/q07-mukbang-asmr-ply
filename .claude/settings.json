@@ -19,15 +19,12 @@
     ],
     "ask": [
       "Bash(git reset --hard*)",
-      "mcp__UnityMCP__delete_script",
-      "mcp__UnityMCP__manage_build",
       "Bash(rm:*)",
       "Bash(del:*)",
       "Bash(Remove-Item:*)",
       "Bash(rmdir:*)",
       "Bash(git rm:*)",
-      "Bash(git clean:*)",
-      "Bash(bash .claude/scripts/rm-temp.sh *)"
+      "Bash(git clean:*)"
     ],
     "deny": [
       "Read(**/.env)",
@@ -62,18 +59,6 @@
     ]
   },
   "hooks": {
-    "PreToolUse": [
-      {
-        "matcher": "mcp__UnityMCP__manage_asset|mcp__UnityMCP__manage_gameobject|mcp__UnityMCP__manage_components",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/scripts/ask-on-mcp-delete.sh\"",
-            "timeout": 10
-          }
-        ]
-      }
-    ],
     "PostToolUse": [
       {
         "matcher": "Edit|Write|Bash",

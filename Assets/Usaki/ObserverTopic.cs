@@ -49,4 +49,12 @@ public class ObserverTopic
     public const string OnSpmkPickItem = "OnSpmkPickItem";
 
     public const string OnClaimMailFood = "OnClaimMailFood";
+
+    public const string OnCanteenFoodAdded = "OnCanteenFoodAdded";
+
+    public const string OnCanteenFoodMixed = "OnCanteenFoodMixed";
+
+    public const string OnCanteenStartLive = "OnCanteenStartLive";
+
+    public const string OnCanteenConsumeItem = "OnCanteenConsumeItem";
 }

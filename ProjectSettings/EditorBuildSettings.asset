@@ -6,39 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/PLY31/scenes/PLY31.unity
-    guid: 157a37a683653ed4ea9fc2dfff08057b
-  - enabled: 1
-    path: Assets/PLY32/scenes/PLY32.unity
-    guid: 6fd18a2b10cdbb64b92f5718544054ae
-  - enabled: 1
-    path: Assets/PLY33/scenes/PLY33.unity
-    guid: c01e93685cb4b544b9d52acb12ddf306
-  - enabled: 1
-    path: Assets/PLY34/scenes/PLY34.unity
-    guid: cd44f94e8ec768842ba1b8d80f4d3577
-  - enabled: 0
-    path: Assets/PLY34/scenes 1/PLY344.unity
-    guid: ff110893c06d4664b94c92248f62b6bc
-  - enabled: 0
-    path: Assets/PLY33/scenes/PLY33 1.unity
-    guid: 1fb8ffefbc1798f4cadf355684481bf6
-  - enabled: 0
-    path: Assets/PLY33/scenes/PLY35.unity
-    guid: 59ddf60d5700b31439cb97ae736861b8
-  - enabled: 1
-    path: Assets/PLY34/scenes/PLY344.unity
-    guid: 86d10d98ad3f5bd46b87803325853265
+    path: Assets/PLY34/scenes/PLY345 1.unity
+    guid: 02cb93836acfad648bdcca47d5f875ab
   - enabled: 1
     path: Assets/PLY34/scenes/PLY34.unity
     guid: 96e4c4ba87dacc64e83663339e1b8950
-  - enabled: 1
-    path: Assets/PLY34/scenes/PLY35.unity
-    guid: b928f4ad3bb65d54e8589e89fe054758
-  - enabled: 1
-    path: Assets/PLY34/scenes/PLY35 1.unity
-    guid: 919a0780a22fe014a82fd7a2c39f646a
   m_configObjects: {}

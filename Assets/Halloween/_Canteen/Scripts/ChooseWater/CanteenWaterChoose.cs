@@ -15,6 +15,7 @@ namespace SLunch.Water
         [SerializeField] protected ScrollRect _scrollRect;
         [SerializeField] protected WaterBasketCtrl _basketCtrl;
         [SerializeField] protected TrayViewCtrl _trayViewCtrl;
+        [SerializeField, Range(0f, 1f)] private float _startScrollPosition = 0.2f;
 
         private const int MAX_BASKET = 1;
         protected CanteenPanel _canteenPanel;
@@ -36,7 +37,7 @@ namespace SLunch.Water
             Observer.Instance.AddObserver(ObserverTopic.OnPickItem, OnPickItem);
 
             _doneBtn.gameObject.SetActive(false);
-            _scrollRect.horizontalNormalizedPosition = 0.2f;
+            _scrollRect.horizontalNormalizedPosition = _startScrollPosition;
         }
 
         protected virtual void OnDisable()

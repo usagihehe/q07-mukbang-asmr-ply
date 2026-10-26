@@ -13,12 +13,7 @@ MonoBehaviour:
   m_Name: DrinkFoodItemSO_ply34
   m_EditorClassIdentifier: Assembly-CSharp::SLunch.Tray.FoodItemSO
   _foodItems:
-  - {fileID: 11400000, guid: 14df18a30d54b24499f4d364563514ed, type: 2}
   - {fileID: 11400000, guid: f010a06e4cdc793418106b74a03bb0e1, type: 2}
-  - {fileID: 11400000, guid: 84149f84330e4272ae9b0e5ba7f438d2, type: 2}
-  - {fileID: 11400000, guid: 23a661419a7d85d4cafa6f42ff772be3, type: 2}
-  - {fileID: 11400000, guid: 9eb498a81e7b45042949e6c8c3e77685, type: 2}
-  - {fileID: 11400000, guid: d02ced1bad3d41b8a02d0c4df704c58d, type: 2}
   - {fileID: 11400000, guid: bed6fdc0d1685914887d8a87468ca9c6, type: 2}
   _canteenDataConfig: {fileID: 11400000, guid: 15ec176c7ed1d5341bf7ef8ee15dcd5c, type: 2}
   _recipeDataConfig: {fileID: 0}

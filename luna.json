@@ -1,8 +1,8 @@
 {
     "version": "7.2.0",
     "projectId": "629a1bf2777177f4eb5a3a65506ae16b",
-    "applicationID": 31069,
-    "creativeName": "ply34",
+    "applicationID": 26084,
+    "creativeName": "",
     "pgServer": "EU",
     "window": {
         "‐⁘": true
@@ -41,77 +41,6 @@
                 "**/Sirenix/Odin Inspector/",
                 "**/MeshCombiner/",
                 "**/AnimationBaker/",
-                "**/spine-unity/Components/SkeletonMecanim.cs",
-                "**/spine-unity/Components/RootMotion/",
-                "**/spine-unity/Components/SkeletonUtility/",
-                "**/spine-unity/Components/Following/",
-                "**/spine-unity/Components/SkeletonRenderSeparator/",
-                "**/spine-unity/Components/SkeletonRendererCustomMaterials/",
-                "**/spine-unity/Components/EditorSkeletonPlayer.cs",
-                "**/spine-unity/Modules/TK2D/",
-                "**/spine-unity/Asset Types/SpineSpriteAtlasAsset.cs",
-                "**/spine-unity/Utility/TimelineExtensions.cs",
-                "**/DOTween/Modules/DOTweenModuleAudio.cs",
-                "**/DOTween/Modules/DOTweenModuleEPOOutline.cs",
-                "**/Halloween/Scripts/Pet/",
-                "**/Halloween/Scripts/Usaki/FitToScreenHeight.cs",
-                "**/Halloween/Scripts/Usaki/LevelProcessCtrl.cs",
-                "**/PLY31/scripts/",
-                "**/PLY32/scripts/",
-                "**/PLY33/scripts/",
-                "**/Scripts/HandHint.cs",
-                "**/Scripts/LiveEyeUI.cs",
-                "**/Scripts/PhoneCtrl.cs",
-                "**/Scripts/SpringCtrl.cs",
-                "**/Scripts/SupermarketItemMukbang.cs",
-                "**/Scripts/SupermarketLivePanel.cs",
-                "**/Scripts/UIManager.cs",
-                "**/Scripts/Character/SelfieState.cs",
-                "**/Scripts/Character/SkinCtrl.cs",
-                "**/Scripts/ImageState/",
-                "**/Scripts/Mukbang/ToolCase.cs",
-                "**/Scripts/Supermarket/BasketCtrl.cs",
-                "**/Scripts/Supermarket/DoorCtrl.cs",
-                "**/Scripts/Supermarket/DragDropItem.cs",
-                "**/Scripts/Supermarket/FridgeCtrl.cs",
-                "**/Scripts/Supermarket/GameManager.cs",
-                "**/Scripts/Supermarket/ItemSpmkIconCtrl.cs",
-                "**/Scripts/Supermarket/LuckyControlTween.cs",
-                "**/Scripts/Supermarket/LuckyDessertCtrl.cs",
-                "**/Scripts/Supermarket/SlotBasket.cs",
-                "**/Scripts/Supermarket/SlotShelfCtrl.cs",
-                "**/Scripts/Supermarket/SupermarketItemData.cs",
-                "**/Scripts/Supermarket/SupermarketPanel.cs",
-                "**/Scripts/Supermarket/PayPanel/",
-                "**/Usaki/AnimEventReceiver.cs",
-                "**/Usaki/ObserverEvents.cs",
-                "**/Usaki/ObserverEventsExample.cs",
-                "**/Usaki/RectTransformExtension.cs",
-                "**/Usaki/ScaleToScreen.cs",
-                "**/Usaki/HandTutorial/",
-                "**/Usaki/Panel/Popup.cs",
-                "**/Usaki/UIAnim/AlphaTweenAnim.cs",
-                "**/Usaki/UIAnim/IIntro.cs",
-                "**/Usaki/UIAnim/IOuttro.cs",
-                "**/Usaki/UIAnim/MoveFade.cs",
-                "**/Usaki/UIAnim/MoveFadeElement.cs",
-                "**/Usaki/UIAnim/MoveFadeSO.cs",
-                "**/Usaki/UIAnim/MoveNoFade.cs",
-                "**/Usaki/UIAnim/PlayAnimClick.cs",
-                "**/Usaki/UIAnim/TweenScale.cs",
-                "**/Usaki/UIAnim/UIAnim.cs",
-                "**/Usaki/UIAnim/UIAnimCtrl.cs",
-                "**/spine-unity/Utility/AtlasUtilities.cs",
-                "**/spine-unity/Utility/AttachmentCloneExtensions.cs",
-                "**/spine-unity/Utility/AttachmentRegionExtensions.cs",
-                "**/spine-unity/Utility/YieldInstructions/",
-                "**/spine-unity/Asset Types/AnimationReferenceAsset.cs",
-                "**/spine-unity/Asset Types/EventDataReferenceAsset.cs",
-                "**/DOTween/Modules/DOTweenModuleSprite.cs",
-                "**/DOTween/Modules/DOTweenModuleUnityVersion.cs",
-                "**/Scripts/NotifyCtrl.cs",
-                "**/Usaki/CoinBar/ClaimCoinCtrl.cs",
-                "**/Usaki/CoinBar/CoinAnim.cs",
                 "Stubs/GameAnalyticsSDK",
                 "Stubs/Facebook.Unity",
                 "Stubs/FacebookGames",
@@ -201,18 +130,9 @@
             ]
         },
         "scenes": [
-            "Assets/PLY34/scenes/PLY345.unity"
+            "Assets/PLY34/scenes/PLY34.unity"
         ],
-        "disabledScenes": [
-            "Assets/PLY31/scenes/PLY31.unity",
-            "Assets/PLY32/scenes/PLY32.unity",
-            "Assets/PLY33/scenes/PLY33.unity",
-            "Assets/PLY34/scenes/PLY34.unity",
-            "Assets/PLY34/scenes/PLY344.unity",
-            "Assets/PLY34/scenes/PLY35 1.unity",
-            "Assets/PLY34/scenes/PLY35.unity",
-            "Assets/Scenes/SampleScene.unity"
-        ],
+        "disabledScenes": [],
         "startupScene": 0,
         "packages": {
             "default": {
@@ -2120,10 +2040,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.Motion",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.Audio.AudioMixer",
                 "excluded": true
             },
@@ -2293,10 +2209,6 @@
             },
             {
                 "name": "UnityEngine.Analytics.Analytics",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.AnimationClip",
                 "excluded": true
             },
             {
@@ -5525,7 +5437,7 @@
             },
             {
                 "name": "UnityEngine.TextAnchor",
-                "excluded": false
+                "excluded": true
             },
             {
                 "name": "UnityEngine.TextClipping",
@@ -6724,7 +6636,15 @@
                 "excluded": true
             },
             {
+                "name": "UnityEngine.UI.ContentSizeFitter",
+                "excluded": true
+            },
+            {
                 "name": "UnityEngine.UI.Dropdown.DropdownItem",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UI.LayoutGroup",
                 "excluded": true
             },
             {
@@ -6744,6 +6664,10 @@
                 "excluded": true
             },
             {
+                "name": "UnityEngine.UI.HorizontalOrVerticalLayoutGroup",
+                "excluded": true
+            },
+            {
                 "name": "UnityEngine.UI.Outline",
                 "excluded": true
             },
@@ -6757,6 +6681,10 @@
             },
             {
                 "name": "UnityEngine.UI.Toggle",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UI.HorizontalLayoutGroup",
                 "excluded": true
             },
             {
@@ -6805,7 +6733,7 @@
             },
             {
                 "name": "UnityEngine.UI.ContentSizeFitter.FitMode",
-                "excluded": false
+                "excluded": true
             },
             {
                 "name": "UnityEngine.UI.CoroutineTween.ITweenValue",
@@ -7808,11 +7736,55 @@
                 "excluded": false
             },
             {
+                "name": "AlphaTweenAnim",
+                "excluded": true
+            },
+            {
                 "name": "BaseProcess",
                 "excluded": true
             },
             {
+                "name": "BasketCtrl",
+                "excluded": true
+            },
+            {
+                "name": "BillItemCtrl",
+                "excluded": true
+            },
+            {
                 "name": "CanteenProcessCtrl.ScaleAnim",
+                "excluded": true
+            },
+            {
+                "name": "ClickButton",
+                "excluded": true
+            },
+            {
+                "name": "DG.Tweening.DOTweenCYInstruction.WaitForCompletion",
+                "excluded": true
+            },
+            {
+                "name": "DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops",
+                "excluded": true
+            },
+            {
+                "name": "DG.Tweening.DOTweenCYInstruction.WaitForKill",
+                "excluded": true
+            },
+            {
+                "name": "DG.Tweening.DOTweenCYInstruction.WaitForPosition",
+                "excluded": true
+            },
+            {
+                "name": "DG.Tweening.DOTweenCYInstruction.WaitForRewind",
+                "excluded": true
+            },
+            {
+                "name": "DG.Tweening.DOTweenCYInstruction.WaitForStart",
+                "excluded": true
+            },
+            {
+                "name": "DG.Tweening.DOTweenModuleAudio",
                 "excluded": true
             },
             {
@@ -7824,7 +7796,99 @@
                 "excluded": true
             },
             {
+                "name": "DG.Tweening.DOTweenModuleSprite",
+                "excluded": true
+            },
+            {
                 "name": "DG.Tweening.DOTweenModuleUI.Utils",
+                "excluded": true
+            },
+            {
+                "name": "DG.Tweening.DOTweenModuleUnityVersion",
+                "excluded": true
+            },
+            {
+                "name": "DragDropItem",
+                "excluded": true
+            },
+            {
+                "name": "FridgeCtrl",
+                "excluded": true
+            },
+            {
+                "name": "ImageState",
+                "excluded": true
+            },
+            {
+                "name": "ItemSpmkIconCtrl",
+                "excluded": true
+            },
+            {
+                "name": "LuckyDessertCtrl",
+                "excluded": true
+            },
+            {
+                "name": "NotifyCtrl",
+                "excluded": true
+            },
+            {
+                "name": "PayMachineCtrl",
+                "excluded": true
+            },
+            {
+                "name": "PayMachineState",
+                "excluded": true
+            },
+            {
+                "name": "PlayAnimClick",
+                "excluded": true
+            },
+            {
+                "name": "PLY31.Ply31PlayableFlow",
+                "excluded": true
+            },
+            {
+                "name": "PLY32.PhoneFlashButton",
+                "excluded": true
+            },
+            {
+                "name": "PLY32.Ply32DirectEatFlow",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BaseStateMachine",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindBoxItemCtrl",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxSkin",
+                "excluded": true
+            },
+            {
+                "name": "SlotShelfCtrl",
+                "excluded": true
+            },
+            {
+                "name": "Usaki.SupermarketPanel",
+                "excluded": true
+            },
+            {
+                "name": "Popup",
+                "excluded": true
+            },
+            {
+                "name": "SkinCtrl",
+                "excluded": true
+            },
+            {
+                "name": "SlotBasket",
+                "excluded": true
+            },
+            {
+                "name": "SLunch.Character.PhoneCtrl",
                 "excluded": true
             },
             {
@@ -7836,7 +7900,43 @@
                 "excluded": true
             },
             {
+                "name": "Spine.Unity.ActivateBasedOnFlipDirection",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.AnimationTools.TimelineExtensions",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.AttachmentTools.AttachmentCloneExtensions",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.AttachmentTools.AttachmentRegionExtensions",
+                "excluded": true
+            },
+            {
                 "name": "Spine.Unity.BlendModeMaterialsAsset.AtlasMaterialCache",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.BoneFollower",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.BoneFollowerGraphic",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.BoundingBoxFollower",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.BoundingBoxFollowerGraphic",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.EventDataReferenceAsset",
                 "excluded": true
             },
             {
@@ -7864,7 +7964,59 @@
                 "excluded": true
             },
             {
+                "name": "Spine.Unity.SkeletonGraphicCustomMaterials",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonMecanim.MecanimTranslator",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonMecanim.MecanimTranslator.AnimationClipEqualityComparer",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonMecanim.MecanimTranslator.ClipInfos",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonMecanim.MecanimTranslator.IntEqualityComparer",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonRootMotionBase",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonPartsRenderer",
+                "excluded": true
+            },
+            {
                 "name": "Spine.Unity.SkeletonRenderer.SpriteMaskInteractionMaterials",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonRendererCustomMaterials",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonRenderSeparator",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonRootMotionBase.RootMotionInfo",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonUtility",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonUtilityBone",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonUtilityConstraint",
                 "excluded": true
             },
             {
@@ -7880,11 +8032,115 @@
                 "excluded": true
             },
             {
+                "name": "Spine.Unity.WaitForSpineAnimation",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.WaitForSpineEvent",
+                "excluded": true
+            },
+            {
+                "name": "SpringCtrl",
+                "excluded": true
+            },
+            {
+                "name": "SpringUtils",
+                "excluded": true
+            },
+            {
+                "name": "Supermarket.LuckyControlTween",
+                "excluded": true
+            },
+            {
+                "name": "UIAnim",
+                "excluded": true
+            },
+            {
+                "name": "UIAnimCtrl",
+                "excluded": true
+            },
+            {
+                "name": "Usaki.HandCtrl",
+                "excluded": true
+            },
+            {
+                "name": "Usaki.SupermarketLivePanel",
+                "excluded": true
+            },
+            {
                 "name": "ProcessCtrl",
                 "excluded": true
             },
             {
+                "name": "LevelProcessCtrl",
+                "excluded": true
+            },
+            {
+                "name": "MoveFade",
+                "excluded": true
+            },
+            {
+                "name": "MoveFadeElement",
+                "excluded": true
+            },
+            {
+                "name": "MoveNoFade",
+                "excluded": true
+            },
+            {
+                "name": "PayDoneState",
+                "excluded": true
+            },
+            {
+                "name": "PayIdleState",
+                "excluded": true
+            },
+            {
+                "name": "PayPanel",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxState",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxMachineCtrl",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxSlotShelf",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxSpmkIconCtrl",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxStateMachine",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxSupermarketPanel",
+                "excluded": true
+            },
+            {
+                "name": "ScanItem",
+                "excluded": true
+            },
+            {
+                "name": "ScanState",
+                "excluded": true
+            },
+            {
                 "name": "Spine.Unity.BlendModeMaterialsAsset",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonMecanimRootMotion",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonRootMotion",
                 "excluded": true
             },
             {
@@ -7920,7 +8176,19 @@
                 "excluded": true
             },
             {
+                "name": "Spine.Unity.SpineSpriteAtlasAsset",
+                "excluded": true
+            },
+            {
                 "name": "Spine.Unity.SpineTransformConstraint",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.WaitForSpineAnimationComplete",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.WaitForSpineAnimationEnd",
                 "excluded": true
             },
             {
@@ -7928,7 +8196,39 @@
                 "excluded": true
             },
             {
+                "name": "Usaki.SelfieState",
+                "excluded": true
+            },
+            {
+                "name": "WaitScanState",
+                "excluded": true
+            },
+            {
                 "name": "CanteenProcessCtrl",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxActState",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxGachaState",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxIdleState",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.BlindboxOpenState",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.AnimationReferenceAsset",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.PointFollower",
                 "excluded": true
             },
             {
@@ -7937,6 +8237,10 @@
             },
             {
                 "name": "Spine.Unity.SkeletonAnimation",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonMecanim",
                 "excluded": true
             },
             {
@@ -7964,6 +8268,10 @@
                 "excluded": false
             },
             {
+                "name": "DG.Tweening.DOTweenCYInstruction",
+                "excluded": true
+            },
+            {
                 "name": "EmotionAudio",
                 "excluded": false
             },
@@ -7976,11 +8284,39 @@
                 "excluded": true
             },
             {
+                "name": "IIntro",
+                "excluded": true
+            },
+            {
+                "name": "IMGState",
+                "excluded": true
+            },
+            {
+                "name": "IOuttro",
+                "excluded": true
+            },
+            {
                 "name": "IPanel",
                 "excluded": false
             },
             {
+                "name": "MoveFadeSO",
+                "excluded": true
+            },
+            {
                 "name": "MukbangItemSO",
+                "excluded": true
+            },
+            {
+                "name": "PayScreen",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.IState",
+                "excluded": true
+            },
+            {
+                "name": "PLY33.Blindbox.ShelfCtrl",
                 "excluded": true
             },
             {
@@ -8048,6 +8384,10 @@
                 "excluded": false
             },
             {
+                "name": "Spine.Unity.BoneFollower.AxisOrientation",
+                "excluded": true
+            },
+            {
                 "name": "Spine.Unity.SkeletonDataCompatibility",
                 "excluded": true
             },
@@ -8064,6 +8404,22 @@
                 "excluded": false
             },
             {
+                "name": "Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonUtilityBone.Mode",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SkeletonUtilityBone.UpdatePhase",
+                "excluded": true
+            },
+            {
+                "name": "Spine.Unity.SpineSpriteAtlasAsset.SavedRegionInfo",
+                "excluded": true
+            },
+            {
                 "name": "Spine.Unity.UpdateMode",
                 "excluded": false
             },
@@ -8072,8 +8428,24 @@
                 "excluded": false
             },
             {
+                "name": "Spine.Unity.WaitForSpineAnimation.AnimationEventTypes",
+                "excluded": true
+            },
+            {
+                "name": "SpringUtils.tDampedSpringMotionParams",
+                "excluded": true
+            },
+            {
+                "name": "SupermarketItemListSO",
+                "excluded": true
+            },
+            {
+                "name": "ToolCase",
+                "excluded": true
+            },
+            {
                 "name": "TweenType",
-                "excluded": false
+                "excluded": true
             },
             {
                 "name": "Spine.Unity.IHasSkeletonDataAsset",
@@ -15583,7 +15955,7 @@
                     },
                     {
                         "name": "UnsafeRemoveListener",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetPersistentEventCount",
@@ -16165,7 +16537,7 @@
                 "instanceMethods": [
                     {
                         "name": "FromPaddings",
-                        "excluded": false
+                        "excluded": true
                     },
                     {
                         "name": "vertical#get",
@@ -16177,11 +16549,11 @@
                     },
                     {
                         "name": "ctor",
-                        "excluded": false
+                        "excluded": true
                     },
                     {
                         "name": "$ctor1",
-                        "excluded": false
+                        "excluded": true
                     }
                 ]
             },
@@ -16932,6 +17304,20 @@
                 ]
             },
             {
+                "className": "UnityEngine.Motion",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "SetParameters",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ResetSamplers",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
                 "className": "UnityEngine.AsyncOperation",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -16971,7 +17357,7 @@
                     },
                     {
                         "name": "RemoveListener",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -17203,6 +17589,112 @@
                     },
                     {
                         "name": "toString",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.AnimationClip",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "empty#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "frameRate#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "frameRate#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasGenericRootTransform#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasGenericRootTransform#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasMotionCurves#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasMotionCurves#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasMotionFloatCurves#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasMotionFloatCurves#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasRootCurves#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "hasRootCurves#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "humanMotion#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "humanMotion#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "legacy#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "legacy#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddEvent",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetCurve",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddMemberNotation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EnsureQuaternionContinuity",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ClearCurves",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SampleAnimation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PullOrphanEvents",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Sample",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLastTimingAmongEvents",
                         "excluded": true
                     }
                 ]
@@ -23570,6 +24062,186 @@
                 ]
             },
             {
+                "className": "Spine.Unity.AttachmentTools.AtlasUtilities",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ToAtlasRegion$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToAtlasRegion$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToAtlasRegion",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToAtlasRegion$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToAtlasRegion$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToAtlasRegionPMAClone$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToAtlasRegionPMAClone$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToAtlasRegionPMAClone",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToAtlasRegionPMAClone$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToSpineAtlasPage",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetRepackedAttachments",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetRepackedAttachments$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetRepackedSkin",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetRepackedSkin$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToSprite",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ClearCache",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ToTexture",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ToTexture$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetClone",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CopyTexture",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CopyTextureApplyPMA",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsRenderable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SpineUnityFlipRect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetUnityRect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetUnityRect$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetSpineAtlasRect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UVRectToTextureRect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "TextureRectToUVRect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UVRectToAtlasRegion",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetMainTexture",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTexture$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTexture",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CopyTextureAttributesFrom",
+                        "excluded": true
+                    },
+                    {
+                        "name": "InverseLerp",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Spine.Unity.AttachmentTools.AtlasUtilities.IntAndAtlasRegionKey",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
                 "className": "Spine.Unity.DoubleBuffered$1",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -23584,6 +24256,126 @@
                     {
                         "name": "GetNext",
                         "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Spine.Unity.SkeletonGraphicCustomMaterials.AtlasMaterialOverride",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equalsT",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Spine.Unity.SkeletonGraphicCustomMaterials.AtlasTextureOverride",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equalsT",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Spine.Unity.SkeletonRendererCustomMaterials.AtlasMaterialOverride",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equalsT",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Spine.Unity.SkeletonRendererCustomMaterials.SlotMaterialOverride",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equalsT",
+                        "excluded": true
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": true
                     }
                 ]
             },
@@ -23747,7 +24539,7 @@
                     },
                     {
                         "name": "EndGame",
-                        "excluded": false
+                        "excluded": true
                     }
                 ]
             },
@@ -23790,6 +24582,46 @@
                 ]
             },
             {
+                "className": "PLY3.GameManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PLY34.UI.Ply34UIManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ActiveLockImage",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ClickHandAt",
+                        "excluded": false
+                    },
+                    {
+                        "name": "MoveHand",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StopHand",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
                 "className": "SLunch.CanteenManager",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -23803,7 +24635,11 @@
                     },
                     {
                         "name": "TrayController#get",
-                        "excluded": true
+                        "excluded": false
+                    },
+                    {
+                        "name": "BowlFoods#get",
+                        "excluded": false
                     },
                     {
                         "name": "DataConfig#get",
@@ -23848,6 +24684,98 @@
                     {
                         "name": "GetFoodItemDatasPick",
                         "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "SupermarketItemData",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsDrinkItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsBlindBoxItem",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Usaki.UIManager",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "inherits",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SupermarketLivePanel#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PayPanel#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Notify#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HandHint#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ShowSupermarketLivePanel",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ShowPayPanel",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ActiceLockImage",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ClickHandAt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MoveHand",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StopHand",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StartEatTutorial",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEatSlotPress",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEatSlotRelease",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CompleteEatTutorial",
+                        "excluded": true
                     }
                 ]
             },
@@ -24263,6 +25191,196 @@
                     },
                     {
                         "name": "ComputeQuadraticOrLinearPolynomialRoot",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Plane",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "normal#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "normal#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor2",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$ctor3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetDistanceToPoint",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetSide",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Raycast",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SameSide",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Set3Points",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetNormalAndPosition",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.Ray",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "getDefaultValue",
+                        "excluded": true
+                    },
+                    {
+                        "name": "direction#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "direction#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "origin#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "origin#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetPoint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "getHashCode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "equals",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$clone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.RectTransformUtility",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "WorldToScreenPoint",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FlipLayoutOnAxis",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FlipLayoutAxes",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetTransposed",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RectangleContainsScreenPoint$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RectangleContainsScreenPoint",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PointInRectangle",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScreenPointToLocalPointInRectangle",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScreenPointToWorldPointInRectangle",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ScreenPointToRay",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PixelAdjustPoint",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PixelAdjustRect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
                         "excluded": true
                     }
                 ]
@@ -27028,68 +28146,6 @@
                 ]
             },
             {
-                "className": "UnityEngine.UI.ContentSizeFitter",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "horizontalFit#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "horizontalFit#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "verticalFit#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "verticalFit#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "rectTransform#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ctor",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnEnable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnDisable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnRectTransformDimensionsChange",
-                        "excluded": true
-                    },
-                    {
-                        "name": "HandleSelfFittingAlongAxis",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetLayoutHorizontal",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetLayoutVertical",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetDirty",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "UnityEngine.UI.GraphicRaycaster",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -27131,140 +28187,6 @@
                     },
                     {
                         "name": "GetMainCamera",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "UnityEngine.UI.LayoutGroup",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "childAlignment#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "childAlignment#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "padding#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "padding#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "minWidth#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "preferredWidth#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "flexibleWidth#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "minHeight#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "preferredHeight#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "flexibleHeight#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "layoutPriority#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "rectChildren#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "rectTransform#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "isRootLayoutGroup#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnEnable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnDisable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "CalculateLayoutInputHorizontal",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetChildAlongAxis",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetChildAlongAxis$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetLayoutInputForAxis",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetStartOffset",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetAlignmentOnAxis",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetTotalMinSize",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetTotalPreferredSize",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetTotalFlexibleSize",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetProperty",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnTransformChildrenChanged",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnRectTransformDimensionsChange",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnDidApplyAnimationProperties",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetDirty",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DelayedSetDirty",
                         "excluded": true
                     }
                 ]
@@ -27312,94 +28234,6 @@
                     {
                         "name": "ConfigureForEntity",
                         "excluded": false
-                    }
-                ]
-            },
-            {
-                "className": "UnityEngine.UI.HorizontalOrVerticalLayoutGroup",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "spacing#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "spacing#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "childForceExpandWidth#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "childForceExpandWidth#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "childForceExpandHeight#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "childForceExpandHeight#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "childControlWidth#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "childControlWidth#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "childControlHeight#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "childControlHeight#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CalcAlongAxis",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetChildrenAlongAxis",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetChildSizes",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "UnityEngine.UI.HorizontalLayoutGroup",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "ctor",
-                        "excluded": false
-                    },
-                    {
-                        "name": "CalculateLayoutInputHorizontal",
-                        "excluded": true
-                    },
-                    {
-                        "name": "CalculateLayoutInputVertical",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetLayoutHorizontal",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetLayoutVertical",
-                        "excluded": true
                     }
                 ]
             },
@@ -28461,7 +29295,7 @@
                     },
                     {
                         "name": "fallbackFontAssetTable#get",
-                        "excluded": false
+                        "excluded": true
                     },
                     {
                         "name": "fallbackFontAssetTable#set",
@@ -29460,6 +30294,420 @@
                 ]
             },
             {
+                "className": "DG.Tweening.ShortcutExtensions",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "DOColor$5",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOColor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOColor$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOColor$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOColor$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOColor$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOTimeScale",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOAspect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOFarClipPlane",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOFieldOfView",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DONearClipPlane",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOOrthoSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPixelRect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DORect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShakePosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShakePosition$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShakePosition$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShakePosition$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShakeRotation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShakeRotation$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShakeRotation$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShakeRotation$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOIntensity",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShadowStrength",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOFade$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOFade$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOFade",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOFloat$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOFloat",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOOffset",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOOffset$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOTiling",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOTiling$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOVector$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOVector",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOResize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOTime",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOMove",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DOMoveX",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOMoveY",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOMoveZ",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOLocalMove",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOLocalMoveX",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOLocalMoveY",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOLocalMoveZ",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DORotate",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DORotateQuaternion",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOLocalRotate",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOLocalRotateQuaternion",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOScale$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DOScale",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOScaleX",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOScaleY",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOScaleZ",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOLookAt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DODynamicLookAt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "LookAt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPunchPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPunchScale",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPunchRotation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShakeScale",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOShakeScale$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOJump",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOLocalJump",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPath$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPath",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOLocalPath$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOLocalPath",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOBlendableColor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOBlendableColor$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOBlendableColor$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOBlendableColor$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOBlendableMoveBy",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOBlendableLocalMoveBy",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOBlendableRotateBy",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOBlendableLocalRotateBy",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOBlendablePunchRotation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOBlendableScaleBy",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOComplete",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOComplete$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOKill",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DOKill$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOFlip",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOFlip$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOGoto",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOGoto$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPause",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPause$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPlay",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPlay$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPlayBackwards",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPlayBackwards$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPlayForward",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOPlayForward$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DORestart",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DORestart$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DORewind",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DORewind$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOSmoothRewind",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOSmoothRewind$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOTogglePause",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DOTogglePause$1",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
                 "className": "DG.Tweening.TweenExtensions",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -30043,11 +31291,11 @@
                     },
                     {
                         "name": "SetFrom",
-                        "excluded": false
+                        "excluded": true
                     },
                     {
                         "name": "ConvertToStartValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetRelativeEndValue",
@@ -31048,6 +32296,236 @@
                 ]
             },
             {
+                "className": "ObserverTopic",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Pet.PetBaseState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "StateName#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "NextStates#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Pet.PetCtrl",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Skeleton#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "mPoint#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "mPoint#set",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlayAnimByName",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PlaySound",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Pet.PetDecor",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ChangeSkin",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Pet.PetDragCtrl",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "IsDragging#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HandlePointerDown",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HandleDrag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HandlePointerUp",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EndDrag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CanPick",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CanDrag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLiftSorting",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Pet.PetDragPointerInput",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerDown",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDrag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnPointerUp",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Pet.PetStateMachine",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsPetFood",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Held#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Tracker#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DistanceEating#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CurrentState#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Distance",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnSelectItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDropItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "TrySetState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "BuildStatesDictionary",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
                 "className": "PhoneLiveCtrl",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -31061,6 +32539,136 @@
                     },
                     {
                         "name": "GetRandAnim",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "PLY34.Hint.Ply34EatHint",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnStartLive",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnSelectItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDropItem",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnConsumeItem",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "PLY34.Hint.Ply34TrayHint",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FindFirstEmptySlot",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FindMixFood",
+                        "excluded": false
+                    },
+                    {
+                        "name": "IsHinting#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnFoodAdded",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnFoodMixed",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnScroll",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowDragHint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Hide",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "RectTransformExtension",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "WorldToScreenPoint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SyncPosCanvas",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SyncPosCanvas$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SyncPosCanvas$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CanvasPos",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CanvasPos$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CanvasLocalPoint$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "CanvasLocalPoint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Pos",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CanvasLocalPos",
                         "excluded": true
                     }
                 ]
@@ -32063,19 +33671,19 @@
                     },
                     {
                         "name": "Awake",
-                        "excluded": false
+                        "excluded": true
                     },
                     {
                         "name": "OnEnable",
-                        "excluded": false
+                        "excluded": true
                     },
                     {
                         "name": "OnDisable",
-                        "excluded": false
+                        "excluded": true
                     },
                     {
                         "name": "PlayAnim",
-                        "excluded": false
+                        "excluded": true
                     },
                     {
                         "name": "Revert",
@@ -32132,6 +33740,62 @@
                 ]
             },
             {
+                "className": "Usaki.ClaimCoinCtrl",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayAnim",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SpawnCoin",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MoveCoin",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnCoinMoveDone",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Usaki.CoinAnim",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Spawn",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MoveToTarget",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
                 "className": "Usaki.CoinBarCtrl",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -32169,6 +33833,64 @@
                     },
                     {
                         "name": "ChangeCoin",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Usaki.HandHint",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetHintOn",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ShowHint$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowHint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "MoveHint$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "MoveHint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PointSequentially",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PointAt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StartPulse",
+                        "excluded": true
+                    },
+                    {
+                        "name": "StopPulse",
+                        "excluded": false
+                    },
+                    {
+                        "name": "StopHint",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
                         "excluded": false
                     }
                 ]
@@ -32310,6 +34032,10 @@
                         "excluded": false
                     },
                     {
+                        "name": "CanvasScale#get",
+                        "excluded": false
+                    },
+                    {
                         "name": "EatSound#get",
                         "excluded": true
                     },
@@ -32356,10 +34082,122 @@
                     {
                         "name": "CanDrag",
                         "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Pet.PetAfterEatState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "EnterState",
+                        "excluded": true
                     },
                     {
-                        "name": "CanvasScale#get",
+                        "name": "Execute",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ExitState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsSuitable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayHappyAnimation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayHappyAnimationTwice",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Pet.PetDragState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
                         "excluded": false
+                    },
+                    {
+                        "name": "EnterState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Execute",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ExitState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsSuitable",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Pet.PetEatState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "EnterState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Execute",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ExitState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsSuitable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayEatAnimation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayEatAnimationTwice",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Pet.PetIdleState",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EnterState",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Execute",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ExitState",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsSuitable",
+                        "excluded": true
                     }
                 ]
             },
@@ -32502,6 +34340,14 @@
                         "excluded": false
                     },
                     {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEndLiveGamePlay",
+                        "excluded": false
+                    },
+                    {
                         "name": "ShowPanel",
                         "excluded": false
                     },
@@ -32531,14 +34377,6 @@
                     },
                     {
                         "name": "PlayFlash",
-                        "excluded": false
-                    },
-                    {
-                        "name": "OnDisable",
-                        "excluded": true
-                    },
-                    {
-                        "name": "OnEndLiveGamePlay",
                         "excluded": false
                     }
                 ]
@@ -33482,610 +35320,6 @@
                 ]
             },
             {
-                "className": "UnityEngine.Plane",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "getDefaultValue",
-                        "excluded": true
-                    },
-                    {
-                        "name": "normal#get",
-                        "excluded": true
-                    },
-                    {
-                        "name": "normal#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "$ctor2",
-                        "excluded": false
-                    },
-                    {
-                        "name": "$ctor1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "$ctor3",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ctor",
-                        "excluded": false
-                    },
-                    {
-                        "name": "GetDistanceToPoint",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetSide",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Raycast",
-                        "excluded": false
-                    },
-                    {
-                        "name": "SameSide",
-                        "excluded": true
-                    },
-                    {
-                        "name": "Set3Points",
-                        "excluded": true
-                    },
-                    {
-                        "name": "SetNormalAndPosition",
-                        "excluded": false
-                    },
-                    {
-                        "name": "getHashCode",
-                        "excluded": true
-                    },
-                    {
-                        "name": "equals",
-                        "excluded": true
-                    },
-                    {
-                        "name": "$clone",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "UnityEngine.Ray",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "getDefaultValue",
-                        "excluded": true
-                    },
-                    {
-                        "name": "direction#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "direction#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "origin#get",
-                        "excluded": false
-                    },
-                    {
-                        "name": "origin#set",
-                        "excluded": true
-                    },
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "$ctor1",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ctor",
-                        "excluded": false
-                    },
-                    {
-                        "name": "GetPoint",
-                        "excluded": false
-                    },
-                    {
-                        "name": "getHashCode",
-                        "excluded": true
-                    },
-                    {
-                        "name": "equals",
-                        "excluded": true
-                    },
-                    {
-                        "name": "$clone",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "UnityEngine.RectTransformUtility",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "WorldToScreenPoint",
-                        "excluded": true
-                    },
-                    {
-                        "name": "FlipLayoutOnAxis",
-                        "excluded": true
-                    },
-                    {
-                        "name": "FlipLayoutAxes",
-                        "excluded": true
-                    },
-                    {
-                        "name": "GetTransposed",
-                        "excluded": true
-                    },
-                    {
-                        "name": "RectangleContainsScreenPoint$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "RectangleContainsScreenPoint",
-                        "excluded": true
-                    },
-                    {
-                        "name": "PointInRectangle",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ScreenPointToLocalPointInRectangle",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ScreenPointToWorldPointInRectangle",
-                        "excluded": false
-                    },
-                    {
-                        "name": "ScreenPointToRay",
-                        "excluded": false
-                    },
-                    {
-                        "name": "PixelAdjustPoint",
-                        "excluded": true
-                    },
-                    {
-                        "name": "PixelAdjustRect",
-                        "excluded": true
-                    },
-                    {
-                        "name": "ctor",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "DG.Tweening.ShortcutExtensions",
-                "staticMethods": [],
-                "instanceMethods": [
-                    {
-                        "name": "DOColor$5",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOColor",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOColor$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOColor$3",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOColor$4",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOColor$2",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOTimeScale",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOAspect",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOFarClipPlane",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOFieldOfView",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DONearClipPlane",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOOrthoSize",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPixelRect",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DORect",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShakePosition",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShakePosition$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShakePosition$2",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShakePosition$3",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShakeRotation",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShakeRotation$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShakeRotation$2",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShakeRotation$3",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOIntensity",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShadowStrength",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOFade$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOFade$2",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOFade",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOFloat$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOFloat",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOOffset",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOOffset$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOTiling",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOTiling$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOVector$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOVector",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOResize",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOTime",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOMove",
-                        "excluded": false
-                    },
-                    {
-                        "name": "DOMoveX",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOMoveY",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOMoveZ",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOLocalMove",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOLocalMoveX",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOLocalMoveY",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOLocalMoveZ",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DORotate",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DORotateQuaternion",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOLocalRotate",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOLocalRotateQuaternion",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOScale$1",
-                        "excluded": false
-                    },
-                    {
-                        "name": "DOScale",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOScaleX",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOScaleY",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOScaleZ",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOLookAt",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DODynamicLookAt",
-                        "excluded": true
-                    },
-                    {
-                        "name": "LookAt",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPunchPosition",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPunchScale",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPunchRotation",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShakeScale",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOShakeScale$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOJump",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOLocalJump",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPath$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPath",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOLocalPath$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOLocalPath",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOBlendableColor",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOBlendableColor$2",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOBlendableColor$3",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOBlendableColor$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOBlendableMoveBy",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOBlendableLocalMoveBy",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOBlendableRotateBy",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOBlendableLocalRotateBy",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOBlendablePunchRotation",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOBlendableScaleBy",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOComplete",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOComplete$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOKill",
-                        "excluded": false
-                    },
-                    {
-                        "name": "DOKill$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOFlip",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOFlip$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOGoto",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOGoto$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPause",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPause$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPlay",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPlay$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPlayBackwards",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPlayBackwards$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPlayForward",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOPlayForward$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DORestart",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DORestart$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DORewind",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DORewind$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOSmoothRewind",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOSmoothRewind$1",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOTogglePause",
-                        "excluded": true
-                    },
-                    {
-                        "name": "DOTogglePause$1",
-                        "excluded": true
-                    }
-                ]
-            },
-            {
                 "className": "DG.Tweening.Plugins.Vector3Plugin",
                 "staticMethods": [],
                 "instanceMethods": [
@@ -34124,12 +35358,62 @@
                 ]
             },
             {
-                "className": "ObserverTopic",
+                "className": "UnityEngine.PlayerPrefs.SessionStorageWrapper",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "RemoveItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Clear",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.PlayerPrefs.SessionStorageProvider",
                 "staticMethods": [],
                 "instanceMethods": [
                     {
                         "name": "init",
                         "excluded": false
+                    },
+                    {
+                        "name": "Get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Remove",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Clear",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Save",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Has",
+                        "excluded": true
                     }
                 ]
             },
@@ -34547,7 +35831,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": false
+                        "excluded": true
                     }
                 ]
             },
@@ -35118,72 +36402,110 @@
                 ]
             },
             {
-                "className": "UnityEngine.PlayerPrefs.SessionStorageWrapper",
+                "className": "SupermarketItemMukbang",
                 "staticMethods": [],
                 "instanceMethods": [
                     {
-                        "name": "ctor",
-                        "excluded": false
-                    },
-                    {
-                        "name": "GetItem",
+                        "name": "Style#get",
                         "excluded": true
                     },
                     {
-                        "name": "SetItem",
+                        "name": "EatPoint#get",
                         "excluded": true
                     },
                     {
-                        "name": "RemoveItem",
+                        "name": "EatSound#get",
                         "excluded": true
                     },
                     {
-                        "name": "Clear",
+                        "name": "ToolCase#get",
                         "excluded": true
-                    }
-                ]
-            },
-            {
-                "className": "UnityEngine.PlayerPrefs.SessionStorageProvider",
-                "staticMethods": [],
-                "instanceMethods": [
+                    },
+                    {
+                        "name": "IconParent#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsBlindBoxClosed#get",
+                        "excluded": true
+                    },
                     {
                         "name": "init",
-                        "excluded": false
-                    },
-                    {
-                        "name": "Get",
                         "excluded": true
                     },
                     {
-                        "name": "Set",
+                        "name": "Init",
                         "excluded": true
                     },
                     {
-                        "name": "Remove",
+                        "name": "RevealIcon",
                         "excluded": true
                     },
                     {
-                        "name": "Clear",
+                        "name": "NotifyBlindBoxOpened",
                         "excluded": true
                     },
                     {
-                        "name": "Save",
+                        "name": "GetEmotion",
                         "excluded": true
                     },
                     {
-                        "name": "Has",
+                        "name": "OnPointerDown",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDrag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnPointerUp",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Consume",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OpenItem",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HandleIconAt",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HandleTool",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HideTool",
                         "excluded": true
                     }
                 ]
             },
             {
-                "className": "PLY34.UI.Ply34UIManager",
+                "className": "Usaki.FitToScreenHeight",
                 "staticMethods": [],
                 "instanceMethods": [
                     {
-                        "name": "inherits",
+                        "name": "Start",
                         "excluded": false
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Fit",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Fit$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ResetScale",
+                        "excluded": true
                     }
                 ]
             }
@@ -35232,157 +36554,7 @@
                         "quality": 65,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
-                        "format": "png32",
-                        "compression": "none",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
-                        "format": "png32",
-                        "compression": "none",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Font/Arista/Arista SDF.asset"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 256,
-                        "format": "png32",
-                        "compression": "none",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Animation/nv_14/nv.png"
-                    },
-                    {
-                        "maxWidth": 128,
-                        "maxHeight": 279,
-                        "format": "png32",
-                        "compression": "none",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Animation/ui_emoji/ui_emoji.png"
-                    },
-                    {
-                        "maxWidth": 256,
-                        "maxHeight": 256,
-                        "format": "png32",
-                        "compression": "quantSize",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Sprites/halloween/foodhalloween/hlw_ramen/hlw_ramen_1.png"
-                    },
-                    {
-                        "maxWidth": 256,
-                        "maxHeight": 256,
-                        "format": "png32",
-                        "compression": "quantSize",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Sprites/halloween/foodhalloween/hlw_ramen/hlw_ramen_2.png"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
-                        "format": "png32",
-                        "compression": "none",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/PLY33/sprites/blindbox/blindbox.png"
-                    },
-                    {
-                        "maxWidth": 100,
-                        "maxHeight": 500,
-                        "format": "png32",
-                        "compression": "none",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/PLY33/sprites/hlw_qua_cau/hlw_qua_cau.png"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 1024,
-                        "format": "jpeg",
-                        "compression": "none",
-                        "quality": 80,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Sprites/halloween/bg_table_hlw/bg_mode_hlw.png"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
-                        "format": "jpeg",
-                        "compression": "quantSize",
-                        "quality": 70,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Sprites/halloween/hlw_bg_spm.png"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 1024,
-                        "format": "png32",
-                        "compression": "quantSize",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Sprites/halloween/bg_table_hlw/table_live_spmk.png"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
-                        "format": "png32",
-                        "compression": "none",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
                         "name": "Assets/Font/Arista/Arista No Out SDF.asset"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
-                        "format": "png32",
-                        "compression": "none",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Animation/nv_45/nv.png"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
-                        "format": "jpeg",
-                        "compression": "quantSize",
-                        "quality": 70,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/bg_live_canteen.png"
-                    },
-                    {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
-                        "format": "jpeg",
-                        "compression": "quantSize",
-                        "quality": 70,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/bg_cantine_2_hlw.png"
                     },
                     {
                         "maxWidth": 256,
@@ -35425,8 +36597,8 @@
                         "name": "Assets/Halloween/Sprites/canteen/dau_tay_hlw/dau_tay_hlw_2.png"
                     },
                     {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
+                        "maxWidth": 256,
+                        "maxHeight": 256,
                         "format": "png32",
                         "compression": "quantSize",
                         "quality": 65,
@@ -35455,6 +36627,46 @@
                         "name": "Assets/Halloween/Sprites/canteen/dua_hau_hlw/dua_hau_hlw_1.png"
                     },
                     {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "jpeg",
+                        "compression": "none",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Halloween/Sprites/canteen/bg_live_canteen.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Animation/nv_45/nv.png"
+                    },
+                    {
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "jpeg",
+                        "compression": "crush",
+                        "quality": 80,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Sprites/halloween/hlw_bg_spm.png"
+                    },
+                    {
+                        "maxWidth": 256,
+                        "maxHeight": 256,
+                        "format": "png32",
+                        "compression": "none",
+                        "quality": 65,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/Animation/pet_6/pet.png"
+                    },
+                    {
                         "maxWidth": 256,
                         "maxHeight": 256,
                         "format": "png32",
@@ -35462,11 +36674,11 @@
                         "quality": 65,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/banh_kem_hlw/banh_kem_hlw_1.png"
+                        "name": "Assets/Halloween/Sprites/pet/hlw_nest_b.png"
                     },
                     {
-                        "maxWidth": 512,
-                        "maxHeight": 512,
+                        "maxWidth": 256,
+                        "maxHeight": 256,
                         "format": "png32",
                         "compression": "quantSize",
                         "quality": 65,
@@ -35485,14 +36697,14 @@
                         "name": "Assets/Halloween/Sprites/canteen/drink/bat_milktea_hlw/bat_milk_tea_2.png"
                     },
                     {
-                        "maxWidth": 256,
-                        "maxHeight": 256,
-                        "format": "png32",
-                        "compression": "quantSize",
-                        "quality": 65,
+                        "maxWidth": 512,
+                        "maxHeight": 512,
+                        "format": "jpeg",
+                        "compression": "none",
+                        "quality": 75,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/banh_mi_hlw/ngan_nho/banh_mi_hlw_traysmall_99.png"
+                        "name": "Assets/Halloween/Sprites/canteen/bg_cantine_2_hlw.png"
                     },
                     {
                         "maxWidth": 256,
@@ -35502,7 +36714,7 @@
                         "quality": 65,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/banh_mi_hlw/ngan_lon/banh_mi_hlw_traybig_99.png"
+                        "name": "Assets/Halloween/Sprites/canteen/xuc_xich_hlw/ngan_lon/xuc_xich_hlw_traybig_4.png"
                     },
                     {
                         "maxWidth": 256,
@@ -35512,7 +36724,7 @@
                         "quality": 65,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/xuc_xich_hlw/ngan_nho/xuc_xich_hlw_traysmall_99.png"
+                        "name": "Assets/Halloween/Sprites/canteen/banh_kem_hlw/banh_kem_hlw_1.png"
                     },
                     {
                         "maxWidth": 256,
@@ -35522,7 +36734,7 @@
                         "quality": 65,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/banh_mi_xuc_xich_hlw/ngan_nho/banh_mi_xuc_xich_hlw_traysmall_99.png"
+                        "name": "Assets/Halloween/Sprites/canteen/dau_tay_hlw/ngan_lon/dau_tay_hlw_traybig_4.png"
                     },
                     {
                         "maxWidth": 256,
@@ -35532,7 +36744,7 @@
                         "quality": 65,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/tiramisu_dau_hlw/ngan_lon/tiramisu_dau_hlw_traybig_1.png"
+                        "name": "Assets/Halloween/Sprites/canteen/banh_kem_hlw/ngan_lon/banh_kem_hlw_traybig_3.png"
                     },
                     {
                         "maxWidth": 256,
@@ -35542,17 +36754,7 @@
                         "quality": 65,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/tiramisu_dau_hlw/ngan_nho/tiramisu_dau_hlw_traysmall_1.png"
-                    },
-                    {
-                        "maxWidth": 256,
-                        "maxHeight": 256,
-                        "format": "png32",
-                        "compression": "quantSize",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/dua_hau_hlw/dua_hau_hlw_2.png"
+                        "name": "Assets/Halloween/Sprites/canteen/xuc_xich_hlw/xuc_xich_hlw_picker.png"
                     },
                     {
                         "maxWidth": 256,
@@ -35565,54 +36767,14 @@
                         "name": "Assets/Halloween/Sprites/canteen/tiramisu_dua_hau_hlw/ngan_lon/tiramisu_dua_hau_hlw_traybig_4.png"
                     },
                     {
-                        "maxWidth": 256,
-                        "maxHeight": 256,
+                        "maxWidth": 128,
+                        "maxHeight": 279,
                         "format": "png32",
-                        "compression": "quantSize",
+                        "compression": "none",
                         "quality": 65,
                         "script": "",
                         "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/dua_hau_hlw/dua_hau_hlw_picker.png"
-                    },
-                    {
-                        "maxWidth": 256,
-                        "maxHeight": 256,
-                        "format": "png32",
-                        "compression": "quantSize",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/dau_tay_hlw/dau_tay_hlw_picker.png"
-                    },
-                    {
-                        "maxWidth": 256,
-                        "maxHeight": 256,
-                        "format": "png32",
-                        "compression": "quantSize",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/drink/berry_smothie_hlw/berry_smoothie_hlw_3.png"
-                    },
-                    {
-                        "maxWidth": 256,
-                        "maxHeight": 256,
-                        "format": "png32",
-                        "compression": "quantSize",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/drink/berry_smothie_hlw/berry_smoothie_hlw_4.png"
-                    },
-                    {
-                        "maxWidth": 256,
-                        "maxHeight": 256,
-                        "format": "png32",
-                        "compression": "quantSize",
-                        "quality": 65,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Halloween/Sprites/canteen/dua_hau_hlw/ngan_nho/dua_hau_hlw_traysmall_99.png"
+                        "name": "Assets/Animation/ui_emoji/ui_emoji.png"
                     }
                 ]
             },
@@ -35620,8 +36782,8 @@
                 "default": {
                     "channels": 1,
                     "startTime": "00:00.000",
-                    "endTime": "00:00.000",
-                    "lengthInSeconds": 0.0,
+                    "endTime": "00:30.000",
+                    "lengthInSeconds": 30.0,
                     "bitrate": 128,
                     "script": "",
                     "ext": ""
@@ -35630,18 +36792,8 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:12.510",
-                        "lengthInSeconds": 12.510000228881836,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/BGM/BGM-Livestream.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
+                        "endTime": "00:26.803",
+                        "lengthInSeconds": 26.80299949645996,
                         "bitrate": 128,
                         "script": "",
                         "ext": "",
@@ -35650,8 +36802,8 @@
                     {
                         "channels": 1,
                         "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
+                        "endTime": "00:30.000",
+                        "lengthInSeconds": 30.0,
                         "bitrate": 128,
                         "script": "",
                         "ext": "",
@@ -35666,276 +36818,6 @@
                         "script": "",
                         "ext": "",
                         "name": "Assets/AudioClip/Cook/wing-eat.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Emoji-Spicy.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Drink/fresh-drinking-sfx.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Emoji-Demon.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Mouth-Noodle.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Snack-eat.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Crunchy-eat.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Drink/slurping-drink-end.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Corn-icecream-eat.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Parttimejob/Customer_Like.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/FX/Food-Done.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Drinking.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Stick-icecream-eat.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Emoji-Cold.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Emoji-Relax.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Emoji_Drooling.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Mouth-Lipslick.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Halloween/Audio/Combine.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Mouth-Eat.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Mouth-Open.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Emoji-Cute.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Emoji_Happy.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Halloween/_Canteen/Audio/Drop-Soft-Food.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/Halloween/_Canteen/Audio/Drop-bread.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/SuperMarketSound/Take-Item.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:30.744",
-                        "lengthInSeconds": 30.743999481201173,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/FX/click.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Emoji-Burp.ogg"
-                    },
-                    {
-                        "channels": 1,
-                        "startTime": "00:00.000",
-                        "endTime": "00:00.000",
-                        "lengthInSeconds": 0.0,
-                        "bitrate": 128,
-                        "script": "",
-                        "ext": "",
-                        "name": "Assets/AudioClip/Audio/Emoji-Fresh.ogg"
                     }
                 ]
             },
@@ -35944,8 +36826,8 @@
                     "data": {
                         "alphabet": " §1234567890-=qwertyuiop[]asdfghjkl;'\\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:\"|~ZXCVBNM<>?",
                         "size": 64,
-                        "textureWidth": 512,
-                        "textureHeight": 512
+                        "textureWidth": 256,
+                        "textureHeight": 256
                     }
                 },
                 "overrides": []

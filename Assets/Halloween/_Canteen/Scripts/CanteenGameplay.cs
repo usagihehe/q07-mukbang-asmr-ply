@@ -35,13 +35,13 @@ public class CanteenGameplay : MonoBehaviour
 
     private void OnScrollValueChanged(Vector2 pos)
     {
-        _lockImage.gameObject.SetActive(false);
+        _lockImage?.gameObject.SetActive(false);
     }
 
 
     private void EnableLockImage()
     {
-        _lockImage.gameObject.SetActive(true);
+        _lockImage?.gameObject.SetActive(true);
     }
 
     public void SetActive(bool active)

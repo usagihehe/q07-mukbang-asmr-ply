@@ -28,7 +28,6 @@ namespace SLunch.Livestream
         [Header("Mukbang Items")]
         [SerializeField] private List<BaseSlotMukbang> _itemMukbangs;
         [SerializeField] private CanteenDrinkMukbang _drinkMukbang;
-        [SerializeField] private CanteenProcessCtrl _foodUnlockCtrl;
 
         [Header("Settings")]
         [SerializeField] private AudioClip _bgm;
@@ -107,14 +106,13 @@ namespace SLunch.Livestream
 
             _coutItemComplete = itemList.Count + (drinkData != null ? 1 : 0);
 
-            // Every food is unlocked in the playable, so the unlock progress bar has nothing to show
-            if (_foodUnlockCtrl != null) _foodUnlockCtrl.SetActive(false);
-
             GameManager.Instance.SetCountComplete(_foodBitesToComplete);
+            Observer.Instance.Notify(ObserverTopic.OnCanteenStartLive);
         }
 
         private void OnConsume(ItemMukbang item)
         {
+            Observer.Instance.NotifyWithData(ObserverTopic.OnCanteenConsumeItem, item);
             GameManager.Instance.UpdateCountComplete();
         }
 

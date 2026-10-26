@@ -129,11 +129,13 @@ namespace SLunch.Canteen
                 {
                     AudioManager.Instance.PlaySoundEffect(_currentFood.GetData().soundDrop);
                     _trayController.ActiveEffectFull(slot.ID);
+                    Observer.Instance.NotifyWithData(ObserverTopic.OnCanteenFoodAdded, slot);
                 }
                 else if (slot.TryMixFood(_currentFood.GetData().Id))
                 {
                     AudioManager.Instance.PlaySoundEffect(_mixedFoodSound);
                     _trayController.ActiveEffectBling(slot.ID);
+                    Observer.Instance.NotifyWithData(ObserverTopic.OnCanteenFoodMixed, slot);
                 }
                 slot.SetActiveNormalHighlight(false);
                 CheckFoodInTray();

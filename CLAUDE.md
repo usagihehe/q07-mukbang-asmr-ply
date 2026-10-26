@@ -27,6 +27,8 @@ Kill tweens on disable/destroy (`DOKill` / `SetLink`).
 Delete them only with `bash .claude/scripts/rm-temp.sh <path>...`; it refuses anything outside those two folders or
 tracked by git, and removes `.meta` sidecars. Never use `rm`, `git clean` or Unity MCP asset deletion for cleanup.
 
+**Hand hints / tutorials:** follow the project skill `.claude/skills/hint-hand/skill.md`.
+
 **Harness workflow:** "theo quy trình harness" → follow `docs/workflow.md` (prompts in `docs/prompts/`, runtime
 checks in `docs/play-mode-probe.md`, probe skeleton in `docs/templates/ClaudeTemp/`).
 
@@ -195,7 +197,7 @@ When you learn something about this project the hard way — a wrong assumption,
 - Playworks build error LP3016 ("reference assemblies for .NETFramework v4.7 not found") = the machine lacks the .NET Framework 4.7 Developer Pack (4.7.1+ doesn't count).
 - Playworks compiles against an older UnityEngine API and only built-in packages: code that compiles in the Editor can still fail there. Use `FindObjectOfType<T>()` (not `FindAnyObjectByType`/`FindFirstObjectByType`/`FindObjectsByType`), and don't reference package-only types (e.g. `RuleTile` from 2D Tilemap Extras — IDEs auto-add `using static UnityEngine.RuleTile...`).
 - Playworks script size: game + plugin code compiles to `LunaTemp/stage3/engine/unity/bin/UnityScriptsCompiler.js` (one `Bridge.define` per class — measure there). Unused third-party scripts are dropped via `unity.scripts.excludes` in `luna.json`, not by deleting them; Spine's `SkeletonAnimation`/`SkeletonRenderer` and DOTween's Physics/Physics2D modules can't be excluded (referenced by other runtime files).
-- PLY345 uses `PLY34.UI.Ply34UIManager` instead of `Usaki.UIManager`; `CanteenManager` no longer has the "coming soon" button/notify. The PLY345 exclude list is `docs/luna-excludes/PLY345.txt`.
+- PLY34/PLY345 use `PLY34.UI.Ply34UIManager` (HandHint + LockImage only) instead of `Usaki.UIManager`; `CanteenLivePanel` no longer references `CanteenProcessCtrl`; `CanteenManager` no longer has the "coming soon" button/notify. The PLY345 exclude list is `docs/luna-excludes/PLY345.txt`.
 - The open Playworks window rewrites `luna.json` from its in-memory settings on build, wiping hand edits (e.g. `scripts.excludes`) — edit settings in the window, or close it before editing the file. Excludes apply to every variant. Check a new exclude set compiles by copying the csprojs to `Temp/claude/`, dropping the excluded `<Compile>` items and running `dotnet build`.
 - Playworks Runtime Analysis strips code not executed during a recorded preview run (`unusedClasses`/`unusedMethods` in `luna.json`; applied to code only when `disableRuntimeAnalysisForCode` is false). Re-record after scene/code changes and play every branch (all foods, end card, CTA) or the build crashes on unrecorded paths.
 - `dotnet build` incremental once reported OK on edited files that no longer compiled; `check-compile.sh` now passes `--no-incremental`.
